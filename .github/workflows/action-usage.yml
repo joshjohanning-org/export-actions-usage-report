@@ -22,7 +22,9 @@ jobs:
       - name: run actions export
         run: |
           npm install @stoe/action-reporting-cli --global
-          npx @stoe/action-reporting-cli --owner joshjohanning-org -t ${{ secrets.PAT }} --csv actions-output.csv --md actions-output.md --json actions-output.json
+          npx @stoe/action-reporting-cli --owner joshjohanning-org --csv actions-output.csv --md actions-output.md --json actions-output.json
+        env: 
+          GITHUB_TOKEN: ${{ secrets.PAT }}
           
       # paginate is broken
       # - uses: joshjohanning/report-action-usage@v2.5.2
