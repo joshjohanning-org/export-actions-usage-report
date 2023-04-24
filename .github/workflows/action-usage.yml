@@ -25,34 +25,21 @@ jobs:
           npx @stoe/action-reporting-cli --owner joshjohanning-org --uses --csv actions-output.csv --md actions-output.md --json actions-output.json
         env: 
           GITHUB_TOKEN: ${{ secrets.PAT }}
-          
-      # paginate is broken
-      # - uses: joshjohanning/report-action-usage@v2.5.2
-      #  id: action-uses
-      #   with:
-      #     token: ${{ secrets.PAT }}
-      #     owner: joshjohanning-org
-      #     csv: actions-used.csv
-      #     md: actions-used.md
-      #     push_results_to_repo: true
 
-      # example: output
       - name: output csv
         run: |
           cat actions-output.csv
-
-      # example: output
+          
       - name: output json
         run: |
           cat actions-output.json
 
-      # example: output
       - name: output md
         run: |
           cat actions-output.md
           
-      # redirect to job output
-      - name: output md
+      # redirect to job summary
+      - name: upload job summary
         run: |
           cat actions-output.md >> $GITHUB_STEP_SUMMARY
           
