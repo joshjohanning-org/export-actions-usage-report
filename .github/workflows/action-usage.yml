@@ -21,16 +21,6 @@ jobs:
       - name: make sure files exist
         run: |
           mkdir reports
-          touch ./reports/actions-used.csv
-          touch ./reports/actions-used.md
-      
-      # doesn't work
-      # - name: Generate token
-      #   id: generate_token
-      #   uses: tibdex/github-app-token@v1
-      #   with:
-      #     app_id: 323415
-      #     private_key: ${{ secrets.PRIVATE_KEY }}
 
       - uses: joshjohanning/report-action-usage@v2.5.2
         id: action-uses
