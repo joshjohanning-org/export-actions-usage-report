@@ -18,17 +18,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: make sure files exist
-        run: |
-          mkdir reports
 
       - uses: joshjohanning/report-action-usage@v2.5.2
         id: action-uses
         with:
           token: ${{ secrets.PAT }}
           owner: joshjohanning-org
-          csv: reports/actions-used.csv
-          md: reports/actions-used.md
+          csv: actions-used.csv
+          md: actions-used.md
           push_results_to_repo: false
 
       # example: output
