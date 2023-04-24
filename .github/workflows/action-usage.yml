@@ -1,0 +1,59 @@
+name: 🚀 GitHub Actions usage report 
+
+on:
+  workflow_dispatch:
+  # schedule:
+    # Runs at 00:42 UTC on the first of every month
+    #
+    #        ┌─────────────── minute
+    #        │  ┌──────────── hour
+    #        │  │ ┌────────── day (month)
+    #        │  │ │ ┌──────── month
+    #        │  │ │ │ ┌────── day (week)
+    # - cron: '42 0 1 * *'
+
+jobs:
+  enterprise:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: 323415
+          private_key: ${{ secrets.PRIVATE_KEY }}
+
+      - uses: joshjohanning/report-action-usage@v2.5.2
+        id: action-uses
+        with:
+          token: ${{ steps.generate_token.outputs.token }}
+          owner: joshjohanning-org
+          push_results_to_repo: false
+
+      # example: output
+      - name: output csv
+        run: |
+          echo "${{ steps.action-uses.outputs.csv_result }}" >> output.csv
+
+      # example: output
+      - name: output json
+        run: |
+          echo "${{ steps.action-uses.outputs.json_result }}"
+
+      # example: output
+      - name: output md
+        run: |
+          echo "${{ steps.action-uses.outputs.md_result }}"
+          
+      # redirect to job output
+      - name: output md
+        run: |
+          echo "${{ steps.action-uses.outputs.md_result }}" >> $GITHUB_STEP_SUMMARY
+          
+      - uses: actions/upload-artifact@v3
+        with:
+          name: output
+          path: output.csv
