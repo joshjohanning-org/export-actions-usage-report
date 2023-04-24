@@ -39,12 +39,12 @@ jobs:
       # example: output
       - name: output csv
         run: |
-          echo "${{ steps.action-uses.outputs.csv_result }}" >> output.csv
+          echo "${{ steps.action-uses.outputs.csv_result }}"
 
       # example: output
       - name: output json
         run: |
-          echo "${{ steps.action-uses.outputs.json_result }}"
+          echo "${{ steps.action-uses.outputs.json_result }}" >> output.json
 
       # example: output
       - name: output md
@@ -59,4 +59,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: output
-          path: output.csv
+          path: output.json
