@@ -22,9 +22,10 @@ jobs:
       - name: run actions export
         run: |
           npm install @stoe/action-reporting-cli --global
-          npx @stoe/action-reporting-cli --owner joshjohanning-org --uses --csv actions-output.csv --md actions-output.md --json actions-output.json
+          npx @stoe/action-reporting-cli --owner ${{ env.ORG }} --uses --csv actions-output.csv --md actions-output.md --json actions-output.json
         env: 
           GITHUB_TOKEN: ${{ secrets.PAT }}
+          ORG: ${{ github.repository_owner }}
 
       - name: output csv
         run: |
