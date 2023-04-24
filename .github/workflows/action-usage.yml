@@ -32,6 +32,8 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           owner: joshjohanning-org
+          csv: reports/actions-used.csv
+          md: reports/actions-used.md
           push_results_to_repo: false
 
       # example: output
