@@ -19,36 +19,42 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: joshjohanning/report-action-usage@v2.5.2
-        id: action-uses
-        with:
-          token: ${{ secrets.PAT }}
-          owner: joshjohanning-org
-          csv: actions-used.csv
-          md: actions-used.md
-          push_results_to_repo: true
+      - name: run actions export
+        run: |
+          npm install @stoe/action-reporting-cli --global
+          npx @stoe/action-reporting-cli --owner joshjohanning-org -t ${{ secrets.PAT }} --csv actions-output.csv --md actions-output.md --json actions-output.json
+          
+      # paginate is broken
+      # - uses: joshjohanning/report-action-usage@v2.5.2
+      #  id: action-uses
+      #   with:
+      #     token: ${{ secrets.PAT }}
+      #     owner: joshjohanning-org
+      #     csv: actions-used.csv
+      #     md: actions-used.md
+      #     push_results_to_repo: true
 
       # example: output
       - name: output csv
         run: |
-          echo "${{ steps.action-uses.outputs.csv_result }}" >> output.csv
+          cat actions-output.csv
 
       # example: output
       - name: output json
         run: |
-          echo "${{ steps.action-uses.outputs.json_result }}" >> output.json
+          cat actions-output.json
 
       # example: output
       - name: output md
         run: |
-          echo "${{ steps.action-uses.outputs.md_result }}"
+          cat actions-output.md
           
       # redirect to job output
       - name: output md
         run: |
-          echo "${{ steps.action-uses.outputs.md_result }}" >> $GITHUB_STEP_SUMMARY
+          cat actions-output.md >> $GITHUB_STEP_SUMMARY
           
       - uses: actions/upload-artifact@v3
         with:
           name: output
-          path: output.csv
+          path: actions-*
