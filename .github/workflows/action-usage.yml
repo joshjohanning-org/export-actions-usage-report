@@ -26,7 +26,7 @@ jobs:
           owner: joshjohanning-org
           csv: actions-used.csv
           md: actions-used.md
-          push_results_to_repo: false
+          push_results_to_repo: true
 
       # example: output
       - name: output csv
