@@ -18,6 +18,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: make sure files exist
+        run: |
+          touch ./reports/actions-used.csv
+          touch ./reports/actions-used.md
       
       # doesn't work
       # - name: Generate token
@@ -34,12 +38,12 @@ jobs:
           owner: joshjohanning-org
           csv: reports/actions-used.csv
           md: reports/actions-used.md
-          push_results_to_repo: true
+          push_results_to_repo: false
 
       # example: output
       - name: output csv
         run: |
-          echo "${{ steps.action-uses.outputs.csv_result }}"
+          echo "${{ steps.action-uses.outputs.csv_result }}" >> output.csv
 
       # example: output
       - name: output json
@@ -59,4 +63,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: output
-          path: output.json
+          path: output.csv
