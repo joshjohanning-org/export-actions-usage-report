@@ -2,7 +2,7 @@ name: 🚀 GitHub Actions usage report
 
 on:
   workflow_dispatch:
-  # schedule:
+  schedule:
     # Runs at 00:42 UTC on the first of every month
     #
     #        ┌─────────────── minute
@@ -10,7 +10,7 @@ on:
     #        │  │ ┌────────── day (month)
     #        │  │ │ ┌──────── month
     #        │  │ │ │ ┌────── day (week)
-    # - cron: '42 0 1 * *'
+    - cron: '42 0 1 * *'
 
 jobs:
   org:
