@@ -26,8 +26,7 @@ jobs:
 
       - name: run actions export
         run: |
-          ./get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action > count-by-action.txt
-          ./get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version > count-by-version.txt
+          ./github-misc-scripts/get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action > count-by-action.txt
         env: 
           GH_TOKEN: ${{ secrets.PAT }}
 
@@ -58,7 +57,7 @@ jobs:
 
       - name: run actions export
         run: |
-          ./get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version > count-by-version.txt
+          ./github-misc-scripts/get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version > count-by-version.txt
         env: 
           GH_TOKEN: ${{ secrets.PAT }}
 
