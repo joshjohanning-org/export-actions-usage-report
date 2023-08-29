@@ -37,6 +37,8 @@ jobs:
           
       - name: output json
         run: |
+          jq . < actions-output.json > actions-output-pretty.json
+          mv -f actions-output-pretty.json actions-output.json
           cat actions-output.json
 
       - name: output md
@@ -49,27 +51,15 @@ jobs:
           echo "# 🚀📝 Actions Report for org - markdown" >> $GITHUB_STEP_SUMMARY
           cat actions-output.md >> $GITHUB_STEP_SUMMARY
 
-      # redirect to job summary
-      - name: upload job summary
-        run: |
-          echo "# 🚀📝 Actions Report for org - csv" >> $GITHUB_STEP_SUMMARY
-          echo "\`\`\`csv" >> $GITHUB_STEP_SUMMARY
-          cat actions-output.csv >> $GITHUB_STEP_SUMMARY
-          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-
-      # redirect to job summary
-      - name: upload job summary
-        run: |
-          echo "# 🚀📝 Actions Report for org - json" >> $GITHUB_STEP_SUMMARY
-          echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
-          cat actions-output.json >> $GITHUB_STEP_SUMMARY
-          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-
-          echo "\`\`\`csv" >> $GITHUB_STEP_SUMMARY
-          echo "test,test" >> $GITHUB_STEP_SUMMARY
-          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-
       - uses: actions/upload-artifact@v3
         with:
           name: output
           path: actions-*
+
+      - name: push to git repo
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add actions-output.csv actions-output.json actions-output.md
+          git commit -m "updating organization actions reports"
+          git push
