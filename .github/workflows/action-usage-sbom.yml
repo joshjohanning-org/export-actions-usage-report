@@ -13,7 +13,7 @@ on:
     - cron: '42 0 * * 1'
 
 jobs:
-  org:
+  count-by-action:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,33 +22,56 @@ jobs:
       - uses: actions/checkout@v3
         with:
           repository: joshjohanning/github-misc-scripts
+          path: github-misc-scripts
 
       - name: run actions export
         run: |
-          cd ..
-          ls -R
+          ./get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action > count-by-action.txt
+          ./get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version > count-by-version.txt
         env: 
-          GITHUB_TOKEN: ${{ secrets.PAT }}
-          ORG: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.PAT }}
 
       - name: output csv
         run: |
-          cat actions-output.csv
-          
-      - name: output json
-        run: |
-          cat actions-output.json
-
-      - name: output md
-        run: |
-          cat actions-output.md
+          cat count-by-action.txt
           
       # redirect to job summary
       - name: upload job summary
         run: |
-          cat actions-output.md >> $GITHUB_STEP_SUMMARY
+          cat count-by-action.txt >> $GITHUB_STEP_SUMMARY
           
       - uses: actions/upload-artifact@v3
         with:
           name: output
-          path: actions-*
+          path: count-by-action.txt
+
+  count-by-version:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/checkout@v3
+        with:
+          repository: joshjohanning/github-misc-scripts
+          path: github-misc-scripts
+
+      - name: run actions export
+        run: |
+          ./get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version > count-by-version.txt
+        env: 
+          GH_TOKEN: ${{ secrets.PAT }}
+
+      - name: output csv
+        run: |
+          cat count-by-version.txt
+          
+      # redirect to job summary
+      - name: upload job summary
+        run: |
+          cat count-by-version.txt >> $GITHUB_STEP_SUMMARY
+          
+      - uses: actions/upload-artifact@v3
+        with:
+          name: output
+          path: count-by-version.txt
