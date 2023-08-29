@@ -46,8 +46,21 @@ jobs:
       # redirect to job summary
       - name: upload job summary
         run: |
+          echo "# 🚀📝 Actions Report for org - markdown"
           cat actions-output.md >> $GITHUB_STEP_SUMMARY
-          
+
+      # redirect to job summary
+      - name: upload job summary
+        run: |
+          echo "# 🚀📝 Actions Report for org - csv"
+          cat actions-output.csv >> $GITHUB_STEP_SUMMARY
+
+      # redirect to job summary
+      - name: upload job summary
+        run: |
+          echo "# 🚀📝 Actions Report for org - json"
+          cat actions-output.json >> $GITHUB_STEP_SUMMARY
+
       - uses: actions/upload-artifact@v3
         with:
           name: output
