@@ -53,24 +53,20 @@ jobs:
       - name: upload job summary
         run: |
           echo "# 🚀📝 Actions Report for org - csv" >> $GITHUB_STEP_SUMMARY
-          echo "```csv" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`csv" >> $GITHUB_STEP_SUMMARY
           cat actions-output.csv >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "```" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
 
       # redirect to job summary
       - name: upload job summary
         run: |
           echo "# 🚀📝 Actions Report for org - json" >> $GITHUB_STEP_SUMMARY
-          echo "```json" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
           cat actions-output.json >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "```" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
 
           echo "\`\`\`csv" >> $GITHUB_STEP_SUMMARY
-          echo "test,test"
+          echo "test,test" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
 
       - uses: actions/upload-artifact@v3
