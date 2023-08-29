@@ -1,0 +1,54 @@
+name: 🚀 GitHub Actions usage report (sbom)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs at 00:42 UTC on the first of every month
+    #
+    #        ┌─────────────── minute
+    #        │  ┌──────────── hour
+    #        │  │ ┌────────── day (month)
+    #        │  │ │ ┌──────── month
+    #        │  │ │ │ ┌────── day (week)
+    - cron: '42 0 * * 1'
+
+jobs:
+  org:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/checkout@v3
+        with:
+          repository: joshjohanning/github-misc-scripts
+
+      - name: run actions export
+        run: |
+          cd ..
+          ls -R
+        env: 
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+          ORG: ${{ github.repository_owner }}
+
+      - name: output csv
+        run: |
+          cat actions-output.csv
+          
+      - name: output json
+        run: |
+          cat actions-output.json
+
+      - name: output md
+        run: |
+          cat actions-output.md
+          
+      # redirect to job summary
+      - name: upload job summary
+        run: |
+          cat actions-output.md >> $GITHUB_STEP_SUMMARY
+          
+      - uses: actions/upload-artifact@v3
+        with:
+          name: output
+          path: actions-*
