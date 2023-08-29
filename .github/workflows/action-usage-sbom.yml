@@ -26,23 +26,24 @@ jobs:
 
       - name: run actions export
         run: |
-          ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action > count-by-action.txt
+          ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md > count-by-action.md
         env: 
           GH_TOKEN: ${{ secrets.PAT }}
 
       - name: output csv
         run: |
-          cat count-by-action.txt
+          cat count-by-action.md
           
       # redirect to job summary
       - name: upload job summary
         run: |
-          cat count-by-action.txt >> $GITHUB_STEP_SUMMARY
+          echo "# 🚀📝 Actions Report for org" >> $GITHUB_STEP_SUMMARY
+          cat count-by-action.md >> $GITHUB_STEP_SUMMARY
           
       - uses: actions/upload-artifact@v3
         with:
           name: output
-          path: count-by-action.txt
+          path: count-by-action.md
 
   count-by-version:
     runs-on: ubuntu-latest
@@ -57,20 +58,21 @@ jobs:
 
       - name: run actions export
         run: |
-          ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version > count-by-version.txt
+          ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version md > count-by-version.md
         env: 
           GH_TOKEN: ${{ secrets.PAT }}
 
-      - name: output csv
+      - name: output md
         run: |
-          cat count-by-version.txt
+          cat count-by-version.md
           
       # redirect to job summary
       - name: upload job summary
         run: |
-          cat count-by-version.txt >> $GITHUB_STEP_SUMMARY
+          echo "# 🚀📝 Actions Report for org" >> $GITHUB_STEP_SUMMARY
+          cat count-by-version.md >> $GITHUB_STEP_SUMMARY
           
       - uses: actions/upload-artifact@v3
         with:
           name: output
-          path: count-by-version.txt
+          path: count-by-version.md
