@@ -21,8 +21,12 @@ jobs:
 
       - name: run actions export
         run: |
-          npm install @stoe/action-reporting-cli --global
-          npx @stoe/action-reporting-cli --owner ${{ env.ORG }} --uses --csv actions-output.csv --md actions-output.md --json actions-output.json
+          git checkout https://github.com/joshjohanning/action-reporting-cli
+          cd action-reporting-cli
+          npm install
+          node index.js --owner ${{ env.ORG }} --uses --csv actions-output.csv --md actions-output.md --json actions-output.json
+          # npm install @stoe/action-reporting-cli --global
+          # npx @stoe/action-reporting-cli --owner ${{ env.ORG }} --uses --csv actions-output.csv --md actions-output.md --json actions-output.json
         env: 
           GITHUB_TOKEN: ${{ secrets.PAT }}
           ORG: ${{ github.repository_owner }}
