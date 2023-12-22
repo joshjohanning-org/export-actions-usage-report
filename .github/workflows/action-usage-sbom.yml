@@ -10,7 +10,7 @@ on:
     #        │  │ ┌────────── day (month)
     #        │  │ │ ┌──────── month
     #        │  │ │ │ ┌────── day (week)
-    - cron: '42 0 * * 1'
+    - cron: '40 0 * * 1'
 
 jobs:
   count-by-action:
