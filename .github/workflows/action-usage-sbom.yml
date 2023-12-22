@@ -44,7 +44,7 @@ jobs:
           echo "# 🚀📝 Actions Report for org" >> $GITHUB_STEP_SUMMARY
           cat count-by-action.md >> $GITHUB_STEP_SUMMARY
           
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v3
         with:
           name: count-by-action
           path: count-by-action.md
@@ -80,7 +80,7 @@ jobs:
           echo "# 🚀📝 Actions Report for org" >> $GITHUB_STEP_SUMMARY
           cat count-by-version.md >> $GITHUB_STEP_SUMMARY
           
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v3
         with:
           name: count-by-version
           path: count-by-version.md
@@ -92,7 +92,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v3
 
       - name: push to git repo
         run: |
