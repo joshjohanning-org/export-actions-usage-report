@@ -17,14 +17,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.PRIVATE_KEY }}
 
       - name: run actions export
         run: |
           npm install @stoe/action-reporting-cli --global
           npx @stoe/action-reporting-cli --owner ${{ env.ORG }} --uses --csv actions-output.csv --md actions-output.md --json actions-output.json
         env: 
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           ORG: ${{ github.repository_owner }}
 
       - name: output csv
@@ -47,7 +53,7 @@ jobs:
           echo "# 🚀📝 Actions Report for org - markdown" >> $GITHUB_STEP_SUMMARY
           cat actions-output.md >> $GITHUB_STEP_SUMMARY
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: output
           path: actions-*

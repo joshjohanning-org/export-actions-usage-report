@@ -17,18 +17,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
+
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.PRIVATE_KEY }}
 
       - name: run actions export
         run: |
           ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md > count-by-action.md
         env: 
-          GH_TOKEN: ${{ secrets.PAT }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
       - name: output csv
         run: |
@@ -40,27 +46,33 @@ jobs:
           echo "# 🚀📝 Actions Report for org" >> $GITHUB_STEP_SUMMARY
           cat count-by-action.md >> $GITHUB_STEP_SUMMARY
           
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
-          name: output
+          name: count-by-action
           path: count-by-action.md
 
   count-by-version:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
+
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.PRIVATE_KEY }}
 
       - name: run actions export
         run: |
           ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version md > count-by-version.md
         env: 
-          GH_TOKEN: ${{ secrets.PAT }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
       - name: output md
         run: |
@@ -72,7 +84,7 @@ jobs:
           echo "# 🚀📝 Actions Report for org" >> $GITHUB_STEP_SUMMARY
           cat count-by-version.md >> $GITHUB_STEP_SUMMARY
           
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
-          name: output
+          name: count-by-version
           path: count-by-version.md
