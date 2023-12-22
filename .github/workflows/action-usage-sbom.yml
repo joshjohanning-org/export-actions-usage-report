@@ -96,6 +96,8 @@ jobs:
 
       - name: push to git repo
         run: |
+          mv count-by-action/count-by-action.md count-by-action.md
+          mv count-by-version/count-by-version.md count-by-version.md
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add count-by-version.md count-by-action.md
