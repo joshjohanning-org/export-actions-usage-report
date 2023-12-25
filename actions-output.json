@@ -975,7 +975,7 @@
     "state": "active",
     "created_at": "2023-08-29T13:33:09.000Z",
     "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2023-12-22T03:58:21.000Z",
+    "last_run_at": "2023-12-25T01:03:19.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -992,7 +992,7 @@
     "state": "active",
     "created_at": "2023-04-24T20:35:56.000Z",
     "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2023-12-22T03:43:20.000Z",
+    "last_run_at": "2023-12-22T04:00:11.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1140,7 +1140,7 @@
     "state": "active",
     "created_at": "2023-04-18T13:56:13.000Z",
     "updated_at": "2023-04-18T13:56:13.000Z",
-    "last_run_at": "2023-12-15T04:27:25.000Z",
+    "last_run_at": "2023-12-22T04:26:38.000Z",
     "uses": [
       "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
       "ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86",
@@ -1914,7 +1914,7 @@
     "state": "active",
     "created_at": "2023-10-09T11:41:41.000Z",
     "updated_at": "2023-10-09T11:41:41.000Z",
-    "last_run_at": "2023-10-11T08:04:05.000Z",
+    "last_run_at": "2023-12-22T17:29:11.000Z",
     "uses": [
       "joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml@v1"
     ]
@@ -2390,6 +2390,35 @@
     ]
   },
   {
+    "id": "W_kwDOK8uqYc4EyB-B",
+    "owner": "joshjohanning-org",
+    "repo": "standard-oidc-claim-demo",
+    "name": "azure-oidc-sample",
+    "workflow": ".github/workflows/oidc-sample.yml",
+    "state": "active",
+    "created_at": "2023-12-22T15:06:26.000Z",
+    "updated_at": "2023-12-22T15:17:18.000Z",
+    "last_run_at": "2023-12-22T15:17:54.000Z",
+    "uses": [
+      "./.github/workflows/reusable-workflow-oidc.yml"
+    ]
+  },
+  {
+    "id": "W_kwDOK8uqYc4EyCJ1",
+    "owner": "joshjohanning-org",
+    "repo": "standard-oidc-claim-demo",
+    "name": "reusable-workflow-azure-oidc-sample",
+    "workflow": ".github/workflows/reusable-workflow-oidc.yml",
+    "state": "active",
+    "created_at": "2023-12-22T15:15:03.000Z",
+    "updated_at": "2023-12-22T15:16:53.000Z",
+    "last_run_at": "",
+    "uses": [
+      "actions/checkout@v4",
+      "azure/login@v1"
+    ]
+  },
+  {
     "id": "W_kwDOJh5mXc4DZTI_",
     "owner": "joshjohanning-org",
     "repo": "sync-github-repos",
@@ -2450,7 +2479,7 @@
     "state": "active",
     "created_at": "2023-07-18T19:04:28.000Z",
     "updated_at": "2023-07-18T19:04:28.000Z",
-    "last_run_at": "2023-12-22T01:44:58.000Z",
+    "last_run_at": "2023-12-24T01:46:25.000Z",
     "uses": [
       "actions/stale@v8"
     ]
