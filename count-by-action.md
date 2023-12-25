@@ -2,12 +2,12 @@
 
 | Count | Action |
 | --- | --- |
-| 93 | actions/checkout |
+| 94 | actions/checkout |
 | 24 | actions/upload-artifact |
 | 11 | github/codeql-action/init |
 | 11 | github/codeql-action/analyze |
 | 10 | github/codeql-action/autobuild |
-| 9 | azure/login |
+| 10 | azure/login |
 | 9 | actions/setup-node |
 | 9 | actions/setup-java |
 | 9 | actions/download-artifact |

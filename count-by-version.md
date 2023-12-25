@@ -4,9 +4,9 @@
 | --- | --- |
 | 51 | actions/checkout@3 |
 | 17 | actions/checkout@2 |
+| 13 | actions/checkout@4 |
 | 12 | actions/upload-artifact@3 |
-| 12 | actions/checkout@4 |
-| 9 | azure/login@1 |
+| 10 | azure/login@1 |
 | 9 | actions/download-artifact@3 |
 | 7 | actions/github-script@6 |
 | 7 | actions/create-github-app-token@1 |
