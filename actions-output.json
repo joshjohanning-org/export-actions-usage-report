@@ -260,7 +260,7 @@
     "state": "active",
     "created_at": "2023-12-14T17:37:32.000Z",
     "updated_at": "2023-12-14T17:37:32.000Z",
-    "last_run_at": "2023-12-20T20:45:54.000Z",
+    "last_run_at": "2023-12-27T20:45:36.000Z",
     "uses": [
       "actions/checkout@v3"
     ]
@@ -975,7 +975,7 @@
     "state": "active",
     "created_at": "2023-08-29T13:33:09.000Z",
     "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2023-12-25T01:03:19.000Z",
+    "last_run_at": "2024-01-01T01:03:31.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -992,7 +992,7 @@
     "state": "active",
     "created_at": "2023-04-24T20:35:56.000Z",
     "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2023-12-22T04:00:11.000Z",
+    "last_run_at": "2023-12-25T01:19:05.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1024,7 +1024,7 @@
     "state": "active",
     "created_at": "2023-04-20T14:29:18.000Z",
     "updated_at": "2023-10-28T14:06:41.000Z",
-    "last_run_at": "2023-12-18T22:32:10.000Z",
+    "last_run_at": "2023-12-25T22:32:01.000Z",
     "uses": [
       "advanced-security/ghas-to-csv@v3",
       "actions/upload-artifact@v3"
@@ -1110,7 +1110,7 @@
     "state": "active",
     "created_at": "2021-12-02T23:03:57.000Z",
     "updated_at": "2021-12-02T23:03:57.000Z",
-    "last_run_at": "2023-12-19T13:42:18.000Z",
+    "last_run_at": "2023-12-26T13:28:00.000Z",
     "uses": [
       "actions/checkout@v3",
       "actions/upload-artifact@v2"
@@ -1140,7 +1140,7 @@
     "state": "active",
     "created_at": "2023-04-18T13:56:13.000Z",
     "updated_at": "2023-04-18T13:56:13.000Z",
-    "last_run_at": "2023-12-22T04:26:38.000Z",
+    "last_run_at": "2023-12-29T04:26:11.000Z",
     "uses": [
       "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
       "ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86",
@@ -1491,7 +1491,7 @@
     "state": "disabled_inactivity",
     "created_at": "2022-09-14T20:27:43.000Z",
     "updated_at": "2022-11-15T00:03:05.000Z",
-    "last_run_at": "2023-12-20T00:04:42.000Z",
+    "last_run_at": "",
     "uses": [
       "actions/stale@v3.0.14"
     ]
@@ -2479,7 +2479,7 @@
     "state": "active",
     "created_at": "2023-07-18T19:04:28.000Z",
     "updated_at": "2023-07-18T19:04:28.000Z",
-    "last_run_at": "2023-12-24T01:46:25.000Z",
+    "last_run_at": "2023-12-31T01:46:42.000Z",
     "uses": [
       "actions/stale@v8"
     ]
@@ -2522,7 +2522,7 @@
     "state": "disabled_inactivity",
     "created_at": "2022-09-10T19:41:11.000Z",
     "updated_at": "2022-11-14T13:01:58.000Z",
-    "last_run_at": "2023-12-19T13:46:44.000Z",
+    "last_run_at": "",
     "uses": [
       "actions/checkout@v3",
       "aquasecurity/tfsec-sarif-action@9a83b5c3524f825c020e356335855741fd02745f"
