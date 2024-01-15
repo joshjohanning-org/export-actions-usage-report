@@ -2,7 +2,7 @@
 
 | Count | Action |
 | --- | --- |
-| 95 | actions/checkout |
+| 98 | actions/checkout |
 | 25 | actions/upload-artifact |
 | 11 | github/codeql-action/init |
 | 11 | github/codeql-action/analyze |

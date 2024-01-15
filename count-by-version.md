@@ -2,7 +2,7 @@
 
 | Count | Action |
 | --- | --- |
-| 51 | actions/checkout@3 |
+| 53 | actions/checkout@3 |
 | 17 | actions/checkout@2 |
 | 14 | actions/checkout@4 |
 | 13 | actions/upload-artifact@3 |
@@ -140,6 +140,7 @@
 | 1 | actions/checkout@my-fake-branch |
 | 1 | actions/checkout@f71ab79f16dc8b6696053fa03f046952569bc776 |
 | 1 | actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c |
+| 1 | actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5 |
 | 1 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 |
 | 1 | actions/checkout@3.5.2 |
 | 1 | actions/checkout@3.3.0 |
