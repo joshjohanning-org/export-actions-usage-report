@@ -2,7 +2,7 @@
 
 | Count | Action |
 | --- | --- |
-| 99 | actions/checkout |
+| 101 | actions/checkout |
 | 25 | actions/upload-artifact |
 | 11 | github/codeql-action/init |
 | 11 | github/codeql-action/analyze |
@@ -54,6 +54,7 @@
 | 1 | ossf/scorecard-action |
 | 1 | lindluni/actions-variable-groups |
 | 1 | joshjohanning/text-to-emoji-action |
+| 1 | joshjohanning/replace-tokens |
 | 1 | joshjohanning/generate-sbom-action |
 | 1 | joshjohanning/enforce-github-pat-expiration |
 | 1 | joshjohanning/azdo_commit_message_validator |

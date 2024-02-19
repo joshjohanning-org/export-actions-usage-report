@@ -2,17 +2,17 @@
 
 | Count | Action |
 | --- | --- |
-| 54 | actions/checkout@3 |
+| 53 | actions/checkout@3 |
 | 17 | actions/checkout@2 |
-| 14 | actions/checkout@4 |
 | 13 | actions/upload-artifact@3 |
+| 13 | actions/checkout@4 |
 | 10 | azure/login@1 |
 | 9 | actions/download-artifact@3 |
 | 7 | actions/github-script@6 |
-| 7 | actions/create-github-app-token@1 |
 | 6 | github/codeql-action/init@2 |
 | 6 | github/codeql-action/autobuild@2 |
 | 6 | github/codeql-action/analyze@2 |
+| 6 | actions/create-github-app-token@1 |
 | 5 | github/codeql-action/init@1 |
 | 5 | github/codeql-action/analyze@1 |
 | 5 | actions/setup-java@3 |
@@ -42,6 +42,8 @@
 | 2 | actions/upload-artifact@1 |
 | 2 | actions/setup-python@4 |
 | 2 | actions/dependency-review-action@3 |
+| 2 | actions/checkout@4.%2A.%2A |
+| 2 | actions/checkout@3.%2A.%2A |
 | 2 | Mattraks/delete-workflow-runs@main |
 | 2 | EnricoMi/publish-unit-test-result-action@2 |
 | 2 | EnricoMi/publish-unit-test-result-action@1 |
@@ -56,8 +58,9 @@
 | 1 | peaceiris/actions-gh-pages@3 |
 | 1 | ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86 |
 | 1 | mikepenz/gradle-dependency-submission@0.8.6 |
-| 1 | lindluni/actions-variable-groups@2 |
+| 1 | lindluni/actions-variable-groups@2.%2A.%2A |
 | 1 | joshjohanning/text-to-emoji-action@1 |
+| 1 | joshjohanning/replace-tokens@1.4.%2A |
 | 1 | joshjohanning/generate-sbom-action@joshjohanning%2Fadd-org-to-og |
 | 1 | joshjohanning/enforce-github-pat-expiration@1 |
 | 1 | joshjohanning/azdo_commit_message_validator@only-link-in-pr |
@@ -107,7 +110,7 @@
 | 1 | docker/build-push-action@3.2.0 |
 | 1 | devops-infra/action-pull-request@0.5.3 |
 | 1 | devops-infra/action-commit-push@0.9.2 |
-| 1 | cschleiden/replace-tokens@1 |
+| 1 | cschleiden/replace-tokens@1.%2A.%2A |
 | 1 | crazy-max/ghaction-chocolatey@1 |
 | 1 | benc-uk/workflow-dispatch@1 |
 | 1 | azure/webapps-deploy@2 |
@@ -136,6 +139,7 @@
 | 1 | actions/setup-dotnet@1 |
 | 1 | actions/first-interaction@1.1.1 |
 | 1 | actions/create-release@1 |
+| 1 | actions/create-github-app-token@1.%2A.%2A |
 | 1 | actions/checkout@my-other-fake-branch |
 | 1 | actions/checkout@my-fake-branch |
 | 1 | actions/checkout@f71ab79f16dc8b6696053fa03f046952569bc776 |
@@ -157,5 +161,5 @@
 | 1 | Azure/static-web-apps-deploy@1 |
 | 1 | Azure/login@1 |
 | 1 | Azure/k8s-deploy@1.4 |
-| 1 | ActionsDesk/github-actions-allow-list-as-code-action@3.0.0 |
+| 1 | ActionsDesk/github-actions-allow-list-as-code-action@3.0.1 |
 | 1 | 5monkeys/cobertura-action@master |
