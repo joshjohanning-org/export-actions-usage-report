@@ -42,6 +42,7 @@
 | 2 | actions/upload-artifact@1 |
 | 2 | actions/setup-python@4 |
 | 2 | actions/dependency-review-action@3 |
+| 2 | actions/create-github-app-token@1.%2A.%2A |
 | 2 | actions/checkout@4.%2A.%2A |
 | 2 | actions/checkout@3.%2A.%2A |
 | 2 | Mattraks/delete-workflow-runs@main |
@@ -62,7 +63,7 @@
 | 1 | joshjohanning/text-to-emoji-action@1 |
 | 1 | joshjohanning/replace-tokens@1.4.%2A |
 | 1 | joshjohanning/generate-sbom-action@joshjohanning%2Fadd-org-to-og |
-| 1 | joshjohanning/enforce-github-pat-expiration@1 |
+| 1 | joshjohanning/enforce-github-pat-expiration@1.%2A.%2A |
 | 1 | joshjohanning/azdo_commit_message_validator@only-link-in-pr |
 | 1 | joshjohanning/approveops@1 |
 | 1 | joshjohanning/actions-ref-linter@main |
@@ -139,7 +140,6 @@
 | 1 | actions/setup-dotnet@1 |
 | 1 | actions/first-interaction@1.1.1 |
 | 1 | actions/create-release@1 |
-| 1 | actions/create-github-app-token@1.%2A.%2A |
 | 1 | actions/checkout@my-other-fake-branch |
 | 1 | actions/checkout@my-fake-branch |
 | 1 | actions/checkout@f71ab79f16dc8b6696053fa03f046952569bc776 |

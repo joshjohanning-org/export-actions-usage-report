@@ -11,8 +11,8 @@
 | 9 | actions/setup-node |
 | 9 | actions/setup-java |
 | 9 | actions/download-artifact |
+| 8 | actions/create-github-app-token |
 | 7 | actions/github-script |
-| 7 | actions/create-github-app-token |
 | 6 | docker/login-action |
 | 6 | actions/cache |
 | 5 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml |
