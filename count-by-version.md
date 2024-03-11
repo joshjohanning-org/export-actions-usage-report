@@ -25,6 +25,7 @@
 | 3 | docker/login-action@1 |
 | 3 | actions/upload-artifact@2 |
 | 3 | actions/checkout@main |
+| 3 | actions/checkout@4.%2A.%2A |
 | 3 | actions/cache@3 |
 | 2 | whelk-io/maven-settings-xml-action@20 |
 | 2 | tspascoal/cobertura-action@master |
@@ -43,7 +44,6 @@
 | 2 | actions/setup-python@4 |
 | 2 | actions/dependency-review-action@3 |
 | 2 | actions/create-github-app-token@1.%2A.%2A |
-| 2 | actions/checkout@4.%2A.%2A |
 | 2 | actions/checkout@3.%2A.%2A |
 | 2 | Mattraks/delete-workflow-runs@main |
 | 2 | EnricoMi/publish-unit-test-result-action@2 |
@@ -54,6 +54,7 @@
 | 1 | terraform-linters/setup-tflint@3 |
 | 1 | svanboxel/organization-workflow@1.3.0 |
 | 1 | stefanbuck/github-issue-parser@3.0.1 |
+| 1 | stefanbuck/github-issue-parser@3.%2A.%2A |
 | 1 | sonarsource/sonarqube-scan-action@master |
 | 1 | softprops/action-gh-release@1 |
 | 1 | peaceiris/actions-gh-pages@3 |
@@ -138,6 +139,7 @@
 | 1 | actions/setup-go@1 |
 | 1 | actions/setup-dotnet@3 |
 | 1 | actions/setup-dotnet@1 |
+| 1 | actions/github-script@7.%2A.%2A |
 | 1 | actions/first-interaction@1.1.1 |
 | 1 | actions/create-release@1 |
 | 1 | actions/checkout@my-other-fake-branch |

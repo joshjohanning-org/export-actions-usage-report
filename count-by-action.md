@@ -2,7 +2,7 @@
 
 | Count | Action |
 | --- | --- |
-| 101 | actions/checkout |
+| 102 | actions/checkout |
 | 25 | actions/upload-artifact |
 | 11 | github/codeql-action/init |
 | 11 | github/codeql-action/analyze |
@@ -11,15 +11,15 @@
 | 9 | actions/setup-node |
 | 9 | actions/setup-java |
 | 9 | actions/download-artifact |
+| 8 | actions/github-script |
 | 8 | actions/create-github-app-token |
-| 7 | actions/github-script |
 | 6 | docker/login-action |
 | 6 | actions/cache |
 | 5 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml |
 | 5 | github/codeql-action/upload-sarif |
+| 4 | stefanbuck/github-issue-parser |
 | 4 | EnricoMi/publish-unit-test-result-action |
 | 3 | tibdex/github-app-token |
-| 3 | stefanbuck/github-issue-parser |
 | 3 | mikepenz/gradle-dependency-submission |
 | 3 | marocchino/sticky-pull-request-comment |
 | 3 | joshjohanning/approveops |
