@@ -987,7 +987,7 @@
     "state": "active",
     "created_at": "2023-08-30T21:43:51.000Z",
     "updated_at": "2024-02-21T19:19:57.000Z",
-    "last_run_at": "2024-03-11T00:47:13.000Z",
+    "last_run_at": "2024-03-18T00:47:13.000Z",
     "uses": [
       "actions/create-github-app-token@v1",
       "joshjohanning/enforce-github-pat-expiration@v1"
@@ -1019,7 +1019,7 @@
     "state": "active",
     "created_at": "2023-08-29T13:33:09.000Z",
     "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2024-03-11T01:02:41.000Z",
+    "last_run_at": "2024-03-18T01:02:31.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1036,7 +1036,7 @@
     "state": "active",
     "created_at": "2023-04-24T20:35:56.000Z",
     "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2024-03-04T01:18:03.000Z",
+    "last_run_at": "2024-03-11T01:18:38.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -2290,7 +2290,7 @@
     "state": "active",
     "created_at": "2024-02-21T18:36:38.000Z",
     "updated_at": "2024-02-21T18:36:38.000Z",
-    "last_run_at": "2024-03-11T00:09:18.000Z",
+    "last_run_at": "2024-03-18T00:11:54.000Z",
     "uses": [
       "actions/create-github-app-token@v1",
       "joshjohanning/revoke-github-ssh-key-sso-authorization@main"
@@ -2567,10 +2567,10 @@
     "repo": "template-repo",
     "name": "Close stale issues and PRs",
     "workflow": ".github/workflows/stale.yml",
-    "state": "active",
+    "state": "disabled_inactivity",
     "created_at": "2023-07-18T19:04:28.000Z",
-    "updated_at": "2023-07-18T19:04:28.000Z",
-    "last_run_at": "2024-03-10T01:44:32.000Z",
+    "updated_at": "2024-03-14T01:43:29.000Z",
+    "last_run_at": "2024-03-14T01:43:42.000Z",
     "uses": [
       "actions/stale@v8"
     ]
@@ -2716,7 +2716,7 @@
     "state": "active",
     "created_at": "2024-01-10T02:20:42.000Z",
     "updated_at": "2024-01-10T02:20:42.000Z",
-    "last_run_at": "2024-02-26T21:17:51.000Z",
+    "last_run_at": "2024-03-15T15:13:51.000Z",
     "uses": [
       "actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5"
     ]
@@ -2875,7 +2875,7 @@
     "state": "disabled_manually",
     "created_at": "2023-02-02T21:59:36.000Z",
     "updated_at": "2023-02-02T22:07:49.000Z",
-    "last_run_at": "2023-02-02T22:11:01.000Z",
+    "last_run_at": "2024-03-16T04:45:40.000Z",
     "uses": [
       "actions/checkout@v3",
       "actions/setup-java@v3",
@@ -2930,7 +2930,7 @@
     "state": "disabled_manually",
     "created_at": "2023-02-02T21:59:36.000Z",
     "updated_at": "2023-02-02T22:07:58.000Z",
-    "last_run_at": "2023-02-02T22:11:52.000Z",
+    "last_run_at": "2024-03-16T04:45:40.000Z",
     "uses": [
       "actions/checkout@v3",
       "actions/setup-python@v4",
