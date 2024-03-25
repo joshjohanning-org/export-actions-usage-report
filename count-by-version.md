@@ -16,6 +16,7 @@
 | 5 | github/codeql-action/init@1 |
 | 5 | github/codeql-action/analyze@1 |
 | 5 | actions/setup-java@3 |
+| 5 | actions/checkout@4.%2A.%2A |
 | 4 | github/codeql-action/autobuild@1 |
 | 4 | actions/setup-node@3 |
 | 4 | actions/setup-java@2 |
@@ -24,8 +25,9 @@
 | 3 | github/codeql-action/upload-sarif@1 |
 | 3 | docker/login-action@1 |
 | 3 | actions/upload-artifact@2 |
+| 3 | actions/create-github-app-token@1.%2A.%2A |
 | 3 | actions/checkout@main |
-| 3 | actions/checkout@4.%2A.%2A |
+| 3 | actions/checkout@3.%2A.%2A |
 | 3 | actions/cache@3 |
 | 2 | whelk-io/maven-settings-xml-action@20 |
 | 2 | tspascoal/cobertura-action@master |
@@ -43,8 +45,6 @@
 | 2 | actions/upload-artifact@1 |
 | 2 | actions/setup-python@4 |
 | 2 | actions/dependency-review-action@3 |
-| 2 | actions/create-github-app-token@1.%2A.%2A |
-| 2 | actions/checkout@3.%2A.%2A |
 | 2 | Mattraks/delete-workflow-runs@main |
 | 2 | EnricoMi/publish-unit-test-result-action@2 |
 | 2 | EnricoMi/publish-unit-test-result-action@1 |
@@ -57,6 +57,7 @@
 | 1 | stefanbuck/github-issue-parser@3.%2A.%2A |
 | 1 | sonarsource/sonarqube-scan-action@master |
 | 1 | softprops/action-gh-release@1 |
+| 1 | ruby/setup-ruby@1.%2A.%2A |
 | 1 | peaceiris/actions-gh-pages@3 |
 | 1 | ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86 |
 | 1 | mikepenz/gradle-dependency-submission@0.8.6 |
@@ -86,6 +87,7 @@
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml@1.0.5 |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml@1 |
 | 1 | joshjohanning-org/demo-shared-library-from-app@main |
+| 1 | joshjohanning-org/contexts-reusable-workflows-test/.github/workflows/contexts.yml@main |
 | 1 | joshjohanning-org/composite-action@main |
 | 1 | joshjohanning-org/composite-action@1.0.0 |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions@main |
@@ -124,6 +126,7 @@
 | 1 | advanced-security/component-detection-dependency-submission-action@0.0.1 |
 | 1 | actionsdesk/semver@0.6.0-rc.10 |
 | 1 | actions/upload-release-asset@1 |
+| 1 | actions/upload-pages-artifact@3.%2A.%2A |
 | 1 | actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8 |
 | 1 | actions/upload-artifact@3.0.0 |
 | 1 | actions/upload-artifact@2.2.0 |
@@ -141,7 +144,9 @@
 | 1 | actions/setup-dotnet@1 |
 | 1 | actions/github-script@7.%2A.%2A |
 | 1 | actions/first-interaction@1.1.1 |
+| 1 | actions/deploy-pages@4.%2A.%2A |
 | 1 | actions/create-release@1 |
+| 1 | actions/configure-pages@4.%2A.%2A |
 | 1 | actions/checkout@my-other-fake-branch |
 | 1 | actions/checkout@my-fake-branch |
 | 1 | actions/checkout@f71ab79f16dc8b6696053fa03f046952569bc776 |
@@ -163,5 +168,5 @@
 | 1 | Azure/static-web-apps-deploy@1 |
 | 1 | Azure/login@1 |
 | 1 | Azure/k8s-deploy@1.4 |
-| 1 | ActionsDesk/github-actions-allow-list-as-code-action@3.0.1 |
+| 1 | ActionsDesk/github-actions-allow-list-as-code-action@3.1.0 |
 | 1 | 5monkeys/cobertura-action@master |

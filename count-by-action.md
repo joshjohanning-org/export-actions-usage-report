@@ -2,7 +2,7 @@
 
 | Count | Action |
 | --- | --- |
-| 102 | actions/checkout |
+| 105 | actions/checkout |
 | 25 | actions/upload-artifact |
 | 11 | github/codeql-action/init |
 | 11 | github/codeql-action/analyze |
@@ -11,8 +11,8 @@
 | 9 | actions/setup-node |
 | 9 | actions/setup-java |
 | 9 | actions/download-artifact |
+| 9 | actions/create-github-app-token |
 | 8 | actions/github-script |
-| 8 | actions/create-github-app-token |
 | 6 | docker/login-action |
 | 6 | actions/cache |
 | 5 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml |
@@ -50,6 +50,7 @@
 | 1 | svanboxel/organization-workflow |
 | 1 | sonarsource/sonarqube-scan-action |
 | 1 | softprops/action-gh-release |
+| 1 | ruby/setup-ruby |
 | 1 | peaceiris/actions-gh-pages |
 | 1 | ossf/scorecard-action |
 | 1 | lindluni/actions-variable-groups |
@@ -65,6 +66,7 @@
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/local-action-test.yml |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml |
 | 1 | joshjohanning-org/demo-shared-library-from-app |
+| 1 | joshjohanning-org/contexts-reusable-workflows-test/.github/workflows/contexts.yml |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions/nested-composite-action-better/1-action |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions/nested-composite-action |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions |
@@ -93,8 +95,11 @@
 | 1 | advanced-security/component-detection-dependency-submission-action |
 | 1 | actionsdesk/semver |
 | 1 | actions/upload-release-asset |
+| 1 | actions/upload-pages-artifact |
 | 1 | actions/first-interaction |
+| 1 | actions/deploy-pages |
 | 1 | actions/create-release |
+| 1 | actions/configure-pages |
 | 1 | BSFishy/pip-action |
 | 1 | Azure/webapps-deploy |
 | 1 | Azure/static-web-apps-deploy |
