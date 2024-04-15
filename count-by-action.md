@@ -2,15 +2,15 @@
 
 | Count | Action |
 | --- | --- |
-| 109 | actions/checkout |
+| 111 | actions/checkout |
 | 25 | actions/upload-artifact |
-| 11 | github/codeql-action/init |
-| 11 | github/codeql-action/analyze |
-| 10 | github/codeql-action/autobuild |
+| 12 | github/codeql-action/init |
+| 12 | github/codeql-action/analyze |
+| 11 | github/codeql-action/autobuild |
 | 10 | azure/login |
+| 10 | actions/setup-node |
 | 10 | actions/github-script |
 | 10 | actions/create-github-app-token |
-| 9 | actions/setup-node |
 | 9 | actions/setup-java |
 | 9 | actions/download-artifact |
 | 6 | docker/login-action |
@@ -26,6 +26,7 @@
 | 3 | joshjohanning/actions-ref-linter |
 | 3 | docker/build-push-action |
 | 3 | actions/setup-python |
+| 3 | actions/setup-go |
 | 2 | whelk-io/maven-settings-xml-action |
 | 2 | tspascoal/cobertura-action |
 | 2 | peter-murray/workflow-application-token-action |
@@ -38,7 +39,6 @@
 | 2 | aquasecurity/trivy-action |
 | 2 | anchore/scan-action |
 | 2 | actions/stale |
-| 2 | actions/setup-go |
 | 2 | actions/setup-dotnet |
 | 2 | actions/dependency-review-action |
 | 2 | Mattraks/delete-workflow-runs |
@@ -46,6 +46,7 @@
 | 2 | Azure/cli |
 | 1 | zgosalvez/github-actions-ensure-sha-pinned-actions |
 | 1 | zbazztian/filter-sarif |
+| 1 | wangyoucao577/go-release-action |
 | 1 | terraform-linters/setup-tflint |
 | 1 | svanboxel/organization-workflow |
 | 1 | sonarsource/sonarqube-scan-action |

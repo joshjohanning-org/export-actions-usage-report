@@ -7,8 +7,8 @@
 | 13 | actions/checkout@4 |
 | 12 | actions/upload-artifact@3 |
 | 10 | azure/login@1 |
+| 9 | actions/checkout@4.%2A.%2A |
 | 8 | actions/download-artifact@3 |
-| 8 | actions/checkout@4.%2A.%2A |
 | 6 | github/codeql-action/init@2 |
 | 6 | github/codeql-action/autobuild@2 |
 | 6 | github/codeql-action/analyze@2 |
@@ -17,11 +17,11 @@
 | 5 | github/codeql-action/init@1 |
 | 5 | github/codeql-action/analyze@1 |
 | 5 | actions/setup-java@3 |
+| 5 | actions/checkout@3.%2A.%2A |
 | 4 | github/codeql-action/autobuild@1 |
 | 4 | actions/setup-node@3 |
 | 4 | actions/setup-java@2 |
 | 4 | actions/create-github-app-token@1.%2A.%2A |
-| 4 | actions/checkout@3.%2A.%2A |
 | 3 | tibdex/github-app-token@1 |
 | 3 | marocchino/sticky-pull-request-comment@2 |
 | 3 | github/codeql-action/upload-sarif@1 |
@@ -53,6 +53,7 @@
 | 2 | Azure/cli@1 |
 | 1 | zgosalvez/github-actions-ensure-sha-pinned-actions@f32435541e24cd6a4700a7f52bb2ec59e80603b1 |
 | 1 | zbazztian/filter-sarif@master |
+| 1 | wangyoucao577/go-release-action@1.49.%2A |
 | 1 | terraform-linters/setup-tflint@3 |
 | 1 | svanboxel/organization-workflow@1.3.0 |
 | 1 | stefanbuck/github-issue-parser@3.0.1 |
@@ -109,6 +110,9 @@
 | 1 | goreleaser/goreleaser-action@3 |
 | 1 | github/codeql-action/upload-sarif@2 |
 | 1 | github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5 |
+| 1 | github/codeql-action/init@3.%2A.%2A |
+| 1 | github/codeql-action/autobuild@3.%2A.%2A |
+| 1 | github/codeql-action/analyze@3.%2A.%2A |
 | 1 | eregon/publish-release@1 |
 | 1 | dorny/test-reporter@1 |
 | 1 | docker/setup-qemu-action@2.1.0 |
@@ -142,7 +146,9 @@
 | 1 | actions/setup-node@4 |
 | 1 | actions/setup-node@3.6.0 |
 | 1 | actions/setup-node@3.1.1 |
+| 1 | actions/setup-node@3.%2A.%2A |
 | 1 | actions/setup-node@2 |
+| 1 | actions/setup-go@5.%2A.%2A |
 | 1 | actions/setup-go@4 |
 | 1 | actions/setup-go@1 |
 | 1 | actions/setup-dotnet@3 |
