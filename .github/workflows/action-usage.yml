@@ -3,14 +3,14 @@ name: 🚀 GitHub Actions usage report
 on:
   workflow_dispatch:
   schedule:
-    # Runs at 00:42 UTC on the first of every month
+    # Runs at 00:40 UTC on the first of every week (Monday)
     #
     #        ┌─────────────── minute
     #        │  ┌──────────── hour
     #        │  │ ┌────────── day (month)
     #        │  │ │ ┌──────── month
     #        │  │ │ │ ┌────── day (week)
-    - cron: '50 0 * * 1'
+    - cron: '40 0 * * 1'
 
 jobs:
   org:
