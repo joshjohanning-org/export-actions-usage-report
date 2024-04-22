@@ -2,14 +2,14 @@
 
 | Count | Action |
 | --- | --- |
-| 111 | actions/checkout |
+| 113 | actions/checkout |
 | 25 | actions/upload-artifact |
 | 12 | github/codeql-action/init |
 | 12 | github/codeql-action/analyze |
+| 12 | actions/github-script |
 | 11 | github/codeql-action/autobuild |
+| 11 | actions/setup-node |
 | 10 | azure/login |
-| 10 | actions/setup-node |
-| 10 | actions/github-script |
 | 10 | actions/create-github-app-token |
 | 9 | actions/setup-java |
 | 9 | actions/download-artifact |
@@ -54,6 +54,7 @@
 | 1 | ruby/setup-ruby |
 | 1 | peaceiris/actions-gh-pages |
 | 1 | ossf/scorecard-action |
+| 1 | mxschmitt/action-tmate |
 | 1 | lindluni/actions-variable-groups |
 | 1 | joshjohanning/trigger-workflow-and-wait-composite |
 | 1 | joshjohanning/text-to-emoji-action |
