@@ -2,22 +2,22 @@
 
 | Count | Action |
 | --- | --- |
-| 113 | actions/checkout |
-| 25 | actions/upload-artifact |
-| 12 | github/codeql-action/init |
-| 12 | github/codeql-action/analyze |
+| 116 | actions/checkout |
+| 26 | actions/upload-artifact |
+| 13 | github/codeql-action/init |
+| 13 | github/codeql-action/analyze |
+| 12 | github/codeql-action/autobuild |
 | 12 | actions/github-script |
-| 11 | github/codeql-action/autobuild |
 | 11 | actions/setup-node |
 | 10 | azure/login |
 | 10 | actions/create-github-app-token |
 | 9 | actions/setup-java |
 | 9 | actions/download-artifact |
+| 6 | github/codeql-action/upload-sarif |
 | 6 | docker/login-action |
 | 6 | actions/cache |
 | 5 | stefanbuck/github-issue-parser |
 | 5 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml |
-| 5 | github/codeql-action/upload-sarif |
 | 4 | EnricoMi/publish-unit-test-result-action |
 | 3 | tibdex/github-app-token |
 | 3 | mikepenz/gradle-dependency-submission |
@@ -27,9 +27,11 @@
 | 3 | docker/build-push-action |
 | 3 | actions/setup-python |
 | 3 | actions/setup-go |
+| 3 | actions/dependency-review-action |
 | 2 | whelk-io/maven-settings-xml-action |
 | 2 | tspascoal/cobertura-action |
 | 2 | peter-murray/workflow-application-token-action |
+| 2 | ossf/scorecard-action |
 | 2 | nowactions/update-majorver |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/secrets-sample.yml |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml |
@@ -40,7 +42,6 @@
 | 2 | anchore/scan-action |
 | 2 | actions/stale |
 | 2 | actions/setup-dotnet |
-| 2 | actions/dependency-review-action |
 | 2 | Mattraks/delete-workflow-runs |
 | 2 | LouisBrunner/checks-action |
 | 2 | Azure/cli |
@@ -53,7 +54,6 @@
 | 1 | softprops/action-gh-release |
 | 1 | ruby/setup-ruby |
 | 1 | peaceiris/actions-gh-pages |
-| 1 | ossf/scorecard-action |
 | 1 | mxschmitt/action-tmate |
 | 1 | lindluni/actions-variable-groups |
 | 1 | joshjohanning/trigger-workflow-and-wait-composite |
