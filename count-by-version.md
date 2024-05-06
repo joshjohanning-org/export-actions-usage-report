@@ -2,13 +2,13 @@
 
 | Count | Action |
 | --- | --- |
-| 51 | actions/checkout@3 |
+| 50 | actions/checkout@3 |
 | 17 | actions/checkout@2 |
-| 13 | actions/checkout@4.%2A.%2A |
+| 14 | actions/checkout@4.%2A.%2A |
 | 12 | actions/checkout@4 |
 | 10 | azure/login@1 |
-| 10 | actions/upload-artifact@3 |
-| 8 | actions/checkout@3.%2A.%2A |
+| 9 | actions/upload-artifact@3 |
+| 9 | actions/checkout@3.%2A.%2A |
 | 7 | actions/download-artifact@3 |
 | 6 | actions/github-script@6 |
 | 5 | github/codeql-action/init@2 |
@@ -20,13 +20,13 @@
 | 5 | actions/create-github-app-token@1.%2A.%2A |
 | 5 | actions/create-github-app-token@1 |
 | 4 | github/codeql-action/autobuild@1 |
+| 4 | actions/upload-artifact@3.%2A.%2A |
 | 4 | actions/setup-node@3 |
 | 4 | actions/setup-java@2 |
 | 3 | tibdex/github-app-token@1 |
 | 3 | marocchino/sticky-pull-request-comment@2 |
 | 3 | github/codeql-action/upload-sarif@1 |
 | 3 | docker/login-action@1 |
-| 3 | actions/upload-artifact@3.%2A.%2A |
 | 3 | actions/upload-artifact@2 |
 | 3 | actions/github-script@7.%2A.%2A |
 | 3 | actions/github-script@6.%2A.%2A |
@@ -53,6 +53,7 @@
 | 2 | actions/upload-artifact@3.1.2 |
 | 2 | actions/upload-artifact@1 |
 | 2 | actions/setup-python@4 |
+| 2 | actions/setup-node@3.%2A.%2A |
 | 2 | actions/download-artifact@3.%2A.%2A |
 | 2 | actions/dependency-review-action@3 |
 | 2 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 |
@@ -155,7 +156,6 @@
 | 1 | actions/setup-node@4 |
 | 1 | actions/setup-node@3.6.0 |
 | 1 | actions/setup-node@3.1.1 |
-| 1 | actions/setup-node@3.%2A.%2A |
 | 1 | actions/setup-node@2 |
 | 1 | actions/setup-go@5.%2A.%2A |
 | 1 | actions/setup-go@4 |
