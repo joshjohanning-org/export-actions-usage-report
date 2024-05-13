@@ -1000,7 +1000,7 @@
     "state": "active",
     "created_at": "2024-04-18T17:38:20.000Z",
     "updated_at": "2024-04-18T17:38:20.000Z",
-    "last_run_at": "2024-04-22T01:15:55.000Z",
+    "last_run_at": "2024-05-09T17:29:39.000Z",
     "uses": [
       "actions/github-script@v6"
     ]
@@ -1014,13 +1014,75 @@
     "state": "active",
     "created_at": "2023-10-27T02:08:14.000Z",
     "updated_at": "2023-10-27T02:08:14.000Z",
-    "last_run_at": "2023-10-27T02:17:30.000Z",
+    "last_run_at": "2024-05-10T17:58:47.000Z",
     "uses": [
       "actions/checkout@v3",
       "actions/setup-java@v3",
       "gradle/gradle-build-action@v2",
       "mikepenz/gradle-dependency-submission@v0.8.6",
       "actions/dependency-review-action@v3"
+    ]
+  },
+  {
+    "id": "W_kwDOKlqcTM4Fyd7F",
+    "owner": "joshjohanning-org",
+    "repo": "demo-gradle-dependabot",
+    "name": "Run Gradle Build",
+    "workflow": ".github/workflows/gradle-action.yml",
+    "state": "active",
+    "created_at": "2024-05-07T13:57:49.000Z",
+    "updated_at": "2024-05-07T13:57:49.000Z",
+    "last_run_at": "2024-05-10T17:58:40.000Z",
+    "uses": [
+      "actions/checkout@v4",
+      "actions/setup-java@v4",
+      "gradle/actions/setup-gradle@v3",
+      "actions/dependency-review-action@v4"
+    ]
+  },
+  {
+    "id": "W_kwDOL4dFkM4Fyok8",
+    "owner": "joshjohanning-org",
+    "repo": "demo-gradle-dependabot-PRs",
+    "name": "build",
+    "workflow": ".github/workflows/build.yml",
+    "state": "active",
+    "created_at": "2024-05-07T18:39:42.000Z",
+    "updated_at": "2024-05-07T18:39:42.000Z",
+    "last_run_at": "2024-05-07T19:11:03.000Z",
+    "uses": [
+      "actions/checkout@v4",
+      "actions/setup-java@v3",
+      "gradle/gradle-build-action@v2"
+    ]
+  },
+  {
+    "id": "W_kwDOL4dFkM4Fyok9",
+    "owner": "joshjohanning-org",
+    "repo": "demo-gradle-dependabot-PRs",
+    "name": "review",
+    "workflow": ".github/workflows/review.yml",
+    "state": "active",
+    "created_at": "2024-05-07T18:39:42.000Z",
+    "updated_at": "2024-05-07T18:39:42.000Z",
+    "last_run_at": "2024-05-07T19:11:32.000Z",
+    "uses": [
+      "actions/checkout@v4",
+      "actions/dependency-review-action@v3"
+    ]
+  },
+  {
+    "id": "W_kwDOL4dFkM4Fyok-",
+    "owner": "joshjohanning-org",
+    "repo": "demo-gradle-dependabot-PRs",
+    "name": "submit-sbom",
+    "workflow": ".github/workflows/submit-sbom.yml",
+    "state": "active",
+    "created_at": "2024-05-07T18:39:42.000Z",
+    "updated_at": "2024-05-07T18:39:42.000Z",
+    "last_run_at": "2024-05-07T19:11:18.000Z",
+    "uses": [
+      "gradle/gradle-build-action@v2"
     ]
   },
   {
@@ -1136,7 +1198,7 @@
     "state": "active",
     "created_at": "2022-08-09T16:54:06.000Z",
     "updated_at": "2024-04-25T01:20:30.000Z",
-    "last_run_at": "2024-05-04T18:33:13.000Z",
+    "last_run_at": "2024-05-11T18:33:18.000Z",
     "uses": [
       "actions/checkout@v4"
     ]
@@ -1216,7 +1278,7 @@
     "state": "active",
     "created_at": "2023-08-29T13:33:09.000Z",
     "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2024-04-29T01:16:11.000Z",
+    "last_run_at": "2024-05-06T01:16:01.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1233,7 +1295,7 @@
     "state": "active",
     "created_at": "2023-04-24T20:35:56.000Z",
     "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2024-04-29T01:03:03.000Z",
+    "last_run_at": "2024-05-06T01:04:13.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1280,7 +1342,7 @@
     "state": "active",
     "created_at": "2022-04-07T18:31:41.000Z",
     "updated_at": "2022-04-07T18:31:41.000Z",
-    "last_run_at": "2024-02-20T22:23:12.000Z",
+    "last_run_at": "2024-05-06T19:32:35.000Z",
     "uses": [
       "./.github/workflows/reusable-workflow.yml",
       "actions/checkout@v3",
@@ -1296,7 +1358,7 @@
     "state": "active",
     "created_at": "2023-06-27T14:08:28.000Z",
     "updated_at": "2023-06-27T14:09:04.000Z",
-    "last_run_at": "2024-02-20T22:22:03.000Z",
+    "last_run_at": "2024-05-06T19:32:20.000Z",
     "uses": []
   },
   {
@@ -1348,10 +1410,10 @@
     "repo": "ghas-demo",
     "name": "CodeQL",
     "workflow": ".github/workflows/codeql-analysis.yml",
-    "state": "disabled_inactivity",
+    "state": "active",
     "created_at": "2021-12-02T23:03:57.000Z",
-    "updated_at": "2024-02-06T13:24:23.000Z",
-    "last_run_at": "2024-02-06T13:27:57.000Z",
+    "updated_at": "2024-05-08T12:55:58.000Z",
+    "last_run_at": "2024-05-08T13:19:31.000Z",
     "uses": [
       "actions/checkout@v3",
       "actions/upload-artifact@v2"
@@ -1366,7 +1428,7 @@
     "state": "active",
     "created_at": "2022-04-06T19:54:19.000Z",
     "updated_at": "2022-07-27T15:11:50.000Z",
-    "last_run_at": "2023-12-07T18:48:00.000Z",
+    "last_run_at": "2024-05-08T13:15:59.000Z",
     "uses": [
       "actions/checkout@v3",
       "actions/dependency-review-action@v3"
@@ -1411,7 +1473,7 @@
     "state": "active",
     "created_at": "2024-04-18T03:23:47.000Z",
     "updated_at": "2024-04-18T03:23:47.000Z",
-    "last_run_at": "2024-05-01T16:56:47.000Z",
+    "last_run_at": "2024-05-08T16:56:47.000Z",
     "uses": [
       "actions/checkout@v3",
       "actions/upload-artifact@v2"
@@ -1600,6 +1662,61 @@
     ]
   },
   {
+    "owner": "joshjohanning-org",
+    "repo": "GitHubActions.Gates.Samples",
+    "workflow": ".github/workflows/ci.yml",
+    "state": "workflows not enabled in fork",
+    "uses": [
+      "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "actions/setup-dotnet@4d6c8fcf3c8f7a60068d26b594648e99df24cee3",
+      "actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9",
+      "EnricoMi/publish-unit-test-result-action@30eadd5010312f995f0d3b3cff7fe2984f69409e",
+      "irongut/CodeCoverageSummary@51cc3a756ddcd398d447c044c02cb6aa83fdae95",
+      "marocchino/sticky-pull-request-comment@331f8f5b4215f0445d3c07b4967662a32a2d3e31"
+    ]
+  },
+  {
+    "owner": "joshjohanning-org",
+    "repo": "GitHubActions.Gates.Samples",
+    "workflow": ".github/workflows/deploy-deployhours-gate.yml",
+    "state": "workflows not enabled in fork",
+    "uses": [
+      "./.github/workflows/deploy-reusable.yml"
+    ]
+  },
+  {
+    "owner": "joshjohanning-org",
+    "repo": "GitHubActions.Gates.Samples",
+    "workflow": ".github/workflows/deploy-issues-gate.yml",
+    "state": "workflows not enabled in fork",
+    "uses": [
+      "./.github/workflows/deploy-reusable.yml"
+    ]
+  },
+  {
+    "owner": "joshjohanning-org",
+    "repo": "GitHubActions.Gates.Samples",
+    "workflow": ".github/workflows/deploy-reusable.yml",
+    "state": "workflows not enabled in fork",
+    "uses": [
+      "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "actions/setup-dotnet@4d6c8fcf3c8f7a60068d26b594648e99df24cee3",
+      "azure/login@6b2456866fc08b011acb422a92a4aa20e2c4de32",
+      "Azure/functions-action@238dc3c45bb1b04e5d16ff9e75cddd1d86753bd6"
+    ]
+  },
+  {
+    "owner": "joshjohanning-org",
+    "repo": "GitHubActions.Gates.Samples",
+    "workflow": ".github/workflows/scorecard.yml",
+    "state": "workflows not enabled in fork",
+    "uses": [
+      "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736",
+      "actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808"
+    ]
+  },
+  {
     "id": "W_kwDOJa1Wnc4DS4vS",
     "owner": "joshjohanning-org",
     "repo": "gradle-sample",
@@ -1638,7 +1755,7 @@
     "state": "active",
     "created_at": "2024-04-17T20:16:20.000Z",
     "updated_at": "2024-04-17T20:16:20.000Z",
-    "last_run_at": "2024-04-18T01:40:17.000Z",
+    "last_run_at": "2024-05-10T14:31:42.000Z",
     "uses": [
       "actions/setup-java@v3",
       "actions/setup-dotnet@v3.2.0",
@@ -1648,7 +1765,8 @@
       "advanced-security/component-detection-dependency-submission-action@v0.0.2",
       "advanced-security/generate-sbom-action@v1",
       "actions/upload-artifact@v3.1.0",
-      "actions/dependency-review-action@v3"
+      "actions/dependency-review-action@v3",
+      "actions/upload-artifact@v4"
     ]
   },
   {
@@ -1660,7 +1778,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-04-11T15:03:49.000Z",
+    "last_run_at": "2024-05-07T19:20:32.000Z",
     "uses": [
       "actions/checkout@v4",
       "stefanbuck/github-issue-parser@v3",
@@ -1678,12 +1796,26 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-04-11T15:03:02.000Z",
+    "last_run_at": "2024-05-07T19:19:39.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
       "stefanbuck/github-issue-parser@v3",
       "actions/github-script@v6"
+    ]
+  },
+  {
+    "id": "W_kwDOH7A-Es4FzTSQ",
+    "owner": "joshjohanning-org",
+    "repo": "issueops-samples",
+    "name": "labelops-deploy",
+    "workflow": ".github/workflows/labelops.yml",
+    "state": "active",
+    "created_at": "2024-05-08T20:11:01.000Z",
+    "updated_at": "2024-05-08T20:11:01.000Z",
+    "last_run_at": "2024-05-09T13:49:14.000Z",
+    "uses": [
+      "actions/checkout@v4"
     ]
   },
   {
@@ -1695,7 +1827,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-04-11T15:03:49.000Z",
+    "last_run_at": "2024-05-07T19:20:33.000Z",
     "uses": [
       "actions/checkout@v4",
       "stefanbuck/github-issue-parser@v3",
@@ -1712,7 +1844,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-04-11T15:03:14.000Z",
+    "last_run_at": "2024-05-07T19:19:56.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1744,7 +1876,7 @@
     "state": "active",
     "created_at": "2023-03-07T15:38:45.000Z",
     "updated_at": "2023-03-07T15:38:45.000Z",
-    "last_run_at": "2024-04-27T13:20:56.000Z",
+    "last_run_at": "",
     "uses": [
       "stefanbuck/github-issue-parser@v3.0.1",
       "actions/github-script@v6"
@@ -1759,7 +1891,7 @@
     "state": "active",
     "created_at": "2023-03-07T14:59:24.000Z",
     "updated_at": "2023-03-07T14:59:24.000Z",
-    "last_run_at": "2024-04-27T13:32:56.000Z",
+    "last_run_at": "",
     "uses": [
       "stefanbuck/github-issue-parser@v3.0.1",
       "actions/github-script@v6"
@@ -1829,7 +1961,7 @@
     "state": "active",
     "created_at": "2024-03-22T17:39:33.000Z",
     "updated_at": "2024-03-22T17:39:33.000Z",
-    "last_run_at": "2024-05-06T00:42:21.000Z",
+    "last_run_at": "2024-05-13T00:46:59.000Z",
     "uses": [
       "actions/checkout@v4",
       "ruby/setup-ruby@v1",
@@ -1848,7 +1980,7 @@
     "state": "active",
     "created_at": "2023-03-06T16:24:48.000Z",
     "updated_at": "2023-03-06T16:50:12.000Z",
-    "last_run_at": "2024-04-27T13:38:50.000Z",
+    "last_run_at": "",
     "uses": []
   },
   {
@@ -1888,7 +2020,7 @@
     "state": "active",
     "created_at": "2024-03-22T19:38:54.000Z",
     "updated_at": "2024-03-22T20:04:37.000Z",
-    "last_run_at": "2024-05-06T00:05:19.000Z",
+    "last_run_at": "2024-05-13T00:05:28.000Z",
     "uses": [
       "actions/checkout@v4"
     ]
@@ -1930,7 +2062,7 @@
     "state": "active",
     "created_at": "2024-03-22T20:03:52.000Z",
     "updated_at": "2024-03-22T20:04:28.000Z",
-    "last_run_at": "2024-05-05T16:56:47.000Z",
+    "last_run_at": "2024-05-12T16:56:47.000Z",
     "uses": [
       "actions/checkout@v4"
     ]
@@ -2546,7 +2678,7 @@
     "state": "active",
     "created_at": "2023-10-09T09:59:54.000Z",
     "updated_at": "2024-05-01T19:12:53.000Z",
-    "last_run_at": "2024-05-01T19:13:46.000Z",
+    "last_run_at": "2024-05-07T13:22:37.000Z",
     "uses": [
       "joshjohanning-org/reusable-workflows/.github/workflows/security-checks.yml@main"
     ]
@@ -3124,7 +3256,7 @@
     "state": "active",
     "created_at": "2024-01-10T02:20:42.000Z",
     "updated_at": "2024-01-10T02:20:42.000Z",
-    "last_run_at": "2024-04-26T14:21:14.000Z",
+    "last_run_at": "2024-05-07T17:35:54.000Z",
     "uses": [
       "actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5"
     ]
