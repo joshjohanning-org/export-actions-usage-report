@@ -3,10 +3,10 @@
 | Count | Action |
 | --- | --- |
 | 50 | actions/checkout@3 |
+| 17 | actions/checkout@4.%2A.%2A |
 | 17 | actions/checkout@2 |
-| 16 | actions/checkout@4.%2A.%2A |
-| 11 | azure/login@1 |
-| 11 | actions/checkout@4 |
+| 10 | azure/login@1 |
+| 10 | actions/checkout@4 |
 | 10 | actions/checkout@3.%2A.%2A |
 | 9 | actions/upload-artifact@3 |
 | 7 | actions/download-artifact@3 |
@@ -100,7 +100,7 @@
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml@1.0.10 |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml@1.0.9 |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml@1.0.5 |
-| 1 | joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml@1 |
+| 1 | joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml@1.%2A.%2A |
 | 1 | joshjohanning-org/demo-shared-library-from-app@main |
 | 1 | joshjohanning-org/contexts-reusable-workflows-test/.github/workflows/contexts.yml@main |
 | 1 | joshjohanning-org/composite-action@main |
@@ -123,6 +123,7 @@
 | 1 | github/codeql-action/init@012739e5082ff0c22ca6d6ab32e07c36df03c4a4 |
 | 1 | github/codeql-action/autobuild@012739e5082ff0c22ca6d6ab32e07c36df03c4a4 |
 | 1 | github/codeql-action/analyze@012739e5082ff0c22ca6d6ab32e07c36df03c4a4 |
+| 1 | github/actions-oidc-debugger@main |
 | 1 | eregon/publish-release@1 |
 | 1 | dorny/test-reporter@1 |
 | 1 | docker/setup-qemu-action@2.1.0 |
@@ -135,6 +136,7 @@
 | 1 | cschleiden/replace-tokens@1.%2A.%2A |
 | 1 | crazy-max/ghaction-chocolatey@1 |
 | 1 | benc-uk/workflow-dispatch@1 |
+| 1 | azure/login@1.%2A.%2A |
 | 1 | azure/k8s-create-secret@1 |
 | 1 | aquasecurity/tfsec-sarif-action@9a83b5c3524f825c020e356335855741fd02745f |
 | 1 | appleboy/kubectl-action@master |

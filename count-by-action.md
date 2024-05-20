@@ -83,6 +83,7 @@
 | 1 | gradle/gradle-build-action |
 | 1 | gradle/actions/setup-gradle |
 | 1 | goreleaser/goreleaser-action |
+| 1 | github/actions-oidc-debugger |
 | 1 | eregon/publish-release |
 | 1 | dorny/test-reporter |
 | 1 | docker/setup-qemu-action |
