@@ -2,13 +2,13 @@
 
 | Count | Action |
 | --- | --- |
-| 119 | actions/checkout |
+| 123 | actions/checkout |
 | 26 | actions/upload-artifact |
 | 13 | github/codeql-action/init |
 | 13 | github/codeql-action/analyze |
+| 13 | actions/github-script |
 | 12 | github/codeql-action/autobuild |
 | 12 | actions/setup-node |
-| 12 | actions/github-script |
 | 11 | azure/login |
 | 10 | actions/setup-java |
 | 10 | actions/create-github-app-token |
@@ -25,6 +25,7 @@
 | 3 | marocchino/sticky-pull-request-comment |
 | 3 | joshjohanning/approveops |
 | 3 | joshjohanning/actions-ref-linter |
+| 3 | joshjohanning-org/composite-action |
 | 3 | docker/build-push-action |
 | 3 | actions/setup-python |
 | 3 | actions/setup-go |
@@ -33,9 +34,9 @@
 | 2 | peter-murray/workflow-application-token-action |
 | 2 | ossf/scorecard-action |
 | 2 | nowactions/update-majorver |
+| 2 | joshjohanning-org/simple-docker-action |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/secrets-sample.yml |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml |
-| 2 | joshjohanning-org/composite-action |
 | 2 | irongut/codecoveragesummary |
 | 2 | docker/setup-buildx-action |
 | 2 | azure/webapps-deploy |
@@ -58,13 +59,13 @@
 | 1 | joshjohanning/trigger-workflow-and-wait-composite |
 | 1 | joshjohanning/text-to-emoji-action |
 | 1 | joshjohanning/replace-tokens |
+| 1 | joshjohanning/organization-readme-badge-generator |
 | 1 | joshjohanning/lead-time-for-changes |
 | 1 | joshjohanning/generate-sbom-action |
 | 1 | joshjohanning/enforce-github-pat-expiration |
 | 1 | joshjohanning/deployment-frequency |
 | 1 | joshjohanning/azdo_commit_message_validator |
 | 1 | joshjohanning-org/simple-docker-action/private |
-| 1 | joshjohanning-org/simple-docker-action |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/security-checks.yml |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/reusable-workflow-call-composite-action.yml |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/local-action-test.yml |

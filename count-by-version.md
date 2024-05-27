@@ -2,15 +2,15 @@
 
 | Count | Action |
 | --- | --- |
-| 50 | actions/checkout@3 |
-| 17 | actions/checkout@4.%2A.%2A |
+| 48 | actions/checkout@3 |
+| 23 | actions/checkout@4.%2A.%2A |
 | 17 | actions/checkout@2 |
 | 10 | azure/login@1 |
 | 10 | actions/checkout@4 |
 | 10 | actions/checkout@3.%2A.%2A |
 | 9 | actions/upload-artifact@3 |
 | 7 | actions/download-artifact@3 |
-| 6 | actions/create-github-app-token@1.%2A.%2A |
+| 7 | actions/create-github-app-token@1.%2A.%2A |
 | 5 | github/codeql-action/init@2 |
 | 5 | github/codeql-action/init@1 |
 | 5 | github/codeql-action/autobuild@2 |
@@ -22,15 +22,15 @@
 | 4 | actions/upload-artifact@3.%2A.%2A |
 | 4 | actions/setup-node@3 |
 | 4 | actions/setup-java@2 |
+| 4 | actions/github-script@7.%2A.%2A |
 | 4 | actions/github-script@6.%2A.%2A |
-| 4 | actions/create-github-app-token@1 |
 | 3 | tibdex/github-app-token@1 |
 | 3 | stefanbuck/github-issue-parser@3.%2A.%2A |
 | 3 | marocchino/sticky-pull-request-comment@2 |
 | 3 | github/codeql-action/upload-sarif@1 |
 | 3 | docker/login-action@1 |
 | 3 | actions/upload-artifact@2 |
-| 3 | actions/github-script@7.%2A.%2A |
+| 3 | actions/create-github-app-token@1 |
 | 3 | actions/checkout@main |
 | 3 | actions/cache@3 |
 | 2 | whelk-io/maven-settings-xml-action@20 |
@@ -39,6 +39,8 @@
 | 2 | ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86 |
 | 2 | nowactions/update-majorver@1 |
 | 2 | mikepenz/gradle-dependency-submission@main |
+| 2 | joshjohanning-org/simple-docker-action@main |
+| 2 | joshjohanning-org/composite-action@main |
 | 2 | github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5 |
 | 2 | github/codeql-action/init@3.%2A.%2A |
 | 2 | github/codeql-action/autobuild@3.%2A.%2A |
@@ -75,6 +77,7 @@
 | 1 | joshjohanning/trigger-workflow-and-wait-composite@github-app-auth |
 | 1 | joshjohanning/text-to-emoji-action@1 |
 | 1 | joshjohanning/replace-tokens@1.4.%2A |
+| 1 | joshjohanning/organization-readme-badge-generator@1.%2A.%2A |
 | 1 | joshjohanning/lead-time-for-changes@main |
 | 1 | joshjohanning/generate-sbom-action@joshjohanning%2Fadd-org-to-og |
 | 1 | joshjohanning/enforce-github-pat-expiration@1.%2A.%2A |
@@ -86,7 +89,6 @@
 | 1 | joshjohanning/actions-ref-linter@main |
 | 1 | joshjohanning/actions-ref-linter@9957f7df2cb329c99b9d64cb37780f7f6e44859c |
 | 1 | joshjohanning/actions-ref-linter@7e697774a77e23211d582fd55a07b084e4e01e3b |
-| 1 | joshjohanning-org/simple-docker-action@main |
 | 1 | joshjohanning-org/simple-docker-action/private@main |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/security-checks.yml@main |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/secrets-sample.yml@main |
@@ -103,7 +105,6 @@
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml@1.%2A.%2A |
 | 1 | joshjohanning-org/demo-shared-library-from-app@main |
 | 1 | joshjohanning-org/contexts-reusable-workflows-test/.github/workflows/contexts.yml@main |
-| 1 | joshjohanning-org/composite-action@main |
 | 1 | joshjohanning-org/composite-action@1.0.0 |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions@main |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions/nested-composite-action@main |
