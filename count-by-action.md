@@ -105,7 +105,6 @@
 | 1 | actions/deploy-pages |
 | 1 | actions/create-release |
 | 1 | actions/configure-pages |
-| 1 | SvanBoxel/organization-workflow |
 | 1 | SonarSource/sonarqube-scan-action |
 | 1 | BSFishy/pip-action |
 | 1 | Azure/static-web-apps-deploy |

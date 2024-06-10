@@ -3,14 +3,14 @@
 | Count | Action |
 | --- | --- |
 | 48 | actions/checkout@3 |
-| 25 | actions/checkout@4.%2A.%2A |
+| 26 | actions/checkout@4.%2A.%2A |
 | 17 | actions/checkout@2 |
 | 10 | azure/login@1 |
 | 10 | actions/checkout@3.%2A.%2A |
 | 9 | actions/upload-artifact@3 |
-| 9 | actions/checkout@4 |
+| 8 | actions/create-github-app-token@1.%2A.%2A |
+| 8 | actions/checkout@4 |
 | 7 | actions/download-artifact@3 |
-| 7 | actions/create-github-app-token@1.%2A.%2A |
 | 5 | github/codeql-action/init@2 |
 | 5 | github/codeql-action/init@1 |
 | 5 | github/codeql-action/autobuild@2 |
@@ -30,7 +30,6 @@
 | 3 | github/codeql-action/upload-sarif@1 |
 | 3 | docker/login-action@1 |
 | 3 | actions/upload-artifact@2 |
-| 3 | actions/create-github-app-token@1 |
 | 3 | actions/checkout@main |
 | 3 | actions/cache@3 |
 | 2 | whelk-io/maven-settings-xml-action@20 |
@@ -58,6 +57,7 @@
 | 2 | actions/setup-node@3.%2A.%2A |
 | 2 | actions/download-artifact@3.%2A.%2A |
 | 2 | actions/dependency-review-action@3 |
+| 2 | actions/create-github-app-token@1 |
 | 2 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 |
 | 2 | Mattraks/delete-workflow-runs@main |
 | 2 | EnricoMi/publish-unit-test-result-action@2 |
@@ -184,7 +184,6 @@
 | 1 | actions/cache@3.3.1 |
 | 1 | actions/cache@3.2.3 |
 | 1 | actions/cache@3.0.2 |
-| 1 | SvanBoxel/organization-workflow@1.3.0 |
 | 1 | SonarSource/sonarqube-scan-action@master |
 | 1 | LouisBrunner/checks-action@1.6.2 |
 | 1 | LouisBrunner/checks-action@1.3.1 |
