@@ -2,7 +2,7 @@
 
 | Count | Action |
 | --- | --- |
-| 124 | actions/checkout |
+| 129 | actions/checkout |
 | 26 | actions/upload-artifact |
 | 13 | github/codeql-action/init |
 | 13 | github/codeql-action/analyze |
@@ -75,6 +75,7 @@
 | 1 | joshjohanning-org/nested-reusable-workflows/.github/workflows/nested1.yml |
 | 1 | joshjohanning-org/demo-shared-library-from-app |
 | 1 | joshjohanning-org/contexts-reusable-workflows-test/.github/workflows/contexts.yml |
+| 1 | joshjohanning-org/composite-action-sample-python |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions/nested-composite-action-better/1-action |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions/nested-composite-action |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions |
@@ -99,6 +100,7 @@
 | 1 | azure/k8s-create-secret |
 | 1 | aquasecurity/tfsec-sarif-action |
 | 1 | appleboy/kubectl-action |
+| 1 | antifree/json-to-variables |
 | 1 | advanced-security/ghas-to-csv |
 | 1 | advanced-security/component-detection-dependency-submission-action |
 | 1 | actionsdesk/semver |

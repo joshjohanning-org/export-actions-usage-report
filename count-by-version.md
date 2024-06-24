@@ -3,7 +3,7 @@
 | Count | Action |
 | --- | --- |
 | 48 | actions/checkout@3 |
-| 26 | actions/checkout@4.%2A.%2A |
+| 31 | actions/checkout@4.%2A.%2A |
 | 17 | actions/checkout@2 |
 | 10 | azure/login@1 |
 | 10 | actions/checkout@3.%2A.%2A |
@@ -109,6 +109,7 @@
 | 1 | joshjohanning-org/demo-shared-library-from-app@main |
 | 1 | joshjohanning-org/contexts-reusable-workflows-test/.github/workflows/contexts.yml@main |
 | 1 | joshjohanning-org/composite-action@1.0.0 |
+| 1 | joshjohanning-org/composite-action-sample-python@main |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions@main |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions/nested-composite-action@main |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions/nested-composite-action-better/1-action@main |
@@ -144,6 +145,7 @@
 | 1 | azure/k8s-create-secret@1 |
 | 1 | aquasecurity/tfsec-sarif-action@9a83b5c3524f825c020e356335855741fd02745f |
 | 1 | appleboy/kubectl-action@master |
+| 1 | antifree/json-to-variables@1.1.2 |
 | 1 | advanced-security/ghas-to-csv@3 |
 | 1 | advanced-security/component-detection-dependency-submission-action@0.0.1 |
 | 1 | actionsdesk/semver@0.6.0-rc.10 |
