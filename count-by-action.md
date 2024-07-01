@@ -10,8 +10,8 @@
 | 12 | github/codeql-action/autobuild |
 | 12 | actions/setup-node |
 | 11 | azure/login |
+| 11 | actions/create-github-app-token |
 | 10 | actions/setup-java |
-| 10 | actions/create-github-app-token |
 | 9 | actions/download-artifact |
 | 6 | github/codeql-action/upload-sarif |
 | 6 | docker/login-action |

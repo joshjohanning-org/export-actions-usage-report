@@ -8,7 +8,7 @@
 | 10 | azure/login@1 |
 | 10 | actions/checkout@3.%2A.%2A |
 | 9 | actions/upload-artifact@3 |
-| 8 | actions/create-github-app-token@1.%2A.%2A |
+| 9 | actions/create-github-app-token@1.%2A.%2A |
 | 8 | actions/checkout@4 |
 | 7 | actions/download-artifact@3 |
 | 5 | github/codeql-action/init@2 |
