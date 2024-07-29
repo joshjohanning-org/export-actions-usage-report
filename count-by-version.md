@@ -39,6 +39,7 @@
 | 2 | nowactions/update-majorver@1 |
 | 2 | mikepenz/gradle-dependency-submission@main |
 | 2 | joshjohanning-org/simple-docker-action@main |
+| 2 | joshjohanning-org/nested-reusable-workflows/.github/workflows/nested1.yml@main |
 | 2 | joshjohanning-org/composite-action@main |
 | 2 | github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5 |
 | 2 | github/codeql-action/init@3.%2A.%2A |
@@ -103,9 +104,6 @@
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml@1.0.9 |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml@1.0.5 |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml@1.%2A.%2A |
-| 1 | joshjohanning-org/nested-reusable-workflows/.github/workflows/nested3.yml@main |
-| 1 | joshjohanning-org/nested-reusable-workflows/.github/workflows/nested2.yml@main |
-| 1 | joshjohanning-org/nested-reusable-workflows/.github/workflows/nested1.yml@main |
 | 1 | joshjohanning-org/demo-shared-library-from-app@main |
 | 1 | joshjohanning-org/contexts-reusable-workflows-test/.github/workflows/contexts.yml@main |
 | 1 | joshjohanning-org/composite-action@1.0.0 |
