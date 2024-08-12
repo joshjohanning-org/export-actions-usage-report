@@ -17,13 +17,13 @@
 | 5 | github/codeql-action/analyze@2 |
 | 5 | github/codeql-action/analyze@1 |
 | 5 | actions/setup-java@3 |
-| 5 | actions/github-script@6 |
 | 4 | github/codeql-action/autobuild@1 |
 | 4 | actions/upload-artifact@3.%2A.%2A |
 | 4 | actions/setup-node@3 |
 | 4 | actions/setup-java@2 |
 | 4 | actions/github-script@7.%2A.%2A |
 | 4 | actions/github-script@6.%2A.%2A |
+| 4 | actions/github-script@6 |
 | 3 | tibdex/github-app-token@1 |
 | 3 | stefanbuck/github-issue-parser@3.%2A.%2A |
 | 3 | marocchino/sticky-pull-request-comment@2 |
@@ -68,7 +68,6 @@
 | 1 | wangyoucao577/go-release-action@1.49.%2A |
 | 1 | terraform-linters/setup-tflint@3 |
 | 1 | stefanbuck/github-issue-parser@3.0.1 |
-| 1 | stefanbuck/github-issue-parser@3 |
 | 1 | softprops/action-gh-release@1 |
 | 1 | ruby/setup-ruby@1.%2A.%2A |
 | 1 | peaceiris/actions-gh-pages@3 |
