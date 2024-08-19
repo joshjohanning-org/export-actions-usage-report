@@ -3,7 +3,7 @@
 | Count | Action |
 | --- | --- |
 | 129 | actions/checkout |
-| 26 | actions/upload-artifact |
+| 27 | actions/upload-artifact |
 | 13 | github/codeql-action/init |
 | 13 | github/codeql-action/analyze |
 | 13 | actions/github-script |
@@ -13,7 +13,7 @@
 | 11 | actions/create-github-app-token |
 | 10 | actions/setup-java |
 | 9 | actions/download-artifact |
-| 6 | github/codeql-action/upload-sarif |
+| 7 | github/codeql-action/upload-sarif |
 | 6 | docker/login-action |
 | 6 | actions/cache |
 | 5 | stefanbuck/github-issue-parser |
@@ -39,10 +39,12 @@
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml |
 | 2 | joshjohanning-org/nested-reusable-workflows/.github/workflows/nested1.yml |
 | 2 | irongut/codecoveragesummary |
+| 2 | hashicorp/setup-terraform |
 | 2 | docker/setup-buildx-action |
 | 2 | azure/webapps-deploy |
 | 2 | azure/cli |
 | 2 | aquasecurity/trivy-action |
+| 2 | aquasecurity/tfsec-sarif-action |
 | 2 | anchore/scan-action |
 | 2 | actions/stale |
 | 2 | actions/setup-dotnet |
@@ -67,6 +69,8 @@
 | 1 | joshjohanning/deployment-frequency |
 | 1 | joshjohanning/azdo_commit_message_validator |
 | 1 | joshjohanning-org/simple-docker-action/private |
+| 1 | joshjohanning-org/reusable-workflows/.github/workflows/terraform-plan.yml |
+| 1 | joshjohanning-org/reusable-workflows/.github/workflows/terraform-apply.yml |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/security-checks.yml |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/reusable-workflow-call-composite-action.yml |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/local-action-test.yml |
@@ -82,7 +86,6 @@
 | 1 | jonabc/licensed-ci |
 | 1 | iFaxity/wait-on-action |
 | 1 | helm/kind-action |
-| 1 | hashicorp/setup-terraform |
 | 1 | gradle/gradle-build-action |
 | 1 | gradle/actions/setup-gradle |
 | 1 | goreleaser/goreleaser-action |
@@ -96,7 +99,6 @@
 | 1 | crazy-max/ghaction-chocolatey |
 | 1 | benc-uk/workflow-dispatch |
 | 1 | azure/k8s-create-secret |
-| 1 | aquasecurity/tfsec-sarif-action |
 | 1 | appleboy/kubectl-action |
 | 1 | antifree/json-to-variables |
 | 1 | advanced-security/ghas-to-csv |
