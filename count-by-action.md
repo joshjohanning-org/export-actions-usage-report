@@ -2,7 +2,7 @@
 
 | Count | Action |
 | --- | --- |
-| 129 | actions/checkout |
+| 128 | actions/checkout |
 | 27 | actions/upload-artifact |
 | 13 | github/codeql-action/init |
 | 13 | github/codeql-action/analyze |
@@ -77,7 +77,6 @@
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml |
 | 1 | joshjohanning-org/demo-shared-library-from-app |
 | 1 | joshjohanning-org/contexts-reusable-workflows-test/.github/workflows/contexts.yml |
-| 1 | joshjohanning-org/composite-action-sample-python |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions/nested-composite-action-better/1-action |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions/nested-composite-action |
 | 1 | joshjohanning-org/composite-action-private-registry-docker-actions |
