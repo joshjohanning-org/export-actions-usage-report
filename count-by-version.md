@@ -3,7 +3,7 @@
 | Count | Action |
 | --- | --- |
 | 47 | actions/checkout@3 |
-| 32 | actions/checkout@4.%2A.%2A |
+| 34 | actions/checkout@4.%2A.%2A |
 | 17 | actions/checkout@2 |
 | 10 | azure/login@1 |
 | 10 | actions/checkout@3.%2A.%2A |
