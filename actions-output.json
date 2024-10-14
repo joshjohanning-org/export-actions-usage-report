@@ -8,7 +8,7 @@
     "state": "active",
     "created_at": "2024-05-23T16:58:49.000Z",
     "updated_at": "2024-05-23T16:58:49.000Z",
-    "last_run_at": "2024-10-06T07:06:25.000Z",
+    "last_run_at": "2024-10-13T07:05:57.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -263,6 +263,20 @@
     "uses": [
       "actions/checkout@v3",
       "actions/github-script@v7"
+    ]
+  },
+  {
+    "id": "W_kwDOM9X1pc4HPiJJ",
+    "owner": "joshjohanning-org",
+    "repo": "actions-matrix-outputs",
+    "name": "CI",
+    "workflow": ".github/workflows/blank.yml",
+    "state": "active",
+    "created_at": "2024-10-08T17:07:15.000Z",
+    "updated_at": "2024-10-08T17:07:15.000Z",
+    "last_run_at": "2024-10-08T17:16:55.000Z",
+    "uses": [
+      "actions/checkout@v4"
     ]
   },
   {
@@ -1369,7 +1383,7 @@
     "state": "active",
     "created_at": "2023-08-29T13:33:09.000Z",
     "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2024-09-30T01:17:41.000Z",
+    "last_run_at": "2024-10-07T01:17:37.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1386,7 +1400,7 @@
     "state": "active",
     "created_at": "2023-04-24T20:35:56.000Z",
     "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2024-09-30T01:04:15.000Z",
+    "last_run_at": "2024-10-07T01:04:42.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1479,6 +1493,52 @@
     "last_run_at": "",
     "uses": [
       "eregon/publish-release@v1"
+    ]
+  },
+  {
+    "id": "W_kwDOM993484HQXFc",
+    "owner": "joshjohanning-org",
+    "repo": "fork-dynamic-matrix-example",
+    "name": "dynamic-matrix-test-json",
+    "workflow": ".github/workflows/dynamic-matrix-subvalues.yml",
+    "state": "active",
+    "created_at": "2024-10-09T19:03:10.000Z",
+    "updated_at": "2024-10-09T19:31:39.000Z",
+    "last_run_at": "2024-10-11T15:56:29.000Z",
+    "uses": [
+      "actions/github-script@v7",
+      "actions/checkout@v4",
+      "actions/upload-artifact@v4",
+      "actions/download-artifact@v3"
+    ]
+  },
+  {
+    "id": "W_kwDOM993484HQXfX",
+    "owner": "joshjohanning-org",
+    "repo": "fork-dynamic-matrix-example",
+    "name": "dynamic-matrix",
+    "workflow": ".github/workflows/dynamic-matrix.yml",
+    "state": "active",
+    "created_at": "2024-10-09T19:14:27.000Z",
+    "updated_at": "2024-10-09T19:14:27.000Z",
+    "last_run_at": "2024-10-09T19:15:07.000Z",
+    "uses": [
+      "actions/checkout@v4",
+      "stefanbuck/github-issue-parser@v3",
+      "actions/github-script@v7",
+      "actions/upload-artifact@v3",
+      "actions/download-artifact@v3"
+    ]
+  },
+  {
+    "owner": "joshjohanning-org",
+    "repo": "fork-dynamic-matrix-example",
+    "workflow": ".github/workflows/workflow-dispatch-dynamic-matrix.yml",
+    "state": "workflows not enabled in fork",
+    "uses": [
+      "actions/upload-artifact@v3",
+      "actions/download-artifact@v3",
+      "actions/github-script@v6"
     ]
   },
   {
@@ -2406,7 +2466,7 @@
     "state": "active",
     "created_at": "2023-04-12T20:31:16.000Z",
     "updated_at": "2023-04-12T20:34:31.000Z",
-    "last_run_at": "2024-07-23T13:16:16.000Z",
+    "last_run_at": "2024-10-11T20:52:28.000Z",
     "uses": [
       "joshjohanning-org/nested-reusable-workflows/.github/workflows/nested1.yml@main"
     ]
@@ -3486,13 +3546,27 @@
     "repo": "terraform-tailspin-github-actions-and-azdo-demo",
     "name": "tfsec",
     "workflow": ".github/workflows/tfsec-analysis.yml",
-    "state": "active",
+    "state": "disabled_inactivity",
     "created_at": "2021-12-21T04:53:48.000Z",
-    "updated_at": "2021-12-21T04:53:48.000Z",
-    "last_run_at": "2024-10-05T21:36:28.000Z",
+    "updated_at": "2024-10-12T21:35:12.000Z",
+    "last_run_at": "2024-10-12T21:35:54.000Z",
     "uses": [
       "actions/checkout@v4",
       "aquasecurity/tfsec-sarif-action@v0.1.4"
+    ]
+  },
+  {
+    "id": "W_kwDOM8wKqc4HOqfx",
+    "owner": "joshjohanning-org",
+    "repo": "test-cd-actions",
+    "name": "CI",
+    "workflow": ".github/workflows/blank.yml",
+    "state": "active",
+    "created_at": "2024-10-07T15:08:11.000Z",
+    "updated_at": "2024-10-07T15:08:11.000Z",
+    "last_run_at": "2024-10-07T15:09:33.000Z",
+    "uses": [
+      "actions/checkout@v4"
     ]
   },
   {
