@@ -3,7 +3,7 @@
 | Count | Action |
 | --- | --- |
 | 47 | actions/checkout@3 |
-| 34 | actions/checkout@4.%2A.%2A |
+| 35 | actions/checkout@4.%2A.%2A |
 | 17 | actions/checkout@2 |
 | 10 | azure/login@1 |
 | 10 | actions/checkout@3.%2A.%2A |
@@ -45,9 +45,11 @@
 | 2 | github/codeql-action/init@3.%2A.%2A |
 | 2 | github/codeql-action/autobuild@3.%2A.%2A |
 | 2 | github/codeql-action/analyze@3.%2A.%2A |
+| 2 | github/actions-oidc-debugger@main |
 | 2 | docker/build-push-action@2 |
 | 2 | azure/webapps-deploy@2 |
-| 2 | azure/cli@1 |
+| 2 | azure/login@2.%2A.%2A |
+| 2 | azure/CLI@1 |
 | 2 | aquasecurity/trivy-action@master |
 | 2 | anchore/scan-action@3 |
 | 2 | actions/upload-artifact@4.%2A.%2A |
@@ -116,8 +118,8 @@
 | 1 | joonvena/robotframework-reporter-action@2.1 |
 | 1 | jonabc/setup-licensed@1 |
 | 1 | jonabc/licensed-ci@1 |
-| 1 | irongut/codecoveragesummary@1.3.0 |
-| 1 | irongut/codecoveragesummary@1.2.0 |
+| 1 | irongut/CodeCoverageSummary@1.3.0 |
+| 1 | irongut/CodeCoverageSummary@1.2.0 |
 | 1 | iFaxity/wait-on-action@1 |
 | 1 | helm/kind-action@1.2.0 |
 | 1 | hashicorp/setup-terraform@3.%2A.%2A |
@@ -130,7 +132,6 @@
 | 1 | github/codeql-action/init@012739e5082ff0c22ca6d6ab32e07c36df03c4a4 |
 | 1 | github/codeql-action/autobuild@012739e5082ff0c22ca6d6ab32e07c36df03c4a4 |
 | 1 | github/codeql-action/analyze@012739e5082ff0c22ca6d6ab32e07c36df03c4a4 |
-| 1 | github/actions-oidc-debugger@main |
 | 1 | eregon/publish-release@1 |
 | 1 | dorny/test-reporter@1 |
 | 1 | docker/setup-qemu-action@2.1.0 |
@@ -145,7 +146,6 @@
 | 1 | cschleiden/replace-tokens@1.%2A.%2A |
 | 1 | crazy-max/ghaction-chocolatey@1 |
 | 1 | benc-uk/workflow-dispatch@1 |
-| 1 | azure/login@2.%2A.%2A |
 | 1 | azure/k8s-create-secret@1 |
 | 1 | aquasecurity/tfsec-sarif-action@9a83b5c3524f825c020e356335855741fd02745f |
 | 1 | aquasecurity/tfsec-sarif-action@0.1.4 |

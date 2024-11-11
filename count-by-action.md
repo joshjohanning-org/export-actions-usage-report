@@ -2,14 +2,14 @@
 
 | Count | Action |
 | --- | --- |
-| 131 | actions/checkout |
+| 132 | actions/checkout |
 | 27 | actions/upload-artifact |
 | 13 | github/codeql-action/init |
 | 13 | github/codeql-action/analyze |
 | 13 | actions/github-script |
 | 12 | github/codeql-action/autobuild |
+| 12 | azure/login |
 | 12 | actions/setup-node |
-| 11 | azure/login |
 | 11 | actions/create-github-app-token |
 | 10 | actions/setup-java |
 | 9 | actions/download-artifact |
@@ -38,11 +38,12 @@
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/secrets-sample.yml |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml |
 | 2 | joshjohanning-org/nested-reusable-workflows/.github/workflows/nested1.yml |
-| 2 | irongut/codecoveragesummary |
+| 2 | irongut/CodeCoverageSummary |
 | 2 | hashicorp/setup-terraform |
+| 2 | github/actions-oidc-debugger |
 | 2 | docker/setup-buildx-action |
 | 2 | azure/webapps-deploy |
-| 2 | azure/cli |
+| 2 | azure/CLI |
 | 2 | aquasecurity/trivy-action |
 | 2 | aquasecurity/tfsec-sarif-action |
 | 2 | anchore/scan-action |
@@ -89,7 +90,6 @@
 | 1 | gradle/gradle-build-action |
 | 1 | gradle/actions/setup-gradle |
 | 1 | goreleaser/goreleaser-action |
-| 1 | github/actions-oidc-debugger |
 | 1 | eregon/publish-release |
 | 1 | dorny/test-reporter |
 | 1 | docker/setup-qemu-action |
