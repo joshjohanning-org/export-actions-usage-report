@@ -8,7 +8,7 @@
     "state": "active",
     "created_at": "2024-05-23T16:58:49.000Z",
     "updated_at": "2024-05-23T16:58:49.000Z",
-    "last_run_at": "2024-11-03T07:06:40.000Z",
+    "last_run_at": "2024-11-10T07:06:23.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1019,7 +1019,7 @@
     "state": "active",
     "created_at": "2022-02-04T14:12:01.000Z",
     "updated_at": "2022-02-04T14:12:47.000Z",
-    "last_run_at": "",
+    "last_run_at": "2024-11-06T14:59:08.000Z",
     "uses": [
       "irongut/CodeCoverageSummary@v1.2.0",
       "actions/checkout@main"
@@ -1038,6 +1038,20 @@
     "uses": [
       "actions/checkout@v2",
       "docker/login-action@v1"
+    ]
+  },
+  {
+    "id": "W_kwDOGydf7c4HirKX",
+    "owner": "joshjohanning-org",
+    "repo": "container-job-test",
+    "name": "Manual workflow",
+    "workflow": ".github/workflows/manual.yml",
+    "state": "active",
+    "created_at": "2024-11-06T14:55:48.000Z",
+    "updated_at": "2024-11-06T14:55:48.000Z",
+    "last_run_at": "2024-11-06T14:59:03.000Z",
+    "uses": [
+      "actions/checkout@v4"
     ]
   },
   {
@@ -1245,7 +1259,7 @@
     "state": "active",
     "created_at": "2022-05-06T13:06:55.000Z",
     "updated_at": "2022-05-06T13:06:55.000Z",
-    "last_run_at": "2024-08-13T13:46:51.000Z",
+    "last_run_at": "2024-11-08T14:03:32.000Z",
     "uses": [
       "joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml@v1.0.5"
     ]
@@ -1383,7 +1397,7 @@
     "state": "active",
     "created_at": "2023-08-29T13:33:09.000Z",
     "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2024-10-28T01:17:48.000Z",
+    "last_run_at": "2024-11-04T01:17:29.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1400,7 +1414,7 @@
     "state": "active",
     "created_at": "2023-04-24T20:35:56.000Z",
     "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2024-10-28T01:04:31.000Z",
+    "last_run_at": "2024-11-04T01:04:17.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1504,7 +1518,7 @@
     "state": "active",
     "created_at": "2024-10-09T19:03:10.000Z",
     "updated_at": "2024-10-09T19:31:39.000Z",
-    "last_run_at": "2024-10-11T15:56:29.000Z",
+    "last_run_at": "2024-11-10T17:15:02.000Z",
     "uses": [
       "actions/github-script@v7",
       "actions/checkout@v4",
@@ -2405,7 +2419,7 @@
     "state": "active",
     "created_at": "2023-04-24T18:19:31.000Z",
     "updated_at": "2023-04-24T18:19:31.000Z",
-    "last_run_at": "2024-10-30T10:09:46.000Z",
+    "last_run_at": "",
     "uses": [
       "actions/checkout@v3",
       "advanced-security/component-detection-dependency-submission-action@v0.0.1"
@@ -2785,9 +2799,23 @@
     "state": "active",
     "created_at": "2023-10-09T11:41:41.000Z",
     "updated_at": "2023-10-09T11:41:41.000Z",
-    "last_run_at": "2024-10-30T18:40:49.000Z",
+    "last_run_at": "2024-11-07T16:22:07.000Z",
     "uses": [
       "joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml@v1"
+    ]
+  },
+  {
+    "id": "W_kwDONL4rec4HjcdN",
+    "owner": "joshjohanning-org",
+    "repo": "oidc-subject-test",
+    "name": "CI",
+    "workflow": ".github/workflows/blank.yml",
+    "state": "active",
+    "created_at": "2024-11-07T14:51:59.000Z",
+    "updated_at": "2024-11-07T14:51:59.000Z",
+    "last_run_at": "2024-11-07T15:12:20.000Z",
+    "uses": [
+      "azure/login@v2"
     ]
   },
   {
@@ -3088,7 +3116,7 @@
     "state": "active",
     "created_at": "2023-10-09T12:08:55.000Z",
     "updated_at": "2023-10-09T12:08:55.000Z",
-    "last_run_at": "2024-08-12T20:07:48.000Z",
+    "last_run_at": "2024-11-07T14:22:34.000Z",
     "uses": [
       "nowactions/update-majorver@v1"
     ]
