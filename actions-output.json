@@ -8,7 +8,7 @@
     "state": "active",
     "created_at": "2024-05-23T16:58:49.000Z",
     "updated_at": "2024-05-23T16:58:49.000Z",
-    "last_run_at": "2024-11-10T07:06:23.000Z",
+    "last_run_at": "2024-11-17T07:06:05.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -392,7 +392,6 @@
     "owner": "joshjohanning-org",
     "repo": "actions-sync",
     "workflow": ".github/workflows/actions-sync-e2e-test-called.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v3"
     ]
@@ -401,7 +400,6 @@
     "owner": "joshjohanning-org",
     "repo": "actions-sync",
     "workflow": ".github/workflows/actions-sync-e2e-test-caller.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "./.github/workflows/actions-sync-e2e-test-called.yml"
     ]
@@ -410,7 +408,6 @@
     "owner": "joshjohanning-org",
     "repo": "actions-sync",
     "workflow": ".github/workflows/ci.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v2"
     ]
@@ -419,7 +416,6 @@
     "owner": "joshjohanning-org",
     "repo": "actions-sync",
     "workflow": ".github/workflows/codeql-analysis.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v3"
     ]
@@ -428,7 +424,6 @@
     "owner": "joshjohanning-org",
     "repo": "actions-sync",
     "workflow": ".github/workflows/licenced.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v2",
       "actions/setup-go@v1",
@@ -440,7 +435,6 @@
     "owner": "joshjohanning-org",
     "repo": "actions-sync",
     "workflow": ".github/workflows/releases.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v2",
       "actions/setup-go@v4",
@@ -554,7 +548,6 @@
     "owner": "joshjohanning-org",
     "repo": "backup-utils",
     "workflow": ".github/workflows/docker-image.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v3"
     ]
@@ -563,7 +556,6 @@
     "owner": "joshjohanning-org",
     "repo": "backup-utils",
     "workflow": ".github/workflows/lint.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v3"
     ]
@@ -572,7 +564,6 @@
     "owner": "joshjohanning-org",
     "repo": "backup-utils",
     "workflow": ".github/workflows/main.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v3"
     ]
@@ -745,7 +736,6 @@
     "owner": "joshjohanning-org",
     "repo": "cli",
     "workflow": ".github/workflows/ci.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v4",
       "actions/setup-go@v5"
@@ -755,7 +745,6 @@
     "owner": "joshjohanning-org",
     "repo": "cli",
     "workflow": ".github/workflows/codeql-analysis.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v4",
       "actions/setup-go@v5"
@@ -765,7 +754,6 @@
     "owner": "joshjohanning-org",
     "repo": "cli",
     "workflow": ".github/workflows/release.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v4",
       "wangyoucao577/go-release-action@v1.49"
@@ -775,7 +763,6 @@
     "owner": "joshjohanning-org",
     "repo": "cli",
     "workflow": ".github/workflows/smoke.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v4",
       "actions/setup-go@v5"
@@ -1105,7 +1092,7 @@
     "state": "active",
     "created_at": "2022-02-04T03:42:06.000Z",
     "updated_at": "2022-02-04T03:42:06.000Z",
-    "last_run_at": "2024-08-27T15:09:57.000Z",
+    "last_run_at": "2024-11-15T16:25:23.000Z",
     "uses": [
       "actions/setup-node@v4"
     ]
@@ -1397,7 +1384,7 @@
     "state": "active",
     "created_at": "2023-08-29T13:33:09.000Z",
     "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2024-11-04T01:17:29.000Z",
+    "last_run_at": "2024-11-11T01:17:56.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1414,7 +1401,7 @@
     "state": "active",
     "created_at": "2023-04-24T20:35:56.000Z",
     "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2024-11-04T01:04:17.000Z",
+    "last_run_at": "2024-11-11T01:04:41.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1548,7 +1535,6 @@
     "owner": "joshjohanning-org",
     "repo": "fork-dynamic-matrix-example",
     "workflow": ".github/workflows/workflow-dispatch-dynamic-matrix.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/upload-artifact@v3",
       "actions/download-artifact@v3",
@@ -1830,7 +1816,6 @@
     "owner": "joshjohanning-org",
     "repo": "GitHubActions.Gates.Samples",
     "workflow": ".github/workflows/ci.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
       "actions/setup-dotnet@4d6c8fcf3c8f7a60068d26b594648e99df24cee3",
@@ -1844,7 +1829,6 @@
     "owner": "joshjohanning-org",
     "repo": "GitHubActions.Gates.Samples",
     "workflow": ".github/workflows/deploy-deployhours-gate.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "./.github/workflows/deploy-reusable.yml"
     ]
@@ -1853,7 +1837,6 @@
     "owner": "joshjohanning-org",
     "repo": "GitHubActions.Gates.Samples",
     "workflow": ".github/workflows/deploy-issues-gate.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "./.github/workflows/deploy-reusable.yml"
     ]
@@ -1862,7 +1845,6 @@
     "owner": "joshjohanning-org",
     "repo": "GitHubActions.Gates.Samples",
     "workflow": ".github/workflows/deploy-reusable.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
       "actions/setup-dotnet@4d6c8fcf3c8f7a60068d26b594648e99df24cee3",
@@ -1874,7 +1856,6 @@
     "owner": "joshjohanning-org",
     "repo": "GitHubActions.Gates.Samples",
     "workflow": ".github/workflows/scorecard.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
       "ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736",
@@ -1943,7 +1924,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-08-16T16:56:56.000Z",
+    "last_run_at": "2024-11-12T15:11:25.000Z",
     "uses": [
       "actions/checkout@v4",
       "stefanbuck/github-issue-parser@v3",
@@ -1961,7 +1942,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-08-16T16:52:35.000Z",
+    "last_run_at": "2024-11-12T15:11:05.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1992,7 +1973,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-08-16T16:56:56.000Z",
+    "last_run_at": "2024-11-12T15:11:25.000Z",
     "uses": [
       "actions/checkout@v4",
       "stefanbuck/github-issue-parser@v3",
@@ -2009,7 +1990,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-08-16T16:52:45.000Z",
+    "last_run_at": "2024-11-12T15:11:23.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -2085,7 +2066,7 @@
     "state": "active",
     "created_at": "2022-09-14T20:25:24.000Z",
     "updated_at": "2022-09-14T20:25:24.000Z",
-    "last_run_at": "",
+    "last_run_at": "2024-11-13T20:36:27.000Z",
     "uses": []
   },
   {
@@ -2312,10 +2293,11 @@
     "state": "active",
     "created_at": "2022-03-10T17:10:48.000Z",
     "updated_at": "2022-03-10T17:10:48.000Z",
-    "last_run_at": "",
+    "last_run_at": "2024-11-13T23:23:43.000Z",
     "uses": [
-      "actions/checkout@main",
-      "tibdex/github-app-token@v1"
+      "actions/checkout@v4",
+      "tibdex/github-app-token@v1",
+      "actions/create-github-app-token@v1"
     ]
   },
   {
@@ -2701,7 +2683,6 @@
     "owner": "joshjohanning-org",
     "repo": "npm-package-example-downstream",
     "workflow": ".github/workflows/ci.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v3",
       "actions/setup-node@v3"
@@ -2711,7 +2692,6 @@
     "owner": "joshjohanning-org",
     "repo": "npm-package-example-downstream",
     "workflow": ".github/workflows/publish.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v3",
       "actions/setup-node@v3"
@@ -3130,7 +3110,7 @@
     "state": "active",
     "created_at": "2023-10-09T09:39:10.000Z",
     "updated_at": "2023-10-09T09:39:10.000Z",
-    "last_run_at": "2024-08-19T09:54:41.000Z",
+    "last_run_at": "2024-11-11T09:14:03.000Z",
     "uses": [
       "actions/checkout@v4",
       "joshjohanning-org/composite-action@v1.0.0",
@@ -3157,7 +3137,6 @@
     "owner": "joshjohanning-org",
     "repo": "safe-settings",
     "workflow": ".github/workflows/create-pre-release.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v3",
       "actions/setup-node@v3",
@@ -3171,7 +3150,6 @@
     "owner": "joshjohanning-org",
     "repo": "safe-settings",
     "workflow": ".github/workflows/create-release.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v3",
       "actions/setup-node@v3",
@@ -3187,7 +3165,6 @@
     "owner": "joshjohanning-org",
     "repo": "safe-settings",
     "workflow": ".github/workflows/deploy-k8s.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v2",
       "azure/login@v1",
@@ -3200,7 +3177,6 @@
     "owner": "joshjohanning-org",
     "repo": "safe-settings",
     "workflow": ".github/workflows/node-ci.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v3",
       "actions/setup-node@v3"
@@ -3210,7 +3186,6 @@
     "owner": "joshjohanning-org",
     "repo": "safe-settings",
     "workflow": ".github/workflows/rc-release.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v3",
       "actions/setup-node@v3",
@@ -3516,7 +3491,6 @@
     "owner": "joshjohanning-org",
     "repo": "terraform-github-actions",
     "workflow": ".github/workflows/tf-drift.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v4",
       "hashicorp/setup-terraform@v3",
@@ -3546,7 +3520,6 @@
     "owner": "joshjohanning-org",
     "repo": "terraform-github-actions",
     "workflow": ".github/workflows/tf-unit-tests.yml",
-    "state": "workflows not enabled in fork",
     "uses": [
       "actions/checkout@v4",
       "hashicorp/setup-terraform@v3",
