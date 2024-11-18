@@ -20,7 +20,6 @@
 | 5 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml |
 | 4 | actions/dependency-review-action |
 | 4 | EnricoMi/publish-unit-test-result-action |
-| 3 | tibdex/github-app-token |
 | 3 | mikepenz/gradle-dependency-submission |
 | 3 | marocchino/sticky-pull-request-comment |
 | 3 | joshjohanning/approveops |
@@ -31,6 +30,7 @@
 | 3 | actions/setup-go |
 | 2 | whelk-io/maven-settings-xml-action |
 | 2 | tspascoal/cobertura-action |
+| 2 | tibdex/github-app-token |
 | 2 | peter-murray/workflow-application-token-action |
 | 2 | ossf/scorecard-action |
 | 2 | nowactions/update-majorver |

@@ -3,7 +3,7 @@
 | Count | Action |
 | --- | --- |
 | 47 | actions/checkout@3 |
-| 35 | actions/checkout@4.%2A.%2A |
+| 36 | actions/checkout@4.%2A.%2A |
 | 17 | actions/checkout@2 |
 | 10 | azure/login@1 |
 | 10 | actions/checkout@3.%2A.%2A |
@@ -24,16 +24,15 @@
 | 4 | actions/setup-java@2 |
 | 4 | actions/github-script@7.%2A.%2A |
 | 4 | actions/github-script@6.%2A.%2A |
-| 3 | tibdex/github-app-token@1 |
 | 3 | stefanbuck/github-issue-parser@3.%2A.%2A |
 | 3 | marocchino/sticky-pull-request-comment@2 |
 | 3 | github/codeql-action/upload-sarif@1 |
 | 3 | docker/login-action@1 |
 | 3 | actions/upload-artifact@2 |
-| 3 | actions/checkout@main |
 | 3 | actions/cache@3 |
 | 2 | whelk-io/maven-settings-xml-action@20 |
 | 2 | tspascoal/cobertura-action@master |
+| 2 | tibdex/github-app-token@1 |
 | 2 | peter-murray/workflow-application-token-action@1 |
 | 2 | ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86 |
 | 2 | nowactions/update-majorver@1 |
@@ -61,6 +60,7 @@
 | 2 | actions/download-artifact@3.%2A.%2A |
 | 2 | actions/dependency-review-action@3 |
 | 2 | actions/create-github-app-token@1 |
+| 2 | actions/checkout@main |
 | 2 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 |
 | 2 | Mattraks/delete-workflow-runs@main |
 | 2 | EnricoMi/publish-unit-test-result-action@2 |
