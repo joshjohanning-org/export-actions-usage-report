@@ -8,7 +8,7 @@
     "state": "active",
     "created_at": "2024-05-23T16:58:49.000Z",
     "updated_at": "2024-05-23T16:58:49.000Z",
-    "last_run_at": "2024-11-17T07:06:05.000Z",
+    "last_run_at": "2024-11-24T07:06:55.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1384,7 +1384,7 @@
     "state": "active",
     "created_at": "2023-08-29T13:33:09.000Z",
     "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2024-11-11T01:17:56.000Z",
+    "last_run_at": "2024-11-18T01:18:04.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1401,7 +1401,7 @@
     "state": "active",
     "created_at": "2023-04-24T20:35:56.000Z",
     "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2024-11-11T01:04:41.000Z",
+    "last_run_at": "2024-11-18T01:04:36.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1924,7 +1924,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-11-12T15:11:25.000Z",
+    "last_run_at": "2024-11-22T17:47:05.000Z",
     "uses": [
       "actions/checkout@v4",
       "stefanbuck/github-issue-parser@v3",
@@ -1942,7 +1942,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-11-12T15:11:05.000Z",
+    "last_run_at": "2024-11-22T17:42:46.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1973,7 +1973,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-11-12T15:11:25.000Z",
+    "last_run_at": "2024-11-22T17:47:05.000Z",
     "uses": [
       "actions/checkout@v4",
       "stefanbuck/github-issue-parser@v3",
@@ -1990,7 +1990,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2024-11-12T15:11:23.000Z",
+    "last_run_at": "2024-11-22T17:43:55.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -3585,6 +3585,21 @@
     ]
   },
   {
+    "id": "W_kwDONRx5Jc4Hrb2R",
+    "owner": "joshjohanning-org",
+    "repo": "test-github-app-nov19-2024",
+    "name": "CI",
+    "workflow": ".github/workflows/blank.yml",
+    "state": "active",
+    "created_at": "2024-11-19T16:53:51.000Z",
+    "updated_at": "2024-11-19T16:53:51.000Z",
+    "last_run_at": "2024-11-19T16:54:11.000Z",
+    "uses": [
+      "actions/checkout@v4",
+      "actions/create-github-app-token@v1"
+    ]
+  },
+  {
     "id": "W_kwDOG_HQgM4BSiR5",
     "owner": "joshjohanning-org",
     "repo": "test-jobs-and-conditions",
@@ -3832,6 +3847,34 @@
     ]
   },
   {
+    "id": "W_kwDONRNcrs4Hqjuy",
+    "owner": "joshjohanning-org",
+    "repo": "trigger-another-workflow-same-repo",
+    "name": "CI-1",
+    "workflow": ".github/workflows/blank-1.yml",
+    "state": "active",
+    "created_at": "2024-11-18T15:55:55.000Z",
+    "updated_at": "2024-11-18T15:58:29.000Z",
+    "last_run_at": "2024-11-18T16:01:59.000Z",
+    "uses": [
+      "actions/checkout@v4"
+    ]
+  },
+  {
+    "id": "W_kwDONRNcrs4HqjvK",
+    "owner": "joshjohanning-org",
+    "repo": "trigger-another-workflow-same-repo",
+    "name": "CI-2",
+    "workflow": ".github/workflows/blank-2.yml",
+    "state": "active",
+    "created_at": "2024-11-18T15:56:13.000Z",
+    "updated_at": "2024-11-18T15:58:29.000Z",
+    "last_run_at": "2024-11-18T16:02:10.000Z",
+    "uses": [
+      "actions/checkout@v4"
+    ]
+  },
+  {
     "id": "W_kwDOKHaEAc4D85wZ",
     "owner": "joshjohanning-org",
     "repo": "trigger-separate-workflow",
@@ -3855,7 +3898,7 @@
     "state": "active",
     "created_at": "2023-08-15T14:44:11.000Z",
     "updated_at": "2023-08-15T14:44:57.000Z",
-    "last_run_at": "2023-08-15T19:22:47.000Z",
+    "last_run_at": "2024-11-24T10:38:39.000Z",
     "uses": [
       "actions/checkout@v3",
       "joshjohanning/text-to-emoji-action@v1"
