@@ -3,12 +3,12 @@
 | Count | Action |
 | --- | --- |
 | 47 | actions/checkout@3 |
-| 36 | actions/checkout@4.%2A.%2A |
+| 38 | actions/checkout@4.%2A.%2A |
 | 17 | actions/checkout@2 |
 | 10 | azure/login@1 |
+| 10 | actions/create-github-app-token@1.%2A.%2A |
 | 10 | actions/checkout@3.%2A.%2A |
 | 9 | actions/upload-artifact@3 |
-| 9 | actions/create-github-app-token@1.%2A.%2A |
 | 8 | actions/checkout@4 |
 | 6 | actions/download-artifact@3 |
 | 5 | github/codeql-action/init@2 |
