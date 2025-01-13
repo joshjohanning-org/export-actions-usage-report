@@ -3,14 +3,14 @@
 | Count | Action |
 | --- | --- |
 | 57 | actions/checkout@3.%2A.%2A |
-| 52 | actions/checkout@4.%2A.%2A |
+| 53 | actions/checkout@4.%2A.%2A |
 | 17 | actions/checkout@2.%2A.%2A |
+| 14 | actions/create-github-app-token@1.%2A.%2A |
 | 13 | actions/upload-artifact@3.%2A.%2A |
-| 13 | actions/create-github-app-token@1.%2A.%2A |
 | 10 | azure/login@1.%2A.%2A |
 | 10 | actions/github-script@6.%2A.%2A |
 | 9 | actions/download-artifact@3.%2A.%2A |
-| 6 | actions/upload-artifact@4.%2A.%2A |
+| 7 | actions/upload-artifact@4.%2A.%2A |
 | 6 | actions/setup-node@3.%2A.%2A |
 | 6 | actions/setup-java@3.%2A.%2A |
 | 6 | actions/github-script@7.%2A.%2A |
@@ -32,6 +32,7 @@
 | 3 | docker/login-action@1.%2A.%2A |
 | 3 | azure/login@2.%2A.%2A |
 | 3 | actions/upload-artifact@2.%2A.%2A |
+| 3 | actions/download-artifact@4.%2A.%2A |
 | 3 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 |
 | 3 | actions/cache@3.%2A.%2A |
 | 2 | whelk-io/maven-settings-xml-action@20.%2A.%2A |
@@ -61,7 +62,6 @@
 | 2 | actions/upload-artifact@1.%2A.%2A |
 | 2 | actions/setup-python@4.%2A.%2A |
 | 2 | actions/setup-node@4.%2A.%2A |
-| 2 | actions/download-artifact@4.%2A.%2A |
 | 2 | actions/checkout@main |
 | 2 | Mattraks/delete-workflow-runs@main |
 | 2 | EnricoMi/publish-unit-test-result-action@2.%2A.%2A |
