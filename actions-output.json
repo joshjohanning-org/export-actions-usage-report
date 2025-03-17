@@ -8,7 +8,7 @@
     "state": "active",
     "created_at": "2024-05-23T16:58:49.000Z",
     "updated_at": "2024-05-23T16:58:49.000Z",
-    "last_run_at": "2025-03-09T07:06:03.000Z",
+    "last_run_at": "2025-03-16T07:07:02.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -84,6 +84,20 @@
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
       "ActionsDesk/github-actions-allow-list-as-code-action@v3.1.0"
+    ]
+  },
+  {
+    "id": "W_kwDOOIpKx84I7bmf",
+    "owner": "joshjohanning-org",
+    "repo": "actions-demo-mar142025",
+    "name": "CI",
+    "workflow": ".github/workflows/ci.yml",
+    "state": "active",
+    "created_at": "2025-03-14T16:03:09.000Z",
+    "updated_at": "2025-03-14T16:03:09.000Z",
+    "last_run_at": "2025-03-14T16:16:18.000Z",
+    "uses": [
+      "actions/checkout@v4.2.2"
     ]
   },
   {
@@ -1414,7 +1428,7 @@
     "state": "active",
     "created_at": "2023-08-29T13:33:09.000Z",
     "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2025-03-03T01:16:22.000Z",
+    "last_run_at": "2025-03-10T01:15:27.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1431,7 +1445,7 @@
     "state": "active",
     "created_at": "2023-04-24T20:35:56.000Z",
     "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2025-03-03T01:05:40.000Z",
+    "last_run_at": "2025-03-10T01:04:53.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -1639,7 +1653,7 @@
     "state": "disabled_inactivity",
     "created_at": "2023-04-18T13:56:13.000Z",
     "updated_at": "2024-02-09T04:22:25.000Z",
-    "last_run_at": "2024-02-09T04:25:28.000Z",
+    "last_run_at": "2025-03-15T08:57:27.000Z",
     "uses": [
       "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
       "ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86",
@@ -1731,7 +1745,7 @@
     "state": "active",
     "created_at": "2023-04-05T12:56:09.000Z",
     "updated_at": "2023-04-05T12:56:09.000Z",
-    "last_run_at": "2024-02-06T20:17:01.000Z",
+    "last_run_at": "2025-03-13T08:26:19.000Z",
     "uses": [
       "actions/checkout@v3.0.2",
       "actions/setup-node@v3.1.1",
@@ -1989,7 +2003,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2025-02-12T17:22:57.000Z",
+    "last_run_at": "2025-03-10T15:56:15.000Z",
     "uses": [
       "actions/checkout@v4",
       "stefanbuck/github-issue-parser@v3",
@@ -2007,7 +2021,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2025-02-12T17:13:22.000Z",
+    "last_run_at": "2025-03-10T15:55:59.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -2038,7 +2052,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2025-02-12T17:22:58.000Z",
+    "last_run_at": "2025-03-10T15:56:14.000Z",
     "uses": [
       "actions/checkout@v4",
       "stefanbuck/github-issue-parser@v3",
@@ -2055,7 +2069,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2023-11-08T16:05:40.000Z",
-    "last_run_at": "2025-02-12T17:13:40.000Z",
+    "last_run_at": "2025-03-10T15:56:15.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v1",
@@ -3474,7 +3488,7 @@
     "state": "active",
     "created_at": "2023-05-11T16:48:46.000Z",
     "updated_at": "2023-05-11T16:48:46.000Z",
-    "last_run_at": "2024-02-08T20:53:41.000Z",
+    "last_run_at": "2025-03-15T06:03:40.000Z",
     "uses": [
       "actions/checkout@v3"
     ]
@@ -3900,7 +3914,7 @@
     "state": "active",
     "created_at": "2024-02-07T18:47:29.000Z",
     "updated_at": "2024-02-07T18:47:35.000Z",
-    "last_run_at": "2024-02-07T18:47:50.000Z",
+    "last_run_at": "2025-03-14T08:21:27.000Z",
     "uses": [
       "actions/checkout@v3"
     ]
