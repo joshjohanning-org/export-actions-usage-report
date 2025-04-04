@@ -15,6 +15,7 @@ on:
 jobs:
   count-by-action:
     runs-on: ubuntu-latest
+    permissions: {}
 
     steps:
       - uses: actions/checkout@v4
@@ -51,6 +52,7 @@ jobs:
 
   count-by-version:
     runs-on: ubuntu-latest
+    permissions: {}
 
     steps:
       - uses: actions/checkout@v4
@@ -88,6 +90,8 @@ jobs:
   commit-to-repo:
     runs-on: ubuntu-latest
     needs: [count-by-action, count-by-version]
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
