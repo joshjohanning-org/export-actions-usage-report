@@ -2,20 +2,20 @@
 
 | Count | Action |
 | --- | --- |
-| 146 | actions/checkout |
+| 144 | actions/checkout |
 | 32 | actions/upload-artifact |
-| 17 | actions/github-script |
 | 16 | github/codeql-action/init |
 | 16 | github/codeql-action/analyze |
-| 15 | actions/create-github-app-token |
+| 16 | actions/github-script |
 | 14 | azure/login |
+| 14 | actions/create-github-app-token |
 | 13 | actions/setup-java |
 | 12 | github/codeql-action/autobuild |
 | 12 | actions/setup-node |
 | 12 | actions/download-artifact |
 | 10 | github/codeql-action/upload-sarif |
-| 7 | stefanbuck/github-issue-parser |
 | 7 | docker/login-action |
+| 6 | stefanbuck/github-issue-parser |
 | 6 | actions/cache |
 | 5 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml |
 | 5 | actions/setup-dotnet |
@@ -26,7 +26,6 @@
 | 4 | docker/build-push-action |
 | 3 | ossf/scorecard-action |
 | 3 | mikepenz/gradle-dependency-submission |
-| 3 | joshjohanning/approveops |
 | 3 | joshjohanning/actions-ref-linter |
 | 3 | joshjohanning-org/composite-action |
 | 3 | hashicorp/setup-terraform |
@@ -40,6 +39,7 @@
 | 2 | tibdex/github-app-token |
 | 2 | peter-murray/workflow-application-token-action |
 | 2 | nowactions/update-majorver |
+| 2 | joshjohanning/approveops |
 | 2 | joshjohanning-org/simple-docker-action |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/secrets-sample.yml |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml |
@@ -94,7 +94,6 @@
 | 1 | joonvena/robotframework-reporter-action |
 | 1 | jonabc/setup-licensed |
 | 1 | jonabc/licensed-ci |
-| 1 | issue-ops/parser |
 | 1 | iFaxity/wait-on-action |
 | 1 | helm/kind-action |
 | 1 | hadolint/hadolint-action |
