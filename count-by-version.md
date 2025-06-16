@@ -2,14 +2,14 @@
 
 | Count | Action |
 | --- | --- |
-| 57 | actions/checkout@3.%2A.%2A |
 | 55 | actions/checkout@4.%2A.%2A |
+| 55 | actions/checkout@3.%2A.%2A |
 | 17 | actions/checkout@2.%2A.%2A |
 | 11 | actions/upload-artifact@3.%2A.%2A |
 | 9 | azure/login@1.%2A.%2A |
 | 9 | actions/upload-artifact@4.%2A.%2A |
-| 9 | actions/github-script@6.%2A.%2A |
 | 8 | actions/github-script@7.%2A.%2A |
+| 8 | actions/github-script@6.%2A.%2A |
 | 8 | actions/create-github-app-token@1.%2A.%2A |
 | 7 | actions/download-artifact@3.%2A.%2A |
 | 7 | actions/create-github-app-token@2.%2A.%2A |
@@ -115,7 +115,6 @@
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml@main |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml@d255a01a1d478e0deb7a7a04291896fa4978fe4e |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml@1.0.5 |
-| 1 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml@1.0.10 |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml@1.0.9 |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml@1.0.5 |
 | 1 | joshjohanning-org/demo-shared-library-from-app@main |
