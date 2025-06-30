@@ -2,18 +2,18 @@
 
 | Count | Action |
 | --- | --- |
-| 50 | actions/checkout |
+| 49 | actions/checkout |
 | 9 | actions/upload-artifact |
 | 7 | github/codeql-action/init |
 | 7 | github/codeql-action/analyze |
 | 6 | github/codeql-action/autobuild |
 | 6 | actions/setup-java |
 | 5 | github/codeql-action/upload-sarif |
-| 4 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml |
 | 4 | docker/login-action |
 | 4 | azure/login |
 | 4 | actions/setup-node |
 | 3 | joshjohanning/approveops |
+| 3 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml |
 | 3 | actions/create-github-app-token |
 | 3 | actions/cache |
 | 2 | whelk-io/maven-settings-xml-action |
