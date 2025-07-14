@@ -67,7 +67,6 @@
 | 1 | github/codeql-action/init@3.%2A.%2A |
 | 1 | github/codeql-action/autobuild@3.%2A.%2A |
 | 1 | github/codeql-action/analyze@3.%2A.%2A |
-| 1 | eregon/publish-release@1.%2A.%2A |
 | 1 | dorny/test-reporter@1.%2A.%2A |
 | 1 | docker/setup-qemu-action@2.1.0 |
 | 1 | docker/setup-buildx-action@2.%2A.%2A |
@@ -88,7 +87,6 @@
 | 1 | anchore/scan-action@3.%2A.%2A |
 | 1 | actionsdesk/semver@0.6.0-rc.10 |
 | 1 | actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8 |
-| 1 | actions/upload-artifact@3.1.2 |
 | 1 | actions/upload-artifact@3.0.0 |
 | 1 | actions/upload-artifact@2.2.0 |
 | 1 | actions/upload-artifact@2.%2A.%2A |
@@ -104,7 +102,6 @@
 | 1 | actions/github-script@6.%2A.%2A |
 | 1 | actions/first-interaction@1.1.1 |
 | 1 | actions/download-artifact@4.%2A.%2A |
-| 1 | actions/download-artifact@3.%2A.%2A |
 | 1 | actions/dependency-review-action@3.%2A.%2A |
 | 1 | actions/create-github-app-token@1.%2A.%2A |
 | 1 | actions/checkout@my-other-fake-branch |
@@ -114,7 +111,6 @@
 | 1 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 |
 | 1 | actions/checkout@3.3.0 |
 | 1 | actions/checkout@3.1.0 |
-| 1 | actions/checkout@24cb9080177205b6e8c946b17badbe402adc938f |
 | 1 | actions/checkout@2 |
 | 1 | actions/cache@3.2.3 |
 | 1 | SonarSource/sonarqube-scan-action@master |
