@@ -2,7 +2,7 @@
 
 | Count | Action |
 | --- | --- |
-| 19 | actions/checkout@3.%2A.%2A |
+| 18 | actions/checkout@3.%2A.%2A |
 | 12 | actions/checkout@2.%2A.%2A |
 | 10 | actions/checkout@4.%2A.%2A |
 | 3 | github/codeql-action/init@2.%2A.%2A |
@@ -28,7 +28,6 @@
 | 1 | tspascoal/cobertura-action@master |
 | 1 | tibdex/github-app-token@1.%2A.%2A |
 | 1 | terraform-linters/setup-tflint@3.%2A.%2A |
-| 1 | stefanbuck/github-issue-parser@3.0.1 |
 | 1 | stefanbuck/github-issue-parser@2ea9b35a8c584529ed00891a8f7e41dc46d0441e |
 | 1 | softprops/action-gh-release@1.%2A.%2A |
 | 1 | peter-murray/workflow-application-token-action@1.%2A.%2A |
@@ -99,7 +98,6 @@
 | 1 | actions/setup-dotnet@3.%2A.%2A |
 | 1 | actions/setup-dotnet@1 |
 | 1 | actions/github-script@7.%2A.%2A |
-| 1 | actions/github-script@6.%2A.%2A |
 | 1 | actions/first-interaction@1.1.1 |
 | 1 | actions/download-artifact@4.%2A.%2A |
 | 1 | actions/dependency-review-action@3.%2A.%2A |
