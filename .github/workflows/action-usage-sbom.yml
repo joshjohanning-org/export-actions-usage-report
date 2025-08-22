@@ -22,6 +22,7 @@ jobs:
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
+          ref: major-enhancements-to-actions-usage-scripts
 
       - uses: actions/create-github-app-token@v2
         id: app-token
@@ -31,7 +32,12 @@ jobs:
 
       - name: run actions export
         run: |
-          ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md > count-by-action.md
+          ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh \
+            ${{ github.repository_owner }} \
+            count-by-action \
+            md \
+            --dedupe-by-repo \
+            > count-by-action.md
         env: 
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
@@ -59,6 +65,7 @@ jobs:
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
+          ref: major-enhancements-to-actions-usage-scripts
 
       - uses: actions/create-github-app-token@v2
         id: app-token
@@ -68,7 +75,12 @@ jobs:
 
       - name: run actions export
         run: |
-          ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version md > count-by-version.md
+          ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh \
+            ${{ github.repository_owner }} \
+            count-by-version \
+            md \
+            --resolve-shas \
+            > count-by-version.md
         env: 
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
