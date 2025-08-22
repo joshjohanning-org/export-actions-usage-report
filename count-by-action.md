@@ -2,8 +2,8 @@
 
 | Count | Action |
 | --- | --- |
-| 50 | actions/checkout |
-| 9 | actions/upload-artifact |
+| 38 | actions/checkout |
+| 8 | actions/upload-artifact |
 | 7 | github/codeql-action/init |
 | 7 | github/codeql-action/analyze |
 | 6 | github/codeql-action/autobuild |
@@ -17,6 +17,7 @@
 | 3 | actions/create-github-app-token |
 | 3 | actions/cache |
 | 2 | whelk-io/maven-settings-xml-action |
+| 2 | stefanbuck/github-issue-parser |
 | 2 | marocchino/sticky-pull-request-comment |
 | 2 | joshjohanning/actions-ref-linter |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/secrets-sample.yml |
@@ -34,7 +35,6 @@
 | 1 | tspascoal/cobertura-action |
 | 1 | tibdex/github-app-token |
 | 1 | terraform-linters/setup-tflint |
-| 1 | stefanbuck/github-issue-parser |
 | 1 | softprops/action-gh-release |
 | 1 | peter-murray/workflow-application-token-action |
 | 1 | peaceiris/actions-gh-pages |
@@ -71,3 +71,5 @@
 | 1 | Azure/k8s-deploy |
 | 1 | Azure/aks-set-context |
 | 1 | 5monkeys/cobertura-action |
+
+📝 **Note**: Count represents the number of repositories using each action (deduplicated per repository).
