@@ -1,9 +1,13 @@
+⚡ Command ran: get-actions-usage-in-organization.sh joshjohanning-org count-by-action md --dedupe-by-repo
+
+---
+
 ## 🚀 Actions Usage in Organization: joshjohanning-org
 
 | Count | Action |
 | --- | --- |
-| 36 | actions/checkout |
-| 8 | actions/upload-artifact |
+| 40 | actions/checkout |
+| 10 | actions/upload-artifact |
 | 7 | github/codeql-action/init |
 | 7 | github/codeql-action/analyze |
 | 6 | github/codeql-action/autobuild |
@@ -14,9 +18,12 @@
 | 4 | azure/login |
 | 4 | actions/setup-node |
 | 3 | joshjohanning/approveops |
+| 3 | actions/download-artifact |
 | 3 | actions/create-github-app-token |
 | 3 | actions/cache |
 | 2 | whelk-io/maven-settings-xml-action |
+| 2 | tibdex/github-app-token |
+| 2 | stefanbuck/github-issue-parser |
 | 2 | marocchino/sticky-pull-request-comment |
 | 2 | joshjohanning/actions-ref-linter |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/secrets-sample.yml |
@@ -27,13 +34,12 @@
 | 2 | aquasecurity/tfsec-sarif-action |
 | 2 | actions/stale |
 | 2 | actions/setup-dotnet |
+| 2 | actions/github-script |
 | 2 | LouisBrunner/checks-action |
 | 2 | EnricoMi/publish-unit-test-result-action |
 | 1 | zbazztian/filter-sarif |
 | 1 | tspascoal/cobertura-action |
-| 1 | tibdex/github-app-token |
 | 1 | terraform-linters/setup-tflint |
-| 1 | stefanbuck/github-issue-parser |
 | 1 | softprops/action-gh-release |
 | 1 | peter-murray/workflow-application-token-action |
 | 1 | peaceiris/actions-gh-pages |
@@ -45,11 +51,13 @@
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/terraform-apply.yml |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/local-action-test.yml |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml |
+| 1 | joshjohanning-org/demo-shared-library-from-app |
 | 1 | joshjohanning-org/contexts-reusable-workflows-test/.github/workflows/contexts.yml |
 | 1 | joshjohanning-org/composite-action |
 | 1 | joonvena/robotframework-reporter-action |
 | 1 | issue-ops/parser |
 | 1 | iFaxity/wait-on-action |
+| 1 | eregon/publish-release |
 | 1 | dorny/test-reporter |
 | 1 | docker/setup-qemu-action |
 | 1 | devops-infra/action-pull-request |
@@ -61,9 +69,7 @@
 | 1 | anchore/scan-action |
 | 1 | actionsdesk/semver |
 | 1 | actions/setup-python |
-| 1 | actions/github-script |
 | 1 | actions/first-interaction |
-| 1 | actions/download-artifact |
 | 1 | actions/dependency-review-action |
 | 1 | SonarSource/sonarqube-scan-action |
 | 1 | Mattraks/delete-workflow-runs |
