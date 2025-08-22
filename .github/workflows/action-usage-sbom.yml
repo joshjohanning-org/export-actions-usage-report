@@ -48,9 +48,18 @@ jobs:
       # redirect to job summary
       - name: upload job summary
         run: |
-          echo "# 🚀📝 Actions Report for org" >> $GITHUB_STEP_SUMMARY
+          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
+          # 🚀📝 Actions Report for org
+          EOF
           cat count-by-action.md >> $GITHUB_STEP_SUMMARY
+          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
           
+          Exact command ran:
+          ```sh
+          get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md --dedupe-by-repo
+          ```
+          EOF
+
       - uses: actions/upload-artifact@v4
         with:
           name: count-by-action
@@ -91,9 +100,18 @@ jobs:
       # redirect to job summary
       - name: upload job summary
         run: |
-          echo "# 🚀📝 Actions Report for org" >> $GITHUB_STEP_SUMMARY
+          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
+          # 🚀📝 Actions Report for org
+          EOF
           cat count-by-version.md >> $GITHUB_STEP_SUMMARY
+          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
           
+          Exact command ran:
+          ```sh
+          get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version md --resolve-shas
+          ```
+          EOF
+
       - uses: actions/upload-artifact@v4
         with:
           name: count-by-version
