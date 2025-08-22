@@ -18,7 +18,7 @@ jobs:
     permissions: {}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
@@ -55,7 +55,7 @@ jobs:
     permissions: {}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
@@ -94,7 +94,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: actions/download-artifact@v4
 
