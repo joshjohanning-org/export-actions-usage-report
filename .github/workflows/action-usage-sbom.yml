@@ -32,10 +32,10 @@ jobs:
       - name: run actions export
         run: |
           # Print command to the output file first
-          echo "⚡ Command ran: `get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md --dedupe-by-repo"` > count-by-action.md
-          echo "" >> count-by-action.md
-          echo "---" >> count-by-action.md
-          echo "" >> count-by-action.md
+          echo "⚡ Command ran: `get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md --dedupe-by-repo"` > count-by-action-sbom.md
+          echo "" >> count-by-action-sbom.md
+          echo "---" >> count-by-action-sbom.md
+          echo "" >> count-by-action-sbom.md
           
           # Run the actual command and append to file
           ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh \
@@ -43,13 +43,13 @@ jobs:
             count-by-action \
             md \
             --dedupe-by-repo \
-            >> count-by-action.md
+            >> count-by-action-sbom.md
         env: 
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
       - name: output csv
         run: |
-          cat count-by-action.md
+          cat count-by-action-sbom.md
           
       # redirect to job summary
       - name: upload job summary
@@ -57,12 +57,12 @@ jobs:
           cat >> $GITHUB_STEP_SUMMARY << 'EOF'
           # 🚀📝 Actions Report for org
           EOF
-          cat count-by-action.md >> $GITHUB_STEP_SUMMARY
+          cat count-by-action-sbom.md >> $GITHUB_STEP_SUMMARY
 
       - uses: actions/upload-artifact@v4
         with:
           name: count-by-action
-          path: count-by-action.md
+          path: count-by-action-sbom.md
 
   count-by-version:
     runs-on: ubuntu-latest
@@ -83,10 +83,10 @@ jobs:
       - name: run actions export
         run: |
           # Print command to the output file first
-          echo "⚡ Command ran: `get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version md --resolve-shas`" > count-by-version.md
-          echo "" >> count-by-version.md
-          echo "---" >> count-by-version.md
-          echo "" >> count-by-version.md
+          echo "⚡ Command ran: `get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version md --resolve-shas`" > count-by-version-sbom.md
+          echo "" >> count-by-version-sbom.md
+          echo "---" >> count-by-version-sbom.md
+          echo "" >> count-by-version-sbom.md
           
           # Run the actual command and append to file
           ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh \
@@ -94,13 +94,13 @@ jobs:
             count-by-version \
             md \
             --resolve-shas \
-            >> count-by-version.md
+            >> count-by-version-sbom.md
         env: 
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
       - name: output md
         run: |
-          cat count-by-version.md
+          cat count-by-version-sbom.md
           
       # redirect to job summary
       - name: upload job summary
@@ -108,12 +108,12 @@ jobs:
           cat >> $GITHUB_STEP_SUMMARY << 'EOF'
           # 🚀📝 Actions Report for org
           EOF
-          cat count-by-version.md >> $GITHUB_STEP_SUMMARY
+          cat count-by-version-sbom.md >> $GITHUB_STEP_SUMMARY
 
       - uses: actions/upload-artifact@v4
         with:
           name: count-by-version
-          path: count-by-version.md
+          path: count-by-version-sbom.md
 
   commit-to-repo:
     runs-on: ubuntu-latest
@@ -128,10 +128,10 @@ jobs:
 
       - name: push to git repo
         run: |
-          mv count-by-action/count-by-action.md count-by-action.md
-          mv count-by-version/count-by-version.md count-by-version.md
+          mv count-by-action/count-by-action-sbom.md count-by-action-sbom.md
+          mv count-by-version/count-by-version-sbom.md count-by-version-sbom.md
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add count-by-version.md count-by-action.md
+          git add count-by-version-sbom.md count-by-action-sbom.md
           git commit -m "updating organization actions reports (sbom)"
           git push
