@@ -31,12 +31,19 @@ jobs:
 
       - name: run actions export
         run: |
-          set -x  # Print commands before executing them
+          # Print command to the output file first
+          echo "⚡ Command ran: get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md --dedupe-by-repo" > count-by-action.md
+          echo "" >> count-by-action.md
+          echo "---" >> count-by-action.md
+          echo "" >> count-by-action.md
+          
+          # Run the actual command and append to file
           ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh \
             ${{ github.repository_owner }} \
             count-by-action \
             md \
-            --dedupe-by-repo >> count-by-action.md
+            --dedupe-by-repo \
+            >> count-by-action.md
         env: 
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
@@ -75,12 +82,19 @@ jobs:
 
       - name: run actions export
         run: |
-          set -x  # Print commands before executing them
+          # Print command to the output file first
+          echo "⚡ Command ran: get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version md --resolve-shas" > count-by-version.md
+          echo "" >> count-by-version.md
+          echo "---" >> count-by-version.md
+          echo "" >> count-by-version.md
+          
+          # Run the actual command and append to file
           ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh \
             ${{ github.repository_owner }} \
             count-by-version \
             md \
-            --resolve-shas >> count-by-version.md
+            --resolve-shas \
+            >> count-by-version.md
         env: 
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
