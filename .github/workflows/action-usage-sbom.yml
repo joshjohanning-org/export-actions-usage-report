@@ -32,7 +32,7 @@ jobs:
       - name: run actions export
         run: |
           # Print command to the output file first
-          echo "⚡ Command ran: `get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md --dedupe-by-repo"` > count-by-action-sbom.md
+          echo "⚡ Command ran: `get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md --dedupe-by-repo`" > count-by-action-sbom.md
           echo "" >> count-by-action-sbom.md
           echo "---" >> count-by-action-sbom.md
           echo "" >> count-by-action-sbom.md
