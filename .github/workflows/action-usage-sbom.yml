@@ -22,7 +22,6 @@ jobs:
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
-          ref: major-enhancements-to-actions-usage-scripts
 
       - uses: actions/create-github-app-token@v2
         id: app-token
@@ -32,12 +31,12 @@ jobs:
 
       - name: run actions export
         run: |
+          set -x  # Print commands before executing them
           ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh \
             ${{ github.repository_owner }} \
             count-by-action \
             md \
-            --dedupe-by-repo \
-            > count-by-action.md
+            --dedupe-by-repo >> count-by-action.md
         env: 
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
@@ -52,13 +51,6 @@ jobs:
           # 🚀📝 Actions Report for org
           EOF
           cat count-by-action.md >> $GITHUB_STEP_SUMMARY
-          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
-          
-          Exact command ran:
-          ```sh
-          get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md --dedupe-by-repo
-          ```
-          EOF
 
       - uses: actions/upload-artifact@v4
         with:
@@ -74,7 +66,6 @@ jobs:
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
-          ref: major-enhancements-to-actions-usage-scripts
 
       - uses: actions/create-github-app-token@v2
         id: app-token
@@ -84,12 +75,12 @@ jobs:
 
       - name: run actions export
         run: |
+          set -x  # Print commands before executing them
           ./github-misc-scripts/gh-cli/get-actions-usage-in-organization.sh \
             ${{ github.repository_owner }} \
             count-by-version \
             md \
-            --resolve-shas \
-            > count-by-version.md
+            --resolve-shas >> count-by-version.md
         env: 
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
@@ -104,13 +95,6 @@ jobs:
           # 🚀📝 Actions Report for org
           EOF
           cat count-by-version.md >> $GITHUB_STEP_SUMMARY
-          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
-          
-          Exact command ran:
-          ```sh
-          get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version md --resolve-shas
-          ```
-          EOF
 
       - uses: actions/upload-artifact@v4
         with:
