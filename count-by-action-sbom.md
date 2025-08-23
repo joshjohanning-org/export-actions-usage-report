@@ -23,12 +23,12 @@
 | 6 | actions/cache |
 | 5 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml |
 | 5 | actions/setup-dotnet |
+| 5 | actions/dependency-review-action |
 | 5 | EnricoMi/publish-unit-test-result-action |
 | 4 | marocchino/sticky-pull-request-comment |
 | 4 | joshjohanning/approveops |
 | 4 | irongut/CodeCoverageSummary |
 | 4 | docker/build-push-action |
-| 4 | actions/dependency-review-action |
 | 3 | ossf/scorecard-action |
 | 3 | mikepenz/gradle-dependency-submission |
 | 3 | joshjohanning/actions-ref-linter |

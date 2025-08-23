@@ -7,7 +7,7 @@
 | Count | Action |
 | --- | --- |
 | 57 | actions/checkout@v3 |
-| 53 | actions/checkout@v4 |
+| 54 | actions/checkout@v4 |
 | 17 | actions/checkout@v2 |
 | 11 | actions/upload-artifact@v3 |
 | 9 | azure/login@v1 |
@@ -38,6 +38,7 @@
 | 3 | github/actions-oidc-debugger@main |
 | 3 | docker/login-action@v1 |
 | 3 | actions/upload-artifact@v2 |
+| 3 | actions/dependency-review-action@v4 |
 | 3 | actions/dependency-review-action@v3 |
 | 3 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3.1.0 |
 | 3 | actions/cache@v3 |
@@ -72,7 +73,6 @@
 | 2 | actions/setup-python@v4 |
 | 2 | actions/setup-node@v4 |
 | 2 | actions/setup-java@v4 |
-| 2 | actions/dependency-review-action@v4 |
 | 2 | actions/checkout@main |
 | 2 | Mattraks/delete-workflow-runs@main |
 | 2 | EnricoMi/publish-unit-test-result-action@v2 |
