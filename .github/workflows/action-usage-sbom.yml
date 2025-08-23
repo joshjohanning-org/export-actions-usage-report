@@ -22,7 +22,6 @@ jobs:
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
-          ref: actions-usage-sleep
 
       - uses: actions/create-github-app-token@v2
         id: app-token
@@ -75,7 +74,6 @@ jobs:
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
-          ref: actions-usage-sleep
 
       - uses: actions/create-github-app-token@v2
         id: app-token
