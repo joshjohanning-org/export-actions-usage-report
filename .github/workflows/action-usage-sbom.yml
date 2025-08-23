@@ -36,10 +36,9 @@ jobs:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.PRIVATE_KEY }}
 
-      - name: run actions export
+      - name: run actions export -- count-by-action
         run: |
-          # Print command to the output file first
-          echo "⚡ Command ran: \`get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md --dedupe-by-repo\`" > count-by-action-sbom.md
+          echo "⚡ Command ran: \`get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-action md --dedupe-by-repo\`" | tee count-by-action-sbom.md
           echo "" >> count-by-action-sbom.md
           echo "---" >> count-by-action-sbom.md
           echo "" >> count-by-action-sbom.md
@@ -59,7 +58,6 @@ jobs:
         run: |
           cat count-by-action-sbom.md
           
-      # redirect to job summary
       - name: upload job summary
         run: |
           cat >> $GITHUB_STEP_SUMMARY << 'EOF'
@@ -107,10 +105,9 @@ jobs:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.PRIVATE_KEY }}
 
-      - name: run actions export
+      - name: run actions export -- count-by-version
         run: |
-          # Print command to the output file first
-          echo "⚡ Command ran: \`get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version md --resolve-shas\`" > count-by-version-sbom.md
+          echo "⚡ Command ran: \`get-actions-usage-in-organization.sh ${{ github.repository_owner }} count-by-version md --resolve-shas\`" | tee count-by-version-sbom.md
           echo "" >> count-by-version-sbom.md
           echo "---" >> count-by-version-sbom.md
           echo "" >> count-by-version-sbom.md
@@ -130,7 +127,6 @@ jobs:
         run: |
           cat count-by-version-sbom.md
           
-      # redirect to job summary
       - name: upload job summary
         run: |
           cat >> $GITHUB_STEP_SUMMARY << 'EOF'
