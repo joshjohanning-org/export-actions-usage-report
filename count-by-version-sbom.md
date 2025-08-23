@@ -46,7 +46,7 @@
 | 2 | tspascoal/cobertura-action@master |
 | 2 | tibdex/github-app-token@v1 |
 | 2 | peter-murray/workflow-application-token-action@v1 |
-| 2 | ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86 # sha not associated to tag |
+| 2 | ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86 # v2.1.2 |
 | 2 | nowactions/update-majorver@v1 |
 | 2 | mikepenz/gradle-dependency-submission@main |
 | 2 | lindluni/actions-variable-groups@v2 |
@@ -84,13 +84,13 @@
 | 1 | step-security/harden-runner@2e205a28d0e1da00c5f53b161f4067b052c61f34 # v1.5.0 |
 | 1 | stefanbuck/github-issue-parser@v3.0.1 |
 | 1 | stefanbuck/github-issue-parser@2ea9b35a8c584529ed00891a8f7e41dc46d0441e # v3.2.1 |
-| 1 | srggrs/assign-one-project-github-action@65a8ddab497df42ef268001e67bbf976f8fd39e1 # sha not associated to tag |
+| 1 | srggrs/assign-one-project-github-action@65a8ddab497df42ef268001e67bbf976f8fd39e1 # 1.3.1 |
 | 1 | softprops/action-gh-release@v1 |
 | 1 | sigstore/cosign-installer@9becc617647dfa20ae7b1151972e9b3a2c338a2b # sha not associated to tag |
 | 1 | samspills/assign-pr-to-author@b313feb250ff414d3aff26525b986f080ee7bd7a # v1.0.2 |
 | 1 | ruby/setup-ruby@v1 |
 | 1 | peaceiris/actions-gh-pages@3 |
-| 1 | ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736 # sha not associated to tag |
+| 1 | ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736 # v2.3.1 |
 | 1 | mxschmitt/action-tmate@v3 |
 | 1 | mikepenz/gradle-dependency-submission@v0.8.6 |
 | 1 | marocchino/sticky-pull-request-comment@331f8f5b4215f0445d3c07b4967662a32a2d3e31 # v2.9.0 |
@@ -173,7 +173,7 @@
 | 1 | crazy-max/ghaction-chocolatey@1 |
 | 1 | bridgecrewio/checkov-action@master |
 | 1 | benc-uk/workflow-dispatch@v1 |
-| 1 | azure/login@6b2456866fc08b011acb422a92a4aa20e2c4de32 # sha not associated to tag |
+| 1 | azure/login@6b2456866fc08b011acb422a92a4aa20e2c4de32 # v2.1.0 |
 | 1 | azure/k8s-create-secret@v1 |
 | 1 | aquasecurity/tfsec-sarif-action@v0.1.4 |
 | 1 | aquasecurity/tfsec-sarif-action@9a83b5c3524f825c020e356335855741fd02745f # sha not associated to tag |
@@ -236,9 +236,9 @@
 | 1 | BSFishy/pip-action@v1 |
 | 1 | Azure/static-web-apps-deploy@v1 |
 | 1 | Azure/k8s-deploy@1.4.* |
-| 1 | Azure/functions-action@238dc3c45bb1b04e5d16ff9e75cddd1d86753bd6 # sha not associated to tag |
+| 1 | Azure/functions-action@238dc3c45bb1b04e5d16ff9e75cddd1d86753bd6 # v1.5.1 |
 | 1 | Azure/aks-set-context@v3 |
-| 1 | ActionsDesk/github-actions-allow-list-as-code-action@013d3b0b014f3a7656c5b0a28c00fe8c7e41b5e3 # sha not associated to tag |
+| 1 | ActionsDesk/github-actions-allow-list-as-code-action@013d3b0b014f3a7656c5b0a28c00fe8c7e41b5e3 # v3.1.0 |
 | 1 | 5monkeys/cobertura-action@master |
 
 📝 **Note**: Count represents unique action@version combinations (with each unique action@version combination only showing up once per repository).
