@@ -22,7 +22,7 @@ jobs:
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
-          ref: actions-usage-script-add-debug
+          ref: actions-usage-sleep
 
       - uses: actions/create-github-app-token@v2
         id: app-token
@@ -75,7 +75,7 @@ jobs:
         with:
           repository: joshjohanning/github-misc-scripts
           path: github-misc-scripts
-          ref: actions-usage-script-add-debug
+          ref: actions-usage-sleep
 
       - uses: actions/create-github-app-token@v2
         id: app-token
@@ -135,9 +135,10 @@ jobs:
           mv count-by-action/count-by-action-sbom.md count-by-action-sbom.md
           mv count-by-version/count-by-version-sbom.md count-by-version-sbom.md
 
-      - name: check if changes
-        id: check_changes
-        run: |          
+      - name: detect changes
+        id: detect_changes
+        run: |
+          git add count-by-version-sbom.md count-by-action-sbom.md
           if git diff --staged --quiet; then
             echo "No changes to commit."
             echo "changes=false" >> $GITHUB_OUTPUT
@@ -146,11 +147,10 @@ jobs:
             echo "changes=true" >> $GITHUB_OUTPUT
           fi
 
-      # - name: push to git repo
-      #   if: steps.check_changes.outputs.changes == 'true'
-      #   run: |
-      #     git config --global user.name 'github-actions[bot]'
-      #     git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-      #     git add count-by-version-sbom.md count-by-action-sbom.md
-      #     git commit -m "updating organization actions reports (sbom)"
-      #     git push
+      - name: push to git repo
+        if: steps.detect_changes.outputs.changes == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -m "updating organization actions reports (sbom)"
+          git push
