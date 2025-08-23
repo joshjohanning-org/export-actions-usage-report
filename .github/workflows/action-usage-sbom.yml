@@ -44,6 +44,7 @@ jobs:
             count-by-action \
             md \
             --dedupe-by-repo \
+            --debug \
             >> count-by-action-sbom.md
         env: 
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
@@ -96,6 +97,7 @@ jobs:
             count-by-version \
             md \
             --resolve-shas \
+            --debug \
             >> count-by-version-sbom.md
         env: 
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
@@ -144,11 +146,11 @@ jobs:
             echo "changes=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: push to git repo
-        if: steps.check_changes.outputs.changes == 'true'
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add count-by-version-sbom.md count-by-action-sbom.md
-          git commit -m "updating organization actions reports (sbom)"
-          git push
+      # - name: push to git repo
+      #   if: steps.check_changes.outputs.changes == 'true'
+      #   run: |
+      #     git config --global user.name 'github-actions[bot]'
+      #     git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      #     git add count-by-version-sbom.md count-by-action-sbom.md
+      #     git commit -m "updating organization actions reports (sbom)"
+      #     git push
