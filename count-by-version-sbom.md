@@ -25,8 +25,8 @@
 | 5 | github/codeql-action/autobuild@v2 |
 | 5 | github/codeql-action/analyze@v2 |
 | 5 | github/codeql-action/analyze@v1 |
+| 5 | azure/login@v2 |
 | 4 | github/codeql-action/autobuild@v1 |
-| 4 | azure/login@v2 |
 | 4 | actions/setup-java@v2 |
 | 4 | actions/download-artifact@v4 |
 | 4 | actions/checkout@v5 |

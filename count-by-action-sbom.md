@@ -12,7 +12,7 @@
 | 16 | github/codeql-action/analyze |
 | 16 | actions/github-script |
 | 16 | actions/create-github-app-token |
-| 14 | azure/login |
+| 15 | azure/login |
 | 12 | github/codeql-action/autobuild |
 | 12 | actions/setup-node |
 | 12 | actions/setup-java |
