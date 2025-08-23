@@ -128,9 +128,14 @@ jobs:
 
       - uses: actions/download-artifact@v5
 
+      - name: move files to working directory
+        run: |
+          mv count-by-action/count-by-action-sbom.md count-by-action-sbom.md
+          mv count-by-version/count-by-version-sbom.md count-by-version-sbom.md
+
       - name: check if changes
         id: check_changes
-        run: |
+        run: |          
           if git diff --staged --quiet; then
             echo "No changes to commit."
             echo "changes=false" >> $GITHUB_OUTPUT
@@ -142,8 +147,6 @@ jobs:
       - name: push to git repo
         if: steps.check_changes.outputs.changes == 'true'
         run: |
-          mv count-by-action/count-by-action-sbom.md count-by-action-sbom.md
-          mv count-by-version/count-by-version-sbom.md count-by-version-sbom.md
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add count-by-version-sbom.md count-by-action-sbom.md
