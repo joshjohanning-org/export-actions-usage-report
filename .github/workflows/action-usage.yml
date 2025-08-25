@@ -85,12 +85,6 @@ jobs:
 
       - uses: actions/download-artifact@v5
 
-      - name: move files to working directory
-        run: |
-          mv output/actions-output.csv actions-output.csv
-          mv output/actions-output.json actions-output.json
-          mv output/actions-output.md actions-output.md
-
       - name: push to git repo
         run: |
           git config --global user.name 'github-actions[bot]'
