@@ -1,5 +1,82 @@
 [
   {
+    "id": "W_kwDOJa3qQc4ECRJw",
+    "owner": "joshjohanning-org",
+    "repo": "export-actions-usage-report",
+    "workflow": ".github/workflows/action-usage-sbom.yml",
+    "state": "active",
+    "created_at": "2023-08-29T13:33:09.000Z",
+    "updated_at": "2023-08-29T13:33:09.000Z",
+    "last_run_at": "2025-08-23T17:41:45.000Z",
+    "uses": [
+      "actions/checkout@v5",
+      "actions/create-github-app-token@v2",
+      "actions/upload-artifact@v4",
+      "actions/download-artifact@v5"
+    ]
+  },
+  {
+    "id": "W_kwDOJa3qQc4DS7Du",
+    "owner": "joshjohanning-org",
+    "repo": "export-actions-usage-report",
+    "workflow": ".github/workflows/action-usage.yml",
+    "state": "active",
+    "created_at": "2023-04-24T20:35:56.000Z",
+    "updated_at": "2023-04-24T22:31:02.000Z",
+    "last_run_at": "2025-08-18T01:14:20.000Z",
+    "uses": [
+      "actions/checkout@v5",
+      "actions/create-github-app-token@v2",
+      "actions/upload-artifact@v4"
+    ]
+  },
+  {
+    "id": "W_kwDOLCSztM4E3Zri",
+    "owner": "joshjohanning-org",
+    "repo": "test-repo-3",
+    "workflow": ".github/workflows/blank.yml",
+    "state": "active",
+    "created_at": "2024-01-08T17:20:46.000Z",
+    "updated_at": "2024-01-08T17:20:46.000Z",
+    "last_run_at": "2025-08-23T17:15:03.000Z",
+    "uses": [
+      "actions/checkout@v3",
+      "lindluni/actions-variable-groups@v2",
+      "lindluni/actions-variable-groups@v2.5.0",
+      "azure/login@v2",
+      "lindluni/actions-variable-groups@v3"
+    ]
+  },
+  {
+    "id": "W_kwDOLCSztM4K8HU4",
+    "owner": "joshjohanning-org",
+    "repo": "test-repo-3",
+    "workflow": ".github/workflows/dependency-review.yml",
+    "state": "active",
+    "created_at": "2025-08-23T17:15:02.000Z",
+    "updated_at": "2025-08-23T17:15:02.000Z",
+    "last_run_at": null,
+    "uses": [
+      "actions/checkout@v4",
+      "actions/dependency-review-action@v4"
+    ]
+  },
+  {
+    "id": "W_kwDOKboWHs4EQmnZ",
+    "owner": "joshjohanning-org",
+    "repo": "actions-allow-list-as-code",
+    "workflow": ".github/workflows/actions-allow-list.yml",
+    "state": "active",
+    "created_at": "2023-10-03T21:41:43.000Z",
+    "updated_at": "2023-10-03T22:13:17.000Z",
+    "last_run_at": "2025-08-21T17:42:15.000Z",
+    "uses": [
+      "actions/checkout@v5",
+      "actions/create-github-app-token@v2",
+      "ActionsDesk/github-actions-allow-list-as-code-action@013d3b0b014f3a7656c5b0a28c00fe8c7e41b5e3"
+    ]
+  },
+  {
     "id": "W_kwDOGiGcjc4F7U1I",
     "owner": "joshjohanning-org",
     "repo": ".github",
@@ -7,7 +84,7 @@
     "state": "active",
     "created_at": "2024-05-23T16:58:49.000Z",
     "updated_at": "2024-05-23T16:58:49.000Z",
-    "last_run_at": "2025-08-17T07:07:40.000Z",
+    "last_run_at": "2025-08-24T07:07:06.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/create-github-app-token@v2",
@@ -22,10 +99,10 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2025-04-02T15:48:27.000Z",
-    "last_run_at": "2025-08-13T14:57:36.000Z",
+    "last_run_at": "2025-08-22T14:35:28.000Z",
     "uses": [
       "actions/checkout@v5",
-      "issue-ops/parser@76d5aa095754de1493cbe41934484c4287e16350",
+      "stefanbuck/github-issue-parser@2ea9b35a8c584529ed00891a8f7e41dc46d0441e",
       "actions/create-github-app-token@v2",
       "actions/github-script@v7",
       "joshjohanning/approveops@caad905b2ba78301a0db7f484ef6fe3c770e6985"
@@ -43,23 +120,7 @@
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
-      "issue-ops/parser@76d5aa095754de1493cbe41934484c4287e16350",
-      "actions/github-script@v7"
-    ]
-  },
-  {
-    "id": "W_kwDOH7A-Es4KyzZd",
-    "owner": "joshjohanning-org",
-    "repo": "issueops-samples",
-    "workflow": ".github/workflows/deploy-repo.yml",
-    "state": "disabled_manually",
-    "created_at": "2025-08-13T14:56:18.000Z",
-    "updated_at": "2025-08-13T14:57:00.000Z",
-    "last_run_at": null,
-    "uses": [
-      "actions/checkout@v5",
-      "actions/create-github-app-token@v2",
-      "issue-ops/parser@76d5aa095754de1493cbe41934484c4287e16350",
+      "stefanbuck/github-issue-parser@2ea9b35a8c584529ed00891a8f7e41dc46d0441e",
       "actions/github-script@v7"
     ]
   },
@@ -84,7 +145,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2025-04-02T15:48:27.000Z",
-    "last_run_at": "2025-08-13T14:57:37.000Z",
+    "last_run_at": "2025-08-22T14:35:29.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
@@ -106,6 +167,53 @@
       "actions/create-github-app-token@v2",
       "issue-ops/parser@76d5aa095754de1493cbe41934484c4287e16350",
       "actions/github-script@v7"
+    ]
+  },
+  {
+    "id": "W_kwDOGeRsXM4A8px6",
+    "owner": "joshjohanning-org",
+    "repo": "ghas-demo",
+    "workflow": ".github/workflows/codeql-analysis.yml",
+    "state": "disabled_inactivity",
+    "created_at": "2021-12-02T23:03:57.000Z",
+    "updated_at": "2024-08-13T13:25:22.000Z",
+    "last_run_at": "2024-08-13T13:29:08.000Z",
+    "uses": [
+      "actions/checkout@v3",
+      "github/codeql-action/init@v2",
+      "github/codeql-action/autobuild@v2",
+      "github/codeql-action/analyze@v2",
+      "actions/upload-artifact@v2"
+    ]
+  },
+  {
+    "id": "W_kwDOGeRsXM4BZYw4",
+    "owner": "joshjohanning-org",
+    "repo": "ghas-demo",
+    "workflow": ".github/workflows/dependency-review.yml",
+    "state": "active",
+    "created_at": "2022-04-06T19:54:19.000Z",
+    "updated_at": "2022-07-27T15:11:50.000Z",
+    "last_run_at": "2025-08-22T06:28:05.000Z",
+    "uses": [
+      "actions/checkout@v4",
+      "actions/dependency-review-action@v4"
+    ]
+  },
+  {
+    "id": "W_kwDOGeRsXM4DQllb",
+    "owner": "joshjohanning-org",
+    "repo": "ghas-demo",
+    "workflow": ".github/workflows/scorecard.yml",
+    "state": "disabled_inactivity",
+    "created_at": "2023-04-18T13:56:13.000Z",
+    "updated_at": "2024-02-09T04:22:25.000Z",
+    "last_run_at": null,
+    "uses": [
+      "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+      "ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86",
+      "actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
+      "github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5"
     ]
   },
   {
@@ -203,37 +311,6 @@
     ]
   },
   {
-    "id": "W_kwDOJa3qQc4ECRJw",
-    "owner": "joshjohanning-org",
-    "repo": "export-actions-usage-report",
-    "workflow": ".github/workflows/action-usage-sbom.yml",
-    "state": "active",
-    "created_at": "2023-08-29T13:33:09.000Z",
-    "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2025-08-11T01:18:06.000Z",
-    "uses": [
-      "actions/checkout@v4",
-      "actions/create-github-app-token@v2",
-      "actions/upload-artifact@v4",
-      "actions/download-artifact@v4"
-    ]
-  },
-  {
-    "id": "W_kwDOJa3qQc4DS7Du",
-    "owner": "joshjohanning-org",
-    "repo": "export-actions-usage-report",
-    "workflow": ".github/workflows/action-usage.yml",
-    "state": "active",
-    "created_at": "2023-04-24T20:35:56.000Z",
-    "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2025-08-11T01:14:27.000Z",
-    "uses": [
-      "actions/checkout@v4",
-      "actions/create-github-app-token@v2",
-      "actions/upload-artifact@v4"
-    ]
-  },
-  {
     "id": "W_kwDOGj_d2c4A_hto",
     "owner": "joshjohanning-org",
     "repo": "terraform-tailspin-github-actions-and-azdo-demo",
@@ -255,7 +332,7 @@
     "state": "active",
     "created_at": "2021-12-21T04:53:48.000Z",
     "updated_at": "2025-08-07T17:17:59.000Z",
-    "last_run_at": "2025-08-16T21:36:20.000Z",
+    "last_run_at": "2025-08-23T21:35:49.000Z",
     "uses": [
       "actions/checkout@v4",
       "aquasecurity/tfsec-sarif-action@v0.1.4",
@@ -481,21 +558,6 @@
     ]
   },
   {
-    "id": "W_kwDOKboWHs4EQmnZ",
-    "owner": "joshjohanning-org",
-    "repo": "actions-allow-list-as-code",
-    "workflow": ".github/workflows/actions-allow-list.yml",
-    "state": "active",
-    "created_at": "2023-10-03T21:41:43.000Z",
-    "updated_at": "2023-10-03T22:13:17.000Z",
-    "last_run_at": "2025-08-11T20:08:26.000Z",
-    "uses": [
-      "actions/checkout@v4",
-      "actions/create-github-app-token@v2",
-      "ActionsDesk/github-actions-allow-list-as-code-action@013d3b0b014f3a7656c5b0a28c00fe8c7e41b5e3"
-    ]
-  },
-  {
     "id": "W_kwDOHSrs3s4ESx35",
     "owner": "joshjohanning-org",
     "repo": "reusable-workflows",
@@ -631,7 +693,7 @@
     "state": "active",
     "created_at": "2022-06-06T15:51:05.000Z",
     "updated_at": "2022-06-06T16:51:02.000Z",
-    "last_run_at": "2025-03-24T13:19:07.000Z",
+    "last_run_at": "2025-08-18T16:58:46.000Z",
     "uses": [
       "actions/checkout@v4",
       "joshjohanning-org/composite-action@main",
@@ -660,7 +722,7 @@
     "state": "active",
     "created_at": "2025-03-19T13:33:02.000Z",
     "updated_at": "2025-03-19T13:38:02.000Z",
-    "last_run_at": "2025-08-11T10:01:38.000Z",
+    "last_run_at": "2025-08-18T09:29:40.000Z",
     "uses": [
       "actions/checkout@v4",
       "actions/setup-dotnet@v4",
@@ -1401,53 +1463,6 @@
     ]
   },
   {
-    "id": "W_kwDOGeRsXM4A8px6",
-    "owner": "joshjohanning-org",
-    "repo": "ghas-demo",
-    "workflow": ".github/workflows/codeql-analysis.yml",
-    "state": "disabled_inactivity",
-    "created_at": "2021-12-02T23:03:57.000Z",
-    "updated_at": "2024-08-13T13:25:22.000Z",
-    "last_run_at": "2024-08-13T13:29:08.000Z",
-    "uses": [
-      "actions/checkout@v3",
-      "github/codeql-action/init@v2",
-      "github/codeql-action/autobuild@v2",
-      "github/codeql-action/analyze@v2",
-      "actions/upload-artifact@v2"
-    ]
-  },
-  {
-    "id": "W_kwDOGeRsXM4BZYw4",
-    "owner": "joshjohanning-org",
-    "repo": "ghas-demo",
-    "workflow": ".github/workflows/dependency-review.yml",
-    "state": "active",
-    "created_at": "2022-04-06T19:54:19.000Z",
-    "updated_at": "2022-07-27T15:11:50.000Z",
-    "last_run_at": "2025-08-06T16:42:26.000Z",
-    "uses": [
-      "actions/checkout@v3",
-      "actions/dependency-review-action@v3"
-    ]
-  },
-  {
-    "id": "W_kwDOGeRsXM4DQllb",
-    "owner": "joshjohanning-org",
-    "repo": "ghas-demo",
-    "workflow": ".github/workflows/scorecard.yml",
-    "state": "disabled_inactivity",
-    "created_at": "2023-04-18T13:56:13.000Z",
-    "updated_at": "2024-02-09T04:22:25.000Z",
-    "last_run_at": null,
-    "uses": [
-      "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
-      "ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86",
-      "actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
-      "github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5"
-    ]
-  },
-  {
     "id": "W_kwDOL-WRUs4F5mCG",
     "owner": "joshjohanning-org",
     "repo": "simple-json-input-actions-example",
@@ -1494,7 +1509,7 @@
     "state": "active",
     "created_at": "2023-10-09T09:59:54.000Z",
     "updated_at": "2025-08-14T14:26:35.000Z",
-    "last_run_at": "2025-08-14T14:26:56.000Z",
+    "last_run_at": "2025-08-19T13:28:39.000Z",
     "uses": [
       "joshjohanning-org/reusable-workflows/.github/workflows/security-checks.yml@main"
     ]
@@ -2595,19 +2610,6 @@
     "state": "active",
     "created_at": "2024-02-07T18:47:29.000Z",
     "updated_at": "2024-02-07T18:47:35.000Z",
-    "last_run_at": null,
-    "uses": [
-      "actions/checkout@v3"
-    ]
-  },
-  {
-    "id": "W_kwDOLCSztM4E3Zri",
-    "owner": "joshjohanning-org",
-    "repo": "test-repo-3",
-    "workflow": ".github/workflows/blank.yml",
-    "state": "active",
-    "created_at": "2024-01-08T17:20:46.000Z",
-    "updated_at": "2024-01-08T17:20:46.000Z",
     "last_run_at": null,
     "uses": [
       "actions/checkout@v3"
