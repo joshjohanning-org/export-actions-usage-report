@@ -13,10 +13,12 @@ on:
     - cron: '40 0 * * 1'
 
 jobs:
-  org:
+  action-usage-report:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
+    outputs:
+      changes: ${{ steps.detect_changes.outputs.changes }}
 
     steps:
       - uses: actions/checkout@v5
@@ -59,6 +61,35 @@ jobs:
         with:
           name: output
           path: actions-*
+
+      - name: detect changes
+        id: detect_changes
+        run: |
+          git add actions-output.csv actions-output.json actions-output.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected."
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+  commit-to-repo:
+    runs-on: ubuntu-latest
+    needs: [action-usage-report]
+    if: needs.action-usage-report.outputs.changes == 'true'
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/download-artifact@v5
+
+      - name: move files to working directory
+        run: |
+          mv output/actions-output.csv actions-output.csv
+          mv output/actions-output.json actions-output.json
+          mv output/actions-output.md actions-output.md
 
       - name: push to git repo
         run: |
