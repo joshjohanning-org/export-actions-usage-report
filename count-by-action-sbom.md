@@ -13,10 +13,10 @@
 | 16 | actions/github-script |
 | 16 | actions/create-github-app-token |
 | 15 | azure/login |
-| 12 | github/codeql-action/autobuild |
 | 12 | actions/setup-node |
 | 12 | actions/setup-java |
 | 12 | actions/download-artifact |
+| 11 | github/codeql-action/autobuild |
 | 10 | github/codeql-action/upload-sarif |
 | 7 | stefanbuck/github-issue-parser |
 | 7 | docker/login-action |

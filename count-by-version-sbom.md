@@ -6,8 +6,8 @@
 
 | Count | Action |
 | --- | --- |
-| 57 | actions/checkout@v3 |
-| 54 | actions/checkout@v4 |
+| 56 | actions/checkout@v3 |
+| 53 | actions/checkout@v4 |
 | 17 | actions/checkout@v2 |
 | 11 | actions/upload-artifact@v3 |
 | 9 | azure/login@v1 |
@@ -20,33 +20,31 @@
 | 6 | actions/setup-node@v3 |
 | 6 | actions/setup-java@v3 |
 | 5 | stefanbuck/github-issue-parser@v3 |
-| 5 | github/codeql-action/init@v2 |
 | 5 | github/codeql-action/init@v1 |
-| 5 | github/codeql-action/autobuild@v2 |
-| 5 | github/codeql-action/analyze@v2 |
 | 5 | github/codeql-action/analyze@v1 |
 | 5 | azure/login@v2 |
+| 5 | actions/checkout@v5 |
+| 4 | github/codeql-action/init@v3 |
+| 4 | github/codeql-action/init@v2 |
+| 4 | github/codeql-action/autobuild@v2 |
 | 4 | github/codeql-action/autobuild@v1 |
+| 4 | github/codeql-action/analyze@v3 |
+| 4 | github/codeql-action/analyze@v2 |
 | 4 | actions/setup-java@v2 |
 | 4 | actions/download-artifact@v4 |
-| 4 | actions/checkout@v5 |
 | 3 | marocchino/sticky-pull-request-comment@v2 |
 | 3 | github/codeql-action/upload-sarif@v1 |
 | 3 | github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5 # sha not associated to tag |
-| 3 | github/codeql-action/init@v3 |
-| 3 | github/codeql-action/analyze@v3 |
 | 3 | github/actions-oidc-debugger@main |
 | 3 | docker/login-action@v1 |
 | 3 | actions/upload-artifact@v2 |
 | 3 | actions/dependency-review-action@v4 |
 | 3 | actions/dependency-review-action@v3 |
-| 3 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3.1.0 |
 | 3 | actions/cache@v3 |
 | 2 | whelk-io/maven-settings-xml-action@20.*.* |
 | 2 | tspascoal/cobertura-action@master |
 | 2 | tibdex/github-app-token@v1 |
 | 2 | peter-murray/workflow-application-token-action@v1 |
-| 2 | ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86 # v2.1.2 |
 | 2 | nowactions/update-majorver@v1 |
 | 2 | mikepenz/gradle-dependency-submission@main |
 | 2 | lindluni/actions-variable-groups@v2 |
@@ -69,11 +67,11 @@
 | 2 | anchore/scan-action@v3 |
 | 2 | actions/upload-artifact@v3.1.2 |
 | 2 | actions/upload-artifact@v1 |
-| 2 | actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8 # v3.1.0 |
 | 2 | actions/setup-python@v4 |
 | 2 | actions/setup-node@v4 |
 | 2 | actions/setup-java@v4 |
 | 2 | actions/checkout@main |
+| 2 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3.1.0 |
 | 2 | Mattraks/delete-workflow-runs@main |
 | 2 | EnricoMi/publish-unit-test-result-action@v2 |
 | 2 | EnricoMi/publish-unit-test-result-action@v1 |
@@ -90,7 +88,9 @@
 | 1 | samspills/assign-pr-to-author@b313feb250ff414d3aff26525b986f080ee7bd7a # v1.0.2 |
 | 1 | ruby/setup-ruby@v1 |
 | 1 | peaceiris/actions-gh-pages@3 |
+| 1 | ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86 # v2.1.2 |
 | 1 | ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736 # v2.3.1 |
+| 1 | ossf/scorecard-action@05b42c624433fc40578a4040d5cf5e36ddca8cde # v2.4.2 |
 | 1 | mxschmitt/action-tmate@v3 |
 | 1 | mikepenz/gradle-dependency-submission@v0.8.6 |
 | 1 | marocchino/sticky-pull-request-comment@331f8f5b4215f0445d3c07b4967662a32a2d3e31 # v2.9.0 |
@@ -188,7 +188,9 @@
 | 1 | actions/upload-pages-artifact@v3 |
 | 1 | actions/upload-artifact@v3.0.0 |
 | 1 | actions/upload-artifact@v2.2.0 |
+| 1 | actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2 |
 | 1 | actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3 |
+| 1 | actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8 # v3.1.0 |
 | 1 | actions/stale@v8 |
 | 1 | actions/stale@v3.0.14 |
 | 1 | actions/stale@9c1b1c6e115ca2af09755448e0dbba24e5061cc8 # v5.1.1 |
@@ -218,6 +220,7 @@
 | 1 | actions/checkout@v3.0.2 |
 | 1 | actions/checkout@my-other-fake-branch |
 | 1 | actions/checkout@my-fake-branch |
+| 1 | actions/checkout@ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493 # sha not associated to tag |
 | 1 | actions/checkout@f71ab79f16dc8b6696053fa03f046952569bc776 # sha not associated to tag |
 | 1 | actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0 |
 | 1 | actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5 # sha not associated to tag |
