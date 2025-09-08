@@ -7,7 +7,7 @@
 | Count | Action |
 | --- | --- |
 | 56 | actions/checkout@v3 |
-| 53 | actions/checkout@v4 |
+| 54 | actions/checkout@v4 |
 | 17 | actions/checkout@v2 |
 | 11 | actions/upload-artifact@v3 |
 | 9 | azure/login@v1 |
