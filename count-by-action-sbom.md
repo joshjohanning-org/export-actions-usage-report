@@ -6,12 +6,12 @@
 
 | Count | Action |
 | --- | --- |
-| 122 | actions/checkout |
+| 123 | actions/checkout |
 | 28 | actions/upload-artifact |
+| 17 | actions/create-github-app-token |
 | 16 | github/codeql-action/init |
 | 16 | github/codeql-action/analyze |
 | 16 | actions/github-script |
-| 16 | actions/create-github-app-token |
 | 15 | azure/login |
 | 12 | actions/setup-node |
 | 12 | actions/setup-java |
@@ -82,6 +82,7 @@
 | 1 | joshjohanning/generate-sbom-action |
 | 1 | joshjohanning/enforce-github-pat-expiration |
 | 1 | joshjohanning/deployment-frequency |
+| 1 | joshjohanning/bulk-github-repo-sync-action |
 | 1 | joshjohanning/azdo_commit_message_validator |
 | 1 | joshjohanning-org/simple-docker-action/private |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/terraform-plan.yml |
