@@ -15,7 +15,7 @@
 | 9 | actions/github-script@v7 |
 | 9 | actions/github-script@v6 |
 | 9 | actions/create-github-app-token@v2 |
-| 8 | actions/create-github-app-token@v1 |
+| 9 | actions/create-github-app-token@v1 |
 | 7 | actions/download-artifact@v3 |
 | 7 | actions/checkout@v5 |
 | 6 | actions/setup-node@v3 |
@@ -48,6 +48,7 @@
 | 2 | nowactions/update-majorver@v1 |
 | 2 | mikepenz/gradle-dependency-submission@main |
 | 2 | lindluni/actions-variable-groups@v2 |
+| 2 | joshjohanning/approveops@v3 |
 | 2 | joshjohanning/approveops@caad905b2ba78301a0db7f484ef6fe3c770e6985 # v2.0.3 |
 | 2 | joshjohanning-org/simple-docker-action@main |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml@v1 |
@@ -68,7 +69,6 @@
 | 2 | actions/upload-artifact@v3.1.2 |
 | 2 | actions/upload-artifact@v1 |
 | 2 | actions/setup-python@v4 |
-| 2 | actions/setup-node@v4 |
 | 2 | actions/setup-java@v4 |
 | 2 | actions/checkout@main |
 | 2 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3.1.0 |
@@ -107,8 +107,6 @@
 | 1 | joshjohanning/deployment-frequency@main |
 | 1 | joshjohanning/bulk-github-repo-sync-action@v1 |
 | 1 | joshjohanning/azdo_commit_message_validator@only-link-in-pr |
-| 1 | joshjohanning/approveops@v2 |
-| 1 | joshjohanning/approveops@v1 |
 | 1 | joshjohanning/actions-ref-linter@main |
 | 1 | joshjohanning/actions-ref-linter@9957f7df2cb329c99b9d64cb37780f7f6e44859c # sha not associated to tag |
 | 1 | joshjohanning/actions-ref-linter@7e697774a77e23211d582fd55a07b084e4e01e3b # v0.0.1 |
@@ -196,6 +194,8 @@
 | 1 | actions/stale@v3.0.14 |
 | 1 | actions/stale@9c1b1c6e115ca2af09755448e0dbba24e5061cc8 # v5.1.1 |
 | 1 | actions/setup-python@v3 |
+| 1 | actions/setup-node@v5 |
+| 1 | actions/setup-node@v4 |
 | 1 | actions/setup-node@v3.6.0 |
 | 1 | actions/setup-node@v3.1.1 |
 | 1 | actions/setup-node@v2 |

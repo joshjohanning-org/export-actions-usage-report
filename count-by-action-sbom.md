@@ -8,7 +8,7 @@
 | --- | --- |
 | 123 | actions/checkout |
 | 28 | actions/upload-artifact |
-| 17 | actions/create-github-app-token |
+| 18 | actions/create-github-app-token |
 | 16 | github/codeql-action/init |
 | 16 | github/codeql-action/analyze |
 | 16 | actions/github-script |
