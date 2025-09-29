@@ -7,11 +7,58 @@
     "state": "active",
     "created_at": "2024-05-23T16:58:49.000Z",
     "updated_at": "2024-05-23T16:58:49.000Z",
-    "last_run_at": "2025-09-21T07:06:42.000Z",
+    "last_run_at": "2025-09-28T07:07:03.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
       "joshjohanning/organization-readme-badge-generator@v1"
+    ]
+  },
+  {
+    "id": "W_kwDOKboWHs4EQmnZ",
+    "owner": "joshjohanning-org",
+    "repo": "actions-allow-list-as-code",
+    "workflow": ".github/workflows/actions-allow-list.yml",
+    "state": "active",
+    "created_at": "2023-10-03T21:41:43.000Z",
+    "updated_at": "2023-10-03T22:13:17.000Z",
+    "last_run_at": "2025-09-27T15:33:27.000Z",
+    "uses": [
+      "actions/checkout@v5",
+      "actions/create-github-app-token@v2",
+      "ActionsDesk/github-actions-allow-list-as-code-action@70a8510155db03295e18d2bf47494b594f707ee5"
+    ]
+  },
+  {
+    "id": "W_kwDOJa3qQc4ECRJw",
+    "owner": "joshjohanning-org",
+    "repo": "export-actions-usage-report",
+    "workflow": ".github/workflows/action-usage-sbom.yml",
+    "state": "active",
+    "created_at": "2023-08-29T13:33:09.000Z",
+    "updated_at": "2023-08-29T13:33:09.000Z",
+    "last_run_at": "2025-09-22T01:21:42.000Z",
+    "uses": [
+      "actions/checkout@v5",
+      "actions/create-github-app-token@v2",
+      "actions/upload-artifact@v4",
+      "actions/download-artifact@v5"
+    ]
+  },
+  {
+    "id": "W_kwDOJa3qQc4DS7Du",
+    "owner": "joshjohanning-org",
+    "repo": "export-actions-usage-report",
+    "workflow": ".github/workflows/action-usage.yml",
+    "state": "active",
+    "created_at": "2023-04-24T20:35:56.000Z",
+    "updated_at": "2023-04-24T22:31:02.000Z",
+    "last_run_at": "2025-09-22T01:15:58.000Z",
+    "uses": [
+      "actions/checkout@v5",
+      "actions/create-github-app-token@v2",
+      "actions/upload-artifact@v4",
+      "actions/download-artifact@v5"
     ]
   },
   {
@@ -71,38 +118,6 @@
     ]
   },
   {
-    "id": "W_kwDOJa3qQc4ECRJw",
-    "owner": "joshjohanning-org",
-    "repo": "export-actions-usage-report",
-    "workflow": ".github/workflows/action-usage-sbom.yml",
-    "state": "active",
-    "created_at": "2023-08-29T13:33:09.000Z",
-    "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2025-09-15T01:22:18.000Z",
-    "uses": [
-      "actions/checkout@v5",
-      "actions/create-github-app-token@v2",
-      "actions/upload-artifact@v4",
-      "actions/download-artifact@v5"
-    ]
-  },
-  {
-    "id": "W_kwDOJa3qQc4DS7Du",
-    "owner": "joshjohanning-org",
-    "repo": "export-actions-usage-report",
-    "workflow": ".github/workflows/action-usage.yml",
-    "state": "active",
-    "created_at": "2023-04-24T20:35:56.000Z",
-    "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2025-09-15T01:15:44.000Z",
-    "uses": [
-      "actions/checkout@v5",
-      "actions/create-github-app-token@v2",
-      "actions/upload-artifact@v4",
-      "actions/download-artifact@v5"
-    ]
-  },
-  {
     "id": "W_kwDOPsQd-c4LLjWP",
     "owner": "joshjohanning-org",
     "repo": "bulk-github-repo-sync-action-tester",
@@ -110,7 +125,7 @@
     "state": "active",
     "created_at": "2025-09-08T23:07:59.000Z",
     "updated_at": "2025-09-08T23:07:59.000Z",
-    "last_run_at": "2025-09-21T02:13:54.000Z",
+    "last_run_at": "2025-09-28T02:14:09.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
@@ -151,7 +166,7 @@
     "state": "active",
     "created_at": "2025-08-27T18:55:46.000Z",
     "updated_at": "2025-08-27T19:01:00.000Z",
-    "last_run_at": "2025-09-18T05:26:55.000Z",
+    "last_run_at": "2025-09-26T06:06:45.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/setup-example@v1",
@@ -167,7 +182,7 @@
     "state": "active",
     "created_at": "2022-04-06T19:54:19.000Z",
     "updated_at": "2022-07-27T15:11:50.000Z",
-    "last_run_at": "2025-09-11T06:05:01.000Z",
+    "last_run_at": "2025-09-26T06:05:02.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/dependency-review-action@v4"
@@ -181,7 +196,7 @@
     "state": "active",
     "created_at": "2023-04-18T13:56:13.000Z",
     "updated_at": "2025-08-27T18:50:40.000Z",
-    "last_run_at": "2025-09-19T04:28:06.000Z",
+    "last_run_at": "2025-09-26T04:28:27.000Z",
     "uses": [
       "actions/checkout@ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493",
       "ossf/scorecard-action@05b42c624433fc40578a4040d5cf5e36ddca8cde",
@@ -218,21 +233,6 @@
     "uses": [
       "actions/checkout@v4",
       "actions/dependency-review-action@v4"
-    ]
-  },
-  {
-    "id": "W_kwDOKboWHs4EQmnZ",
-    "owner": "joshjohanning-org",
-    "repo": "actions-allow-list-as-code",
-    "workflow": ".github/workflows/actions-allow-list.yml",
-    "state": "active",
-    "created_at": "2023-10-03T21:41:43.000Z",
-    "updated_at": "2023-10-03T22:13:17.000Z",
-    "last_run_at": "2025-08-21T17:42:15.000Z",
-    "uses": [
-      "actions/checkout@v5",
-      "actions/create-github-app-token@v2",
-      "ActionsDesk/github-actions-allow-list-as-code-action@013d3b0b014f3a7656c5b0a28c00fe8c7e41b5e3"
     ]
   },
   {
@@ -429,7 +429,7 @@
     "state": "active",
     "created_at": "2021-12-21T04:53:48.000Z",
     "updated_at": "2025-08-07T17:17:59.000Z",
-    "last_run_at": "2025-09-20T21:35:49.000Z",
+    "last_run_at": "2025-09-27T21:36:01.000Z",
     "uses": [
       "actions/checkout@v4",
       "aquasecurity/tfsec-sarif-action@v0.1.4",
@@ -1552,7 +1552,7 @@
     "state": "active",
     "created_at": "2023-10-11T07:48:48.000Z",
     "updated_at": "2023-10-11T07:49:42.000Z",
-    "last_run_at": "2025-09-18T03:51:52.000Z",
+    "last_run_at": null,
     "uses": [
       "actions/checkout@v3"
     ]
@@ -1565,7 +1565,7 @@
     "state": "active",
     "created_at": "2023-10-09T09:59:54.000Z",
     "updated_at": "2025-08-14T14:26:35.000Z",
-    "last_run_at": "2025-09-16T13:28:37.000Z",
+    "last_run_at": "2025-09-23T13:28:33.000Z",
     "uses": [
       "joshjohanning-org/reusable-workflows/.github/workflows/security-checks.yml@main"
     ]
