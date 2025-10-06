@@ -242,7 +242,7 @@
 | 1 | Azure/k8s-deploy@1.4.* |
 | 1 | Azure/functions-action@238dc3c45bb1b04e5d16ff9e75cddd1d86753bd6 # v1.5.1 |
 | 1 | Azure/aks-set-context@v3 |
-| 1 | ActionsDesk/github-actions-allow-list-as-code-action@013d3b0b014f3a7656c5b0a28c00fe8c7e41b5e3 # v3.1.0 |
+| 1 | ActionsDesk/github-actions-allow-list-as-code-action@70a8510155db03295e18d2bf47494b594f707ee5 # v3.2.1 |
 | 1 | 5monkeys/cobertura-action@master |
 
 📝 **Note**: Count represents unique action@version combinations (with each unique action@version combination only showing up once per repository).
