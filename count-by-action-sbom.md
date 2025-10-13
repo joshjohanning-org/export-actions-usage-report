@@ -6,9 +6,9 @@
 
 | Count | Action |
 | --- | --- |
-| 123 | actions/checkout |
+| 124 | actions/checkout |
 | 28 | actions/upload-artifact |
-| 18 | actions/create-github-app-token |
+| 19 | actions/create-github-app-token |
 | 16 | github/codeql-action/init |
 | 16 | github/codeql-action/analyze |
 | 16 | actions/github-script |
@@ -20,10 +20,10 @@
 | 10 | github/codeql-action/upload-sarif |
 | 7 | stefanbuck/github-issue-parser |
 | 7 | docker/login-action |
+| 6 | actions/dependency-review-action |
 | 6 | actions/cache |
 | 5 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml |
 | 5 | actions/setup-dotnet |
-| 5 | actions/dependency-review-action |
 | 5 | EnricoMi/publish-unit-test-result-action |
 | 4 | marocchino/sticky-pull-request-comment |
 | 4 | joshjohanning/approveops |
@@ -43,6 +43,7 @@
 | 2 | peter-murray/workflow-application-token-action |
 | 2 | nowactions/update-majorver |
 | 2 | lindluni/actions-variable-groups |
+| 2 | joshjohanning/bulk-github-repo-sync-action |
 | 2 | joshjohanning-org/simple-docker-action |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/secrets-sample.yml |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml |
@@ -82,7 +83,6 @@
 | 1 | joshjohanning/generate-sbom-action |
 | 1 | joshjohanning/enforce-github-pat-expiration |
 | 1 | joshjohanning/deployment-frequency |
-| 1 | joshjohanning/bulk-github-repo-sync-action |
 | 1 | joshjohanning/azdo_commit_message_validator |
 | 1 | joshjohanning-org/simple-docker-action/private |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/terraform-plan.yml |

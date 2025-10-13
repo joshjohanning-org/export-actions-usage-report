@@ -6,39 +6,38 @@
 
 | Count | Action |
 | --- | --- |
-| 56 | actions/checkout@v3 |
+| 55 | actions/checkout@v3 |
 | 53 | actions/checkout@v4 |
 | 17 | actions/checkout@v2 |
 | 11 | actions/upload-artifact@v3 |
+| 10 | actions/upload-artifact@v4 |
+| 10 | actions/create-github-app-token@v2 |
 | 9 | azure/login@v1 |
-| 9 | actions/upload-artifact@v4 |
 | 9 | actions/github-script@v7 |
 | 9 | actions/github-script@v6 |
-| 9 | actions/create-github-app-token@v2 |
 | 9 | actions/create-github-app-token@v1 |
+| 9 | actions/checkout@v5 |
 | 7 | actions/download-artifact@v3 |
-| 7 | actions/checkout@v5 |
 | 6 | actions/setup-node@v3 |
 | 6 | actions/setup-java@v3 |
 | 5 | stefanbuck/github-issue-parser@v3 |
 | 5 | github/codeql-action/init@v1 |
 | 5 | github/codeql-action/analyze@v1 |
 | 5 | azure/login@v2 |
-| 4 | github/codeql-action/init@v3 |
 | 4 | github/codeql-action/init@v2 |
 | 4 | github/codeql-action/autobuild@v2 |
 | 4 | github/codeql-action/autobuild@v1 |
-| 4 | github/codeql-action/analyze@v3 |
 | 4 | github/codeql-action/analyze@v2 |
 | 4 | actions/setup-java@v2 |
 | 4 | actions/download-artifact@v4 |
+| 4 | actions/dependency-review-action@v4 |
 | 3 | marocchino/sticky-pull-request-comment@v2 |
 | 3 | github/codeql-action/upload-sarif@v1 |
-| 3 | github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5 # sha not associated to tag |
+| 3 | github/codeql-action/init@v3 |
+| 3 | github/codeql-action/analyze@v3 |
 | 3 | github/actions-oidc-debugger@main |
 | 3 | docker/login-action@v1 |
 | 3 | actions/upload-artifact@v2 |
-| 3 | actions/dependency-review-action@v4 |
 | 3 | actions/dependency-review-action@v3 |
 | 3 | actions/cache@v3 |
 | 2 | whelk-io/maven-settings-xml-action@20.*.* |
@@ -48,6 +47,7 @@
 | 2 | nowactions/update-majorver@v1 |
 | 2 | mikepenz/gradle-dependency-submission@main |
 | 2 | lindluni/actions-variable-groups@v2 |
+| 2 | joshjohanning/bulk-github-repo-sync-action@v1 |
 | 2 | joshjohanning/approveops@v3 |
 | 2 | joshjohanning/approveops@caad905b2ba78301a0db7f484ef6fe3c770e6985 # v2.0.3 |
 | 2 | joshjohanning-org/simple-docker-action@main |
@@ -58,6 +58,7 @@
 | 2 | hashicorp/setup-terraform@v3 |
 | 2 | gradle/gradle-build-action@v2 |
 | 2 | github/codeql-action/upload-sarif@v3 |
+| 2 | github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5 # sha not associated to tag |
 | 2 | github/codeql-action/autobuild@v3 |
 | 2 | dorny/test-reporter@v1 |
 | 2 | docker/login-action@v2 |
@@ -89,8 +90,8 @@
 | 1 | ruby/setup-ruby@v1 |
 | 1 | peaceiris/actions-gh-pages@3 |
 | 1 | ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86 # v2.1.2 |
+| 1 | ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a # v2.4.3 |
 | 1 | ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736 # v2.3.1 |
-| 1 | ossf/scorecard-action@05b42c624433fc40578a4040d5cf5e36ddca8cde # v2.4.2 |
 | 1 | mxschmitt/action-tmate@v3 |
 | 1 | mikepenz/gradle-dependency-submission@v0.8.6 |
 | 1 | marocchino/sticky-pull-request-comment@331f8f5b4215f0445d3c07b4967662a32a2d3e31 # v2.9.0 |
@@ -105,8 +106,7 @@
 | 1 | joshjohanning/generate-sbom-action@joshjohanning%2Fadd-org-to-og |
 | 1 | joshjohanning/enforce-github-pat-expiration@v1 |
 | 1 | joshjohanning/deployment-frequency@main |
-| 1 | joshjohanning/bulk-github-repo-sync-action@v1 |
-| 1 | joshjohanning/azdo_commit_message_validator@only-link-in-pr |
+| 1 | joshjohanning/azdo_commit_message_validator@test-v2.0.1 |
 | 1 | joshjohanning/actions-ref-linter@main |
 | 1 | joshjohanning/actions-ref-linter@9957f7df2cb329c99b9d64cb37780f7f6e44859c # sha not associated to tag |
 | 1 | joshjohanning/actions-ref-linter@7e697774a77e23211d582fd55a07b084e4e01e3b # v0.0.1 |
@@ -147,12 +147,15 @@
 | 1 | gradle/actions/setup-gradle@v3 |
 | 1 | goreleaser/goreleaser-action@v3 |
 | 1 | github/super-linter@v5 |
+| 1 | github/codeql-action/upload-sarif@v4 |
 | 1 | github/codeql-action/upload-sarif@v2 |
 | 1 | github/codeql-action/upload-sarif@cc7986c02bac29104a72998e67239bb5ee2ee110 # sha not associated to tag |
+| 1 | github/codeql-action/init@v4 |
 | 1 | github/codeql-action/init@f31a31c052207cc13b328d6295c5b728bb49568c # sha not associated to tag |
 | 1 | github/codeql-action/init@cc7986c02bac29104a72998e67239bb5ee2ee110 # sha not associated to tag |
 | 1 | github/codeql-action/init@012739e5082ff0c22ca6d6ab32e07c36df03c4a4 # sha not associated to tag |
 | 1 | github/codeql-action/autobuild@012739e5082ff0c22ca6d6ab32e07c36df03c4a4 # sha not associated to tag |
+| 1 | github/codeql-action/analyze@v4 |
 | 1 | github/codeql-action/analyze@f31a31c052207cc13b328d6295c5b728bb49568c # sha not associated to tag |
 | 1 | github/codeql-action/analyze@cc7986c02bac29104a72998e67239bb5ee2ee110 # sha not associated to tag |
 | 1 | github/codeql-action/analyze@012739e5082ff0c22ca6d6ab32e07c36df03c4a4 # sha not associated to tag |
@@ -187,7 +190,6 @@
 | 1 | actions/upload-pages-artifact@v3 |
 | 1 | actions/upload-artifact@v3.0.0 |
 | 1 | actions/upload-artifact@v2.2.0 |
-| 1 | actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2 |
 | 1 | actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3 |
 | 1 | actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8 # v3.1.0 |
 | 1 | actions/stale@v8 |
@@ -221,7 +223,6 @@
 | 1 | actions/checkout@v3.0.2 |
 | 1 | actions/checkout@my-other-fake-branch |
 | 1 | actions/checkout@my-fake-branch |
-| 1 | actions/checkout@ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493 # sha not associated to tag |
 | 1 | actions/checkout@f71ab79f16dc8b6696053fa03f046952569bc776 # sha not associated to tag |
 | 1 | actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0 |
 | 1 | actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5 # sha not associated to tag |
