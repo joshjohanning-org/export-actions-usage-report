@@ -12,11 +12,11 @@
 | 11 | actions/upload-artifact@v3 |
 | 10 | actions/upload-artifact@v4 |
 | 10 | actions/create-github-app-token@v2 |
+| 10 | actions/checkout@v5 |
 | 9 | azure/login@v1 |
-| 9 | actions/github-script@v7 |
 | 9 | actions/github-script@v6 |
 | 9 | actions/create-github-app-token@v1 |
-| 9 | actions/checkout@v5 |
+| 8 | actions/github-script@v7 |
 | 7 | actions/download-artifact@v3 |
 | 6 | actions/setup-node@v3 |
 | 6 | actions/setup-java@v3 |
@@ -29,7 +29,6 @@
 | 4 | github/codeql-action/autobuild@v1 |
 | 4 | github/codeql-action/analyze@v2 |
 | 4 | actions/setup-java@v2 |
-| 4 | actions/download-artifact@v4 |
 | 4 | actions/dependency-review-action@v4 |
 | 3 | marocchino/sticky-pull-request-comment@v2 |
 | 3 | github/codeql-action/upload-sarif@v1 |
@@ -38,6 +37,7 @@
 | 3 | github/actions-oidc-debugger@main |
 | 3 | docker/login-action@v1 |
 | 3 | actions/upload-artifact@v2 |
+| 3 | actions/download-artifact@v4 |
 | 3 | actions/dependency-review-action@v3 |
 | 3 | actions/cache@v3 |
 | 2 | whelk-io/maven-settings-xml-action@20.*.* |
@@ -49,7 +49,6 @@
 | 2 | lindluni/actions-variable-groups@v2 |
 | 2 | joshjohanning/bulk-github-repo-sync-action@v1 |
 | 2 | joshjohanning/approveops@v3 |
-| 2 | joshjohanning/approveops@caad905b2ba78301a0db7f484ef6fe3c770e6985 # v2.0.3 |
 | 2 | joshjohanning-org/simple-docker-action@main |
 | 2 | joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml@v1 |
 | 2 | joshjohanning-org/nested-reusable-workflows/.github/workflows/nested1.yml@main |
@@ -60,7 +59,6 @@
 | 2 | github/codeql-action/upload-sarif@v3 |
 | 2 | github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5 # sha not associated to tag |
 | 2 | github/codeql-action/autobuild@v3 |
-| 2 | dorny/test-reporter@v1 |
 | 2 | docker/login-action@v2 |
 | 2 | docker/build-push-action@v2 |
 | 2 | azure/webapps-deploy@v2 |
@@ -70,7 +68,7 @@
 | 2 | actions/upload-artifact@v3.1.2 |
 | 2 | actions/upload-artifact@v1 |
 | 2 | actions/setup-python@v4 |
-| 2 | actions/setup-java@v4 |
+| 2 | actions/download-artifact@v5 |
 | 2 | actions/checkout@main |
 | 2 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3.1.0 |
 | 2 | Mattraks/delete-workflow-runs@main |
@@ -79,6 +77,8 @@
 | 1 | zgosalvez/github-actions-ensure-sha-pinned-actions@f32435541e24cd6a4700a7f52bb2ec59e80603b1 # v2.1.4 |
 | 1 | zbazztian/filter-sarif@master |
 | 1 | wangyoucao577/go-release-action@1.49.* |
+| 1 | tj-actions/changed-files@v45.0.2 |
+| 1 | tj-actions/changed-files@v35.9.3 |
 | 1 | terraform-linters/setup-tflint@v3 |
 | 1 | step-security/harden-runner@2e205a28d0e1da00c5f53b161f4067b052c61f34 # v1.5.0 |
 | 1 | stefanbuck/github-issue-parser@v3.0.1 |
@@ -107,6 +107,8 @@
 | 1 | joshjohanning/enforce-github-pat-expiration@v1 |
 | 1 | joshjohanning/deployment-frequency@main |
 | 1 | joshjohanning/azdo_commit_message_validator@test-v2.0.1 |
+| 1 | joshjohanning/approveops@ea8d370464b061d376c2c429ae504fe472bce31b # v3.0.1 |
+| 1 | joshjohanning/approveops@caad905b2ba78301a0db7f484ef6fe3c770e6985 # v2.0.3 |
 | 1 | joshjohanning/actions-ref-linter@main |
 | 1 | joshjohanning/actions-ref-linter@9957f7df2cb329c99b9d64cb37780f7f6e44859c # sha not associated to tag |
 | 1 | joshjohanning/actions-ref-linter@7e697774a77e23211d582fd55a07b084e4e01e3b # v0.0.1 |
@@ -160,6 +162,8 @@
 | 1 | github/codeql-action/analyze@cc7986c02bac29104a72998e67239bb5ee2ee110 # sha not associated to tag |
 | 1 | github/codeql-action/analyze@012739e5082ff0c22ca6d6ab32e07c36df03c4a4 # sha not associated to tag |
 | 1 | eregon/publish-release@v1 |
+| 1 | dorny/test-reporter@v2 |
+| 1 | dorny/test-reporter@v1 |
 | 1 | docker/setup-qemu-action@v2.1.0 |
 | 1 | docker/setup-buildx-action@v2 |
 | 1 | docker/setup-buildx-action@v1 |
@@ -202,6 +206,8 @@
 | 1 | actions/setup-node@v3.1.1 |
 | 1 | actions/setup-node@v2 |
 | 1 | actions/setup-node@main |
+| 1 | actions/setup-java@v5 |
+| 1 | actions/setup-java@v4 |
 | 1 | actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4.2.1 |
 | 1 | actions/setup-go@v5 |
 | 1 | actions/setup-go@v4 |
@@ -212,8 +218,8 @@
 | 1 | actions/setup-dotnet@4d4a70f4a5b2a5a5329f13be4ac933f2c9206ac0 # v3.0.2 |
 | 1 | actions/setup-dotnet@1 |
 | 1 | actions/labeler@5c7539237e04b714afd8ad9b4aed733815b9fab4 # v4.0.2 |
+| 1 | actions/github-script@v8 |
 | 1 | actions/first-interaction@v1.1.1 |
-| 1 | actions/download-artifact@v5 |
 | 1 | actions/deploy-pages@v4 |
 | 1 | actions/create-release@v1 |
 | 1 | actions/configure-pages@v4 |

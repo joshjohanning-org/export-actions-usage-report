@@ -6,7 +6,7 @@
 
 | Count | Action |
 | --- | --- |
-| 124 | actions/checkout |
+| 125 | actions/checkout |
 | 28 | actions/upload-artifact |
 | 19 | actions/create-github-app-token |
 | 16 | github/codeql-action/init |
@@ -65,6 +65,7 @@
 | 1 | zgosalvez/github-actions-ensure-sha-pinned-actions |
 | 1 | zbazztian/filter-sarif |
 | 1 | wangyoucao577/go-release-action |
+| 1 | tj-actions/changed-files |
 | 1 | terraform-linters/setup-tflint |
 | 1 | step-security/harden-runner |
 | 1 | srggrs/assign-one-project-github-action |
