@@ -9,7 +9,7 @@
 | 54 | actions/checkout@v3 |
 | 52 | actions/checkout@v4 |
 | 17 | actions/checkout@v2 |
-| 12 | actions/checkout@v5 |
+| 13 | actions/checkout@v5 |
 | 11 | actions/upload-artifact@v3 |
 | 10 | actions/upload-artifact@v4 |
 | 10 | actions/create-github-app-token@v2 |
@@ -97,18 +97,34 @@
 | 1 | marocchino/sticky-pull-request-comment@331f8f5b4215f0445d3c07b4967662a32a2d3e31 # v2.9.0 |
 | 1 | lindluni/actions-variable-groups@v3 |
 | 1 | lindluni/actions-variable-groups@v2.5.0 |
+| 1 | joshjohanning/twistlock-results-json-to-markdown-action@v1.0.5 |
 | 1 | joshjohanning/trigger-workflow-and-wait-composite@github-app-auth |
+| 1 | joshjohanning/text-to-emoji-action@v1.0.0 |
 | 1 | joshjohanning/text-to-emoji-action@v1 |
+| 1 | joshjohanning/revoke-github-ssh-key-sso-authorization@v1.0.0 |
 | 1 | joshjohanning/revoke-github-ssh-key-sso-authorization@main |
 | 1 | joshjohanning/replace-tokens@1.4.* |
+| 1 | joshjohanning/publish-github-action@v2.2.0 |
+| 1 | joshjohanning/organization-readme-badge-generator@v1.0.4 |
 | 1 | joshjohanning/organization-readme-badge-generator@v1 |
+| 1 | joshjohanning/npm-version-check-action@v1.0.9 |
+| 1 | joshjohanning/nodejs-actions-starter-template@v1.0.4 |
+| 1 | joshjohanning/nodejs-actions-starter-template@4e6048e65c6d587678a6703a13d116cc3fec0776 # v1.0.4 |
 | 1 | joshjohanning/lead-time-for-changes@main |
 | 1 | joshjohanning/generate-sbom-action@joshjohanning%2Fadd-org-to-og |
+| 1 | joshjohanning/generate-org-repos-sbom-action@v1.0.0 |
+| 1 | joshjohanning/ensure-immutable-actions@v1.0.1 |
+| 1 | joshjohanning/enforce-github-pat-expiration@v1.0.1 |
 | 1 | joshjohanning/enforce-github-pat-expiration@v1 |
 | 1 | joshjohanning/deployment-frequency@main |
-| 1 | joshjohanning/azdo_commit_message_validator@test-v2.0.1 |
+| 1 | joshjohanning/bulk-github-repo-sync-action@v1.0.6 |
+| 1 | joshjohanning/bulk-github-repo-settings-sync-action@v1.1.3 |
+| 1 | joshjohanning/azdo_commit_message_validator@v3.0.1 |
+| 1 | joshjohanning/azdo_commit_message_validator@v3 |
+| 1 | joshjohanning/approveops@v3.0.2 |
 | 1 | joshjohanning/approveops@ea8d370464b061d376c2c429ae504fe472bce31b # v3.0.1 |
 | 1 | joshjohanning/approveops@caad905b2ba78301a0db7f484ef6fe3c770e6985 # v2.0.3 |
+| 1 | joshjohanning/actions-ref-linter@v0.0.1 |
 | 1 | joshjohanning/actions-ref-linter@main |
 | 1 | joshjohanning/actions-ref-linter@9957f7df2cb329c99b9d64cb37780f7f6e44859c # sha not associated to tag |
 | 1 | joshjohanning/actions-ref-linter@7e697774a77e23211d582fd55a07b084e4e01e3b # v0.0.1 |
