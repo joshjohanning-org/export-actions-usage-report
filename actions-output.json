@@ -7,11 +7,112 @@
     "state": "active",
     "created_at": "2024-05-23T16:58:49.000Z",
     "updated_at": "2024-05-23T16:58:49.000Z",
-    "last_run_at": "2025-11-02T07:07:45.000Z",
+    "last_run_at": "2025-11-09T07:07:07.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
       "joshjohanning/organization-readme-badge-generator@v1"
+    ]
+  },
+  {
+    "id": "W_kwDOQRdB384MODsF",
+    "owner": "joshjohanning-org",
+    "repo": "test-ensure-immutable-actions-action",
+    "workflow": ".github/workflows/ensure-immutable-actions.yml",
+    "state": "active",
+    "created_at": "2025-11-07T22:51:55.000Z",
+    "updated_at": "2025-11-07T22:51:55.000Z",
+    "last_run_at": "2025-11-08T02:21:27.000Z",
+    "uses": [
+      "actions/checkout@v5",
+      "joshjohanning/ensure-immutable-actions@v1.0.1"
+    ]
+  },
+  {
+    "id": "W_kwDOQRdB384MODsG",
+    "owner": "joshjohanning-org",
+    "repo": "test-ensure-immutable-actions-action",
+    "workflow": ".github/workflows/my-actions.yml",
+    "state": "active",
+    "created_at": "2025-11-07T22:51:55.000Z",
+    "updated_at": "2025-11-07T22:51:55.000Z",
+    "last_run_at": null,
+    "uses": [
+      "joshjohanning/approveops@v3.0.2",
+      "joshjohanning/azdo_commit_message_validator@v3.0.1",
+      "joshjohanning/bulk-github-repo-sync-action@v1.0.6",
+      "joshjohanning/enforce-github-pat-expiration@v1.0.1",
+      "joshjohanning/twistlock-results-json-to-markdown-action@v1.0.5",
+      "joshjohanning/actions-ref-linter@v0.0.1",
+      "joshjohanning/bulk-github-repo-settings-sync-action@v1.1.3",
+      "joshjohanning/organization-readme-badge-generator@v1.0.4",
+      "joshjohanning/revoke-github-ssh-key-sso-authorization@v1.0.0",
+      "joshjohanning/ensure-immutable-actions@v1.0.1",
+      "joshjohanning/nodejs-actions-starter-template@v1.0.4",
+      "joshjohanning/text-to-emoji-action@v1.0.0",
+      "joshjohanning/npm-version-check-action@v1.0.9",
+      "joshjohanning/publish-github-action@v2.2.0",
+      "joshjohanning/generate-org-repos-sbom-action@v1.0.0",
+      "joshjohanning/nodejs-actions-starter-template@4e6048e65c6d587678a6703a13d116cc3fec0776"
+    ]
+  },
+  {
+    "id": "W_kwDOH1fHpc4B8fKx",
+    "owner": "joshjohanning-org",
+    "repo": "azdo-commit-message-enforcer-testing",
+    "workflow": ".github/workflows/build.yml",
+    "state": "active",
+    "created_at": "2022-08-17T18:13:41.000Z",
+    "updated_at": "2022-08-17T18:13:41.000Z",
+    "last_run_at": "2025-11-06T02:57:06.000Z",
+    "uses": [
+      "actions/checkout@v3"
+    ]
+  },
+  {
+    "id": "W_kwDOH1fHpc4B8fKo",
+    "owner": "joshjohanning-org",
+    "repo": "azdo-commit-message-enforcer-testing",
+    "workflow": ".github/workflows/pr-commit-message-enforcer-and-linker.yml",
+    "state": "active",
+    "created_at": "2022-08-17T18:13:23.000Z",
+    "updated_at": "2022-08-17T18:13:23.000Z",
+    "last_run_at": "2025-11-06T02:57:21.000Z",
+    "uses": [
+      "actions/checkout@v3",
+      "joshjohanning/azdo_commit_message_validator@v3"
+    ]
+  },
+  {
+    "id": "W_kwDOJa3qQc4ECRJw",
+    "owner": "joshjohanning-org",
+    "repo": "export-actions-usage-report",
+    "workflow": ".github/workflows/action-usage-sbom.yml",
+    "state": "active",
+    "created_at": "2023-08-29T13:33:09.000Z",
+    "updated_at": "2023-08-29T13:33:09.000Z",
+    "last_run_at": "2025-11-03T01:23:03.000Z",
+    "uses": [
+      "actions/checkout@v5",
+      "actions/create-github-app-token@v2",
+      "actions/upload-artifact@v4",
+      "actions/download-artifact@v5"
+    ]
+  },
+  {
+    "id": "W_kwDOJa3qQc4DS7Du",
+    "owner": "joshjohanning-org",
+    "repo": "export-actions-usage-report",
+    "workflow": ".github/workflows/action-usage.yml",
+    "state": "active",
+    "created_at": "2023-04-24T20:35:56.000Z",
+    "updated_at": "2023-04-24T22:31:02.000Z",
+    "last_run_at": "2025-11-03T01:15:46.000Z",
+    "uses": [
+      "actions/checkout@v5",
+      "actions/create-github-app-token@v2",
+      "actions/upload-artifact@v4",
+      "actions/download-artifact@v5"
     ]
   },
   {
@@ -22,7 +123,7 @@
     "state": "active",
     "created_at": "2025-03-19T13:33:02.000Z",
     "updated_at": "2025-03-19T13:38:02.000Z",
-    "last_run_at": "2025-10-29T12:23:09.000Z",
+    "last_run_at": "2025-11-03T06:24:49.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/setup-dotnet@v4",
@@ -45,38 +146,6 @@
     "uses": [
       "actions/checkout@v5",
       "azure/login@v2"
-    ]
-  },
-  {
-    "id": "W_kwDOJa3qQc4ECRJw",
-    "owner": "joshjohanning-org",
-    "repo": "export-actions-usage-report",
-    "workflow": ".github/workflows/action-usage-sbom.yml",
-    "state": "active",
-    "created_at": "2023-08-29T13:33:09.000Z",
-    "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2025-10-27T01:22:08.000Z",
-    "uses": [
-      "actions/checkout@v5",
-      "actions/create-github-app-token@v2",
-      "actions/upload-artifact@v4",
-      "actions/download-artifact@v5"
-    ]
-  },
-  {
-    "id": "W_kwDOJa3qQc4DS7Du",
-    "owner": "joshjohanning-org",
-    "repo": "export-actions-usage-report",
-    "workflow": ".github/workflows/action-usage.yml",
-    "state": "active",
-    "created_at": "2023-04-24T20:35:56.000Z",
-    "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2025-10-27T01:15:37.000Z",
-    "uses": [
-      "actions/checkout@v5",
-      "actions/create-github-app-token@v2",
-      "actions/upload-artifact@v4",
-      "actions/download-artifact@v5"
     ]
   },
   {
@@ -120,7 +189,7 @@
     "state": "active",
     "created_at": "2024-05-08T20:11:01.000Z",
     "updated_at": "2024-05-08T20:11:01.000Z",
-    "last_run_at": "2025-10-07T11:09:59.000Z",
+    "last_run_at": "2025-11-05T11:08:51.000Z",
     "uses": [
       "actions/checkout@v5"
     ]
@@ -442,7 +511,7 @@
     "state": "active",
     "created_at": "2025-10-06T14:19:57.000Z",
     "updated_at": "2025-10-06T14:19:57.000Z",
-    "last_run_at": "2025-11-03T00:40:42.000Z",
+    "last_run_at": "2025-11-10T00:40:57.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
@@ -457,7 +526,7 @@
     "state": "active",
     "created_at": "2025-08-27T18:55:46.000Z",
     "updated_at": "2025-08-27T19:01:00.000Z",
-    "last_run_at": "2025-10-30T05:27:19.000Z",
+    "last_run_at": "2025-11-06T05:27:33.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/setup-example@v1",
@@ -487,39 +556,12 @@
     "state": "active",
     "created_at": "2023-04-18T13:56:13.000Z",
     "updated_at": "2025-08-27T18:50:40.000Z",
-    "last_run_at": "2025-10-31T04:28:19.000Z",
+    "last_run_at": "2025-11-07T04:28:06.000Z",
     "uses": [
       "actions/checkout@v5",
       "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
       "actions/upload-artifact@v4",
       "github/codeql-action/upload-sarif@v4"
-    ]
-  },
-  {
-    "id": "W_kwDOH1fHpc4B8fKx",
-    "owner": "joshjohanning-org",
-    "repo": "azdo-commit-message-enforcer-testing",
-    "workflow": ".github/workflows/build.yml",
-    "state": "active",
-    "created_at": "2022-08-17T18:13:41.000Z",
-    "updated_at": "2022-08-17T18:13:41.000Z",
-    "last_run_at": "2025-10-07T15:53:10.000Z",
-    "uses": [
-      "actions/checkout@v3"
-    ]
-  },
-  {
-    "id": "W_kwDOH1fHpc4B8fKo",
-    "owner": "joshjohanning-org",
-    "repo": "azdo-commit-message-enforcer-testing",
-    "workflow": ".github/workflows/pr-commit-message-enforcer-and-linker.yml",
-    "state": "active",
-    "created_at": "2022-08-17T18:13:23.000Z",
-    "updated_at": "2022-08-17T18:13:23.000Z",
-    "last_run_at": "2025-10-07T15:52:24.000Z",
-    "uses": [
-      "actions/checkout@v3",
-      "joshjohanning/azdo_commit_message_validator@test-v2.0.1"
     ]
   },
   {
@@ -587,7 +629,7 @@
     "state": "active",
     "created_at": "2022-07-10T02:10:56.000Z",
     "updated_at": "2023-03-07T21:45:36.000Z",
-    "last_run_at": "2025-10-07T01:01:07.000Z",
+    "last_run_at": "2025-11-05T02:09:32.000Z",
     "uses": [
       "actions/create-github-app-token@v1",
       "joshjohanning/approveops@v3"
@@ -598,10 +640,10 @@
     "owner": "joshjohanning-org",
     "repo": "bulk-github-repo-sync-action-tester",
     "workflow": ".github/workflows/sync.yml",
-    "state": "active",
+    "state": "disabled_inactivity",
     "created_at": "2025-09-08T23:07:59.000Z",
-    "updated_at": "2025-09-08T23:07:59.000Z",
-    "last_run_at": "2025-11-02T02:16:40.000Z",
+    "updated_at": "2025-11-09T02:15:17.000Z",
+    "last_run_at": "2025-11-09T02:15:48.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
@@ -660,7 +702,7 @@
     "state": "active",
     "created_at": "2025-08-13T14:38:43.000Z",
     "updated_at": "2025-08-13T14:38:43.000Z",
-    "last_run_at": "2025-10-07T04:30:00.000Z",
+    "last_run_at": "2025-11-05T04:26:29.000Z",
     "uses": [
       "actions/checkout@v5",
       "issue-ops/parser@76d5aa095754de1493cbe41934484c4287e16350",
@@ -709,7 +751,7 @@
     "state": "active",
     "created_at": "2025-08-13T14:38:43.000Z",
     "updated_at": "2025-08-13T14:38:43.000Z",
-    "last_run_at": "2025-10-07T04:30:00.000Z",
+    "last_run_at": "2025-11-05T04:26:29.000Z",
     "uses": [
       "actions/checkout@v5"
     ]
@@ -722,7 +764,7 @@
     "state": "active",
     "created_at": "2025-08-13T14:38:43.000Z",
     "updated_at": "2025-08-13T14:38:43.000Z",
-    "last_run_at": "2025-10-07T04:30:01.000Z",
+    "last_run_at": "2025-11-05T04:26:29.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
@@ -3560,7 +3602,7 @@
     "state": "active",
     "created_at": "2023-03-23T14:00:57.000Z",
     "updated_at": "2023-03-23T14:34:28.000Z",
-    "last_run_at": "2024-10-03T22:21:41.000Z",
+    "last_run_at": "2025-11-08T15:13:29.000Z",
     "uses": [
       "actions/checkout@24cb9080177205b6e8c946b17badbe402adc938f",
       "actions/upload-artifact@v3.1.2",
@@ -4297,7 +4339,7 @@
     "state": "active",
     "created_at": "2022-01-07T16:02:08.000Z",
     "updated_at": "2022-01-07T16:02:31.000Z",
-    "last_run_at": "2024-10-03T18:33:40.000Z",
+    "last_run_at": "2025-11-08T12:38:09.000Z",
     "uses": [
       "actions/checkout@v2",
       "actions/setup-java@v2",
