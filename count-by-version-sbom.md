@@ -122,8 +122,8 @@
 | 1 | joshjohanning/azdo_commit_message_validator@v3.0.1 |
 | 1 | joshjohanning/azdo_commit_message_validator@v3 |
 | 1 | joshjohanning/approveops@v3.0.2 |
-| 1 | joshjohanning/approveops@ea8d370464b061d376c2c429ae504fe472bce31b # v3.0.1 |
 | 1 | joshjohanning/approveops@caad905b2ba78301a0db7f484ef6fe3c770e6985 # v2.0.3 |
+| 1 | joshjohanning/approveops@a3ba1287a094ec26985c5c35191f5ecf4b591eb1 # v3.0.2 |
 | 1 | joshjohanning/actions-ref-linter@v0.0.1 |
 | 1 | joshjohanning/actions-ref-linter@main |
 | 1 | joshjohanning/actions-ref-linter@9957f7df2cb329c99b9d64cb37780f7f6e44859c # sha not associated to tag |
