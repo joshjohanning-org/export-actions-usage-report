@@ -9,7 +9,7 @@
 | 54 | actions/checkout@v3 |
 | 52 | actions/checkout@v4 |
 | 17 | actions/checkout@v2 |
-| 13 | actions/checkout@v5 |
+| 12 | actions/checkout@v5 |
 | 11 | actions/upload-artifact@v3 |
 | 10 | actions/upload-artifact@v4 |
 | 10 | actions/create-github-app-token@v2 |
@@ -239,6 +239,7 @@
 | 1 | actions/deploy-pages@v4 |
 | 1 | actions/create-release@v1 |
 | 1 | actions/configure-pages@v4 |
+| 1 | actions/checkout@v6 |
 | 1 | actions/checkout@v3.5.2 |
 | 1 | actions/checkout@v3.3.0 |
 | 1 | actions/checkout@v3.1.0 |
