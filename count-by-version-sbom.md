@@ -9,8 +9,8 @@
 | 54 | actions/checkout@v3 |
 | 52 | actions/checkout@v4 |
 | 17 | actions/checkout@v2 |
-| 12 | actions/checkout@v5 |
 | 11 | actions/upload-artifact@v3 |
+| 11 | actions/checkout@v5 |
 | 10 | actions/upload-artifact@v4 |
 | 10 | actions/create-github-app-token@v2 |
 | 9 | actions/github-script@v6 |
@@ -69,6 +69,7 @@
 | 2 | actions/upload-artifact@v1 |
 | 2 | actions/setup-python@v4 |
 | 2 | actions/download-artifact@v5 |
+| 2 | actions/checkout@v6 |
 | 2 | actions/checkout@main |
 | 2 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3.1.0 |
 | 2 | Mattraks/delete-workflow-runs@main |
@@ -113,15 +114,16 @@
 | 1 | joshjohanning/lead-time-for-changes@main |
 | 1 | joshjohanning/generate-sbom-action@joshjohanning%2Fadd-org-to-og |
 | 1 | joshjohanning/generate-org-repos-sbom-action@v1.0.0 |
+| 1 | joshjohanning/ensure-immutable-actions@v1.0.3 |
 | 1 | joshjohanning/ensure-immutable-actions@v1.0.1 |
 | 1 | joshjohanning/enforce-github-pat-expiration@v1.0.1 |
 | 1 | joshjohanning/enforce-github-pat-expiration@v1 |
 | 1 | joshjohanning/deployment-frequency@main |
-| 1 | joshjohanning/bulk-github-repo-sync-action@v1.0.6 |
-| 1 | joshjohanning/bulk-github-repo-settings-sync-action@v1.1.3 |
+| 1 | joshjohanning/bulk-github-repo-sync-action@v1.0.7 |
+| 1 | joshjohanning/bulk-github-repo-settings-sync-action@v1.2.1 |
 | 1 | joshjohanning/azdo_commit_message_validator@v3.0.1 |
 | 1 | joshjohanning/azdo_commit_message_validator@v3 |
-| 1 | joshjohanning/approveops@v3.0.2 |
+| 1 | joshjohanning/approveops@v3.0.3 |
 | 1 | joshjohanning/approveops@caad905b2ba78301a0db7f484ef6fe3c770e6985 # v2.0.3 |
 | 1 | joshjohanning/approveops@a3ba1287a094ec26985c5c35191f5ecf4b591eb1 # v3.0.2 |
 | 1 | joshjohanning/actions-ref-linter@v0.0.1 |
@@ -239,7 +241,6 @@
 | 1 | actions/deploy-pages@v4 |
 | 1 | actions/create-release@v1 |
 | 1 | actions/configure-pages@v4 |
-| 1 | actions/checkout@v6 |
 | 1 | actions/checkout@v3.5.2 |
 | 1 | actions/checkout@v3.3.0 |
 | 1 | actions/checkout@v3.1.0 |
