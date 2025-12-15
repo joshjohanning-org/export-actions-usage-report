@@ -65,7 +65,7 @@ jobs:
           EOF
           cat count-by-action-sbom.md >> $GITHUB_STEP_SUMMARY
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: count-by-action
           path: count-by-action-sbom.md
@@ -134,7 +134,7 @@ jobs:
           EOF
           cat count-by-version-sbom.md >> $GITHUB_STEP_SUMMARY
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: count-by-version
           path: count-by-version-sbom.md
