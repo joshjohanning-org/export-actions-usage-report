@@ -7,7 +7,7 @@
     "state": "active",
     "created_at": "2024-05-23T16:58:49.000Z",
     "updated_at": "2024-05-23T16:58:49.000Z",
-    "last_run_at": "2025-12-28T07:08:13.000Z",
+    "last_run_at": "2026-01-04T07:09:13.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
@@ -22,7 +22,7 @@
     "state": "active",
     "created_at": "2023-08-29T13:33:09.000Z",
     "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2025-12-22T01:22:33.000Z",
+    "last_run_at": "2025-12-29T01:22:11.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
@@ -38,7 +38,7 @@
     "state": "active",
     "created_at": "2023-04-24T20:35:56.000Z",
     "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2025-12-22T01:14:46.000Z",
+    "last_run_at": "2025-12-29T01:15:44.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
@@ -541,7 +541,7 @@
     "state": "active",
     "created_at": "2025-08-27T18:55:46.000Z",
     "updated_at": "2025-08-27T19:01:00.000Z",
-    "last_run_at": "2025-12-25T05:28:04.000Z",
+    "last_run_at": "2026-01-01T05:28:50.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/setup-example@v1",
@@ -571,7 +571,7 @@
     "state": "active",
     "created_at": "2023-04-18T13:56:13.000Z",
     "updated_at": "2025-08-27T18:50:40.000Z",
-    "last_run_at": "2025-12-26T04:30:16.000Z",
+    "last_run_at": "2026-01-02T04:31:15.000Z",
     "uses": [
       "actions/checkout@v5",
       "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
@@ -613,10 +613,10 @@
     "owner": "joshjohanning-org",
     "repo": "contexts-testing",
     "workflow": ".github/workflows/contexts.yml",
-    "state": "active",
+    "state": "disabled_inactivity",
     "created_at": "2022-02-04T03:42:06.000Z",
-    "updated_at": "2022-02-04T03:42:06.000Z",
-    "last_run_at": "2025-12-12T16:48:44.000Z",
+    "updated_at": "2026-01-01T00:19:49.000Z",
+    "last_run_at": "2026-01-01T00:20:06.000Z",
     "uses": [
       "actions/setup-node@v5"
     ]
@@ -1628,7 +1628,7 @@
     "state": "active",
     "created_at": "2023-10-09T11:41:41.000Z",
     "updated_at": "2023-10-09T11:41:41.000Z",
-    "last_run_at": "2025-12-13T12:07:04.000Z",
+    "last_run_at": null,
     "uses": [
       "joshjohanning-org/reusable-workflows/.github/workflows/azure-oidc-sample.yml@v1",
       "github/actions-oidc-debugger@main"
@@ -1656,7 +1656,7 @@
     "state": "active",
     "created_at": "2022-02-04T14:12:01.000Z",
     "updated_at": "2022-02-04T14:12:47.000Z",
-    "last_run_at": "2025-12-12T14:03:59.000Z",
+    "last_run_at": null,
     "uses": [
       "irongut/CodeCoverageSummary@v1.2.0",
       "actions/checkout@main"
@@ -1684,7 +1684,7 @@
     "state": "active",
     "created_at": "2024-11-06T14:55:48.000Z",
     "updated_at": "2024-11-06T14:55:48.000Z",
-    "last_run_at": "2025-12-12T13:58:15.000Z",
+    "last_run_at": null,
     "uses": [
       "actions/checkout@v4"
     ]
@@ -4080,7 +4080,7 @@
     "state": "active",
     "created_at": "2022-05-06T13:06:55.000Z",
     "updated_at": "2022-05-06T13:06:55.000Z",
-    "last_run_at": "2025-12-14T00:37:02.000Z",
+    "last_run_at": null,
     "uses": [
       "joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml@v1.0.5"
     ]
