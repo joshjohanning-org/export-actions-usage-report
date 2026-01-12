@@ -6,7 +6,7 @@
 
 | Count | Action |
 | --- | --- |
-| 126 | actions/checkout |
+| 127 | actions/checkout |
 | 28 | actions/upload-artifact |
 | 19 | actions/create-github-app-token |
 | 16 | github/codeql-action/init |
@@ -20,8 +20,8 @@
 | 10 | github/codeql-action/upload-sarif |
 | 7 | stefanbuck/github-issue-parser |
 | 7 | docker/login-action |
+| 7 | actions/cache |
 | 6 | actions/dependency-review-action |
-| 6 | actions/cache |
 | 5 | joshjohanning/approveops |
 | 5 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml |
 | 5 | actions/setup-dotnet |
