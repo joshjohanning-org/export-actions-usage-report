@@ -33,6 +33,8 @@ jobs:
         run: |
           npm install @stoe/action-reporting-cli --global
           npx @stoe/action-reporting-cli --owner ${{ env.ORG }} --uses --csv actions-output.csv --md actions-output.md --json actions-output.json
+          # https://github.com/stoe/action-reporting-cli
+          # in addition to `--uses`, you can also use `--permissions`, `--listeners`, `--runs-on`, `--secrets`, `--vars`, or otherwise, `--all`
         env: 
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           ORG: ${{ github.repository_owner }}
