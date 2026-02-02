@@ -7,11 +7,43 @@
     "state": "active",
     "created_at": "2024-05-23T16:58:49.000Z",
     "updated_at": "2024-05-23T16:58:49.000Z",
-    "last_run_at": "2026-01-25T07:07:51.000Z",
+    "last_run_at": "2026-02-01T07:18:34.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
       "joshjohanning/organization-readme-badge-generator@v1"
+    ]
+  },
+  {
+    "id": "W_kwDOJa3qQc4ECRJw",
+    "owner": "joshjohanning-org",
+    "repo": "export-actions-usage-report",
+    "workflow": ".github/workflows/action-usage-sbom.yml",
+    "state": "active",
+    "created_at": "2023-08-29T13:33:09.000Z",
+    "updated_at": "2023-08-29T13:33:09.000Z",
+    "last_run_at": "2026-01-26T01:22:41.000Z",
+    "uses": [
+      "actions/checkout@v6",
+      "actions/create-github-app-token@v2",
+      "actions/upload-artifact@v6",
+      "actions/download-artifact@v7"
+    ]
+  },
+  {
+    "id": "W_kwDOJa3qQc4DS7Du",
+    "owner": "joshjohanning-org",
+    "repo": "export-actions-usage-report",
+    "workflow": ".github/workflows/action-usage.yml",
+    "state": "active",
+    "created_at": "2023-04-24T20:35:56.000Z",
+    "updated_at": "2023-04-24T22:31:02.000Z",
+    "last_run_at": "2026-01-26T01:15:04.000Z",
+    "uses": [
+      "actions/checkout@v6",
+      "actions/create-github-app-token@v2",
+      "actions/upload-artifact@v6",
+      "actions/download-artifact@v7"
     ]
   },
   {
@@ -30,38 +62,6 @@
     ]
   },
   {
-    "id": "W_kwDOJa3qQc4ECRJw",
-    "owner": "joshjohanning-org",
-    "repo": "export-actions-usage-report",
-    "workflow": ".github/workflows/action-usage-sbom.yml",
-    "state": "active",
-    "created_at": "2023-08-29T13:33:09.000Z",
-    "updated_at": "2023-08-29T13:33:09.000Z",
-    "last_run_at": "2026-01-19T01:22:07.000Z",
-    "uses": [
-      "actions/checkout@v5",
-      "actions/create-github-app-token@v2",
-      "actions/upload-artifact@v4",
-      "actions/download-artifact@v5"
-    ]
-  },
-  {
-    "id": "W_kwDOJa3qQc4DS7Du",
-    "owner": "joshjohanning-org",
-    "repo": "export-actions-usage-report",
-    "workflow": ".github/workflows/action-usage.yml",
-    "state": "active",
-    "created_at": "2023-04-24T20:35:56.000Z",
-    "updated_at": "2023-04-24T22:31:02.000Z",
-    "last_run_at": "2026-01-19T01:16:06.000Z",
-    "uses": [
-      "actions/checkout@v5",
-      "actions/create-github-app-token@v2",
-      "actions/upload-artifact@v4",
-      "actions/download-artifact@v5"
-    ]
-  },
-  {
     "id": "W_kwDOQ2SncM4NOcNk",
     "owner": "joshjohanning-org",
     "repo": "ghas-hacks",
@@ -69,7 +69,7 @@
     "state": "active",
     "created_at": "2026-01-08T20:55:52.000Z",
     "updated_at": "2026-01-08T20:55:52.000Z",
-    "last_run_at": "2026-01-25T02:18:43.000Z",
+    "last_run_at": "2026-02-01T02:20:37.000Z",
     "uses": [
       "actions/checkout@v6",
       "actions/cache@v5"
@@ -125,7 +125,7 @@
     "state": "active",
     "created_at": "2025-08-27T18:55:46.000Z",
     "updated_at": "2025-08-27T19:01:00.000Z",
-    "last_run_at": "2026-01-22T05:28:49.000Z",
+    "last_run_at": "2026-01-30T15:23:12.000Z",
     "uses": [
       "actions/checkout@v6",
       "actions/setup-example@v1",
@@ -141,7 +141,7 @@
     "state": "active",
     "created_at": "2022-04-06T19:54:19.000Z",
     "updated_at": "2022-07-27T15:11:50.000Z",
-    "last_run_at": "2026-01-06T16:31:20.000Z",
+    "last_run_at": "2026-01-30T15:21:23.000Z",
     "uses": [
       "actions/checkout@v6",
       "actions/dependency-review-action@v4"
@@ -155,7 +155,7 @@
     "state": "active",
     "created_at": "2023-04-18T13:56:13.000Z",
     "updated_at": "2025-08-27T18:50:40.000Z",
-    "last_run_at": "2026-01-23T04:32:56.000Z",
+    "last_run_at": "2026-01-30T04:51:15.000Z",
     "uses": [
       "actions/checkout@v6",
       "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
@@ -186,7 +186,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2025-04-02T15:48:27.000Z",
-    "last_run_at": "2026-01-14T11:12:48.000Z",
+    "last_run_at": "2026-01-27T11:11:56.000Z",
     "uses": [
       "actions/checkout@v5",
       "stefanbuck/github-issue-parser@2ea9b35a8c584529ed00891a8f7e41dc46d0441e",
@@ -219,7 +219,7 @@
     "state": "active",
     "created_at": "2024-05-08T20:11:01.000Z",
     "updated_at": "2024-05-08T20:11:01.000Z",
-    "last_run_at": "2026-01-14T11:12:48.000Z",
+    "last_run_at": "2026-01-27T11:11:55.000Z",
     "uses": [
       "actions/checkout@v5"
     ]
@@ -232,7 +232,7 @@
     "state": "active",
     "created_at": "2023-11-08T16:05:40.000Z",
     "updated_at": "2025-04-02T15:48:27.000Z",
-    "last_run_at": "2026-01-14T11:12:48.000Z",
+    "last_run_at": "2026-01-27T11:11:56.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
@@ -731,7 +731,7 @@
     "state": "active",
     "created_at": "2025-08-13T14:38:43.000Z",
     "updated_at": "2025-08-13T14:38:43.000Z",
-    "last_run_at": "2026-01-13T06:32:18.000Z",
+    "last_run_at": "2026-01-27T04:42:32.000Z",
     "uses": [
       "actions/checkout@v5",
       "issue-ops/parser@76d5aa095754de1493cbe41934484c4287e16350",
@@ -780,7 +780,7 @@
     "state": "active",
     "created_at": "2025-08-13T14:38:43.000Z",
     "updated_at": "2025-08-13T14:38:43.000Z",
-    "last_run_at": "2026-01-13T06:32:16.000Z",
+    "last_run_at": "2026-01-27T04:42:31.000Z",
     "uses": [
       "actions/checkout@v5"
     ]
@@ -793,7 +793,7 @@
     "state": "active",
     "created_at": "2025-08-13T14:38:43.000Z",
     "updated_at": "2025-08-13T14:38:43.000Z",
-    "last_run_at": "2026-01-13T06:32:18.000Z",
+    "last_run_at": "2026-01-27T04:42:32.000Z",
     "uses": [
       "actions/checkout@v5",
       "actions/create-github-app-token@v2",
