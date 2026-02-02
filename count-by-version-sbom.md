@@ -11,11 +11,11 @@
 | 17 | actions/checkout@v2 |
 | 11 | actions/upload-artifact@v3 |
 | 10 | actions/create-github-app-token@v2 |
-| 10 | actions/checkout@v5 |
-| 9 | actions/upload-artifact@v4 |
 | 9 | actions/github-script@v6 |
 | 9 | actions/create-github-app-token@v1 |
+| 9 | actions/checkout@v5 |
 | 8 | azure/login@v1 |
+| 8 | actions/upload-artifact@v4 |
 | 8 | actions/github-script@v7 |
 | 7 | actions/download-artifact@v3 |
 | 6 | azure/login@v2 |
@@ -24,13 +24,13 @@
 | 5 | stefanbuck/github-issue-parser@v3 |
 | 5 | github/codeql-action/init@v1 |
 | 5 | github/codeql-action/analyze@v1 |
+| 5 | actions/checkout@v6 |
 | 4 | github/codeql-action/init@v2 |
 | 4 | github/codeql-action/autobuild@v2 |
 | 4 | github/codeql-action/autobuild@v1 |
 | 4 | github/codeql-action/analyze@v2 |
 | 4 | actions/setup-java@v2 |
 | 4 | actions/dependency-review-action@v4 |
-| 4 | actions/checkout@v6 |
 | 3 | marocchino/sticky-pull-request-comment@v2 |
 | 3 | github/codeql-action/upload-sarif@v1 |
 | 3 | github/codeql-action/init@v3 |
@@ -66,10 +66,10 @@
 | 2 | azure/CLI@v1 |
 | 2 | aquasecurity/trivy-action@master |
 | 2 | anchore/scan-action@v3 |
+| 2 | actions/upload-artifact@v6 |
 | 2 | actions/upload-artifact@v3.1.2 |
 | 2 | actions/upload-artifact@v1 |
 | 2 | actions/setup-python@v4 |
-| 2 | actions/download-artifact@v5 |
 | 2 | actions/checkout@main |
 | 2 | actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3.1.0 |
 | 2 | Mattraks/delete-workflow-runs@main |
@@ -209,7 +209,6 @@
 | 1 | actionsdesk/semver@v0.6.0-rc.10 |
 | 1 | actions/upload-release-asset@v1 |
 | 1 | actions/upload-pages-artifact@v3 |
-| 1 | actions/upload-artifact@v6 |
 | 1 | actions/upload-artifact@v3.0.0 |
 | 1 | actions/upload-artifact@v2.2.0 |
 | 1 | actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3 |
@@ -238,6 +237,8 @@
 | 1 | actions/labeler@5c7539237e04b714afd8ad9b4aed733815b9fab4 # v4.0.2 |
 | 1 | actions/github-script@v8 |
 | 1 | actions/first-interaction@v1.1.1 |
+| 1 | actions/download-artifact@v7 |
+| 1 | actions/download-artifact@v5 |
 | 1 | actions/deploy-pages@v4 |
 | 1 | actions/create-release@v1 |
 | 1 | actions/configure-pages@v4 |
