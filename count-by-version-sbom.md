@@ -6,17 +6,17 @@
 
 | Count | Action |
 | --- | --- |
-| 54 | actions/checkout@v3 |
-| 52 | actions/checkout@v4 |
-| 17 | actions/checkout@v2 |
+| 55 | actions/checkout@v3 |
+| 53 | actions/checkout@v4 |
+| 18 | actions/checkout@v2 |
 | 11 | actions/upload-artifact@v3 |
 | 10 | actions/create-github-app-token@v2 |
+| 10 | actions/create-github-app-token@v1 |
+| 9 | actions/upload-artifact@v4 |
+| 9 | actions/github-script@v7 |
 | 9 | actions/github-script@v6 |
-| 9 | actions/create-github-app-token@v1 |
 | 9 | actions/checkout@v5 |
 | 8 | azure/login@v1 |
-| 8 | actions/upload-artifact@v4 |
-| 8 | actions/github-script@v7 |
 | 7 | actions/download-artifact@v3 |
 | 6 | azure/login@v2 |
 | 6 | actions/setup-node@v3 |
@@ -30,6 +30,7 @@
 | 4 | github/codeql-action/autobuild@v1 |
 | 4 | github/codeql-action/analyze@v2 |
 | 4 | actions/setup-java@v2 |
+| 4 | actions/download-artifact@v4 |
 | 4 | actions/dependency-review-action@v4 |
 | 3 | marocchino/sticky-pull-request-comment@v2 |
 | 3 | github/codeql-action/upload-sarif@v1 |
@@ -38,7 +39,6 @@
 | 3 | github/actions-oidc-debugger@main |
 | 3 | docker/login-action@v1 |
 | 3 | actions/upload-artifact@v2 |
-| 3 | actions/download-artifact@v4 |
 | 3 | actions/dependency-review-action@v3 |
 | 3 | actions/cache@v3 |
 | 2 | whelk-io/maven-settings-xml-action@20.*.* |
@@ -89,7 +89,6 @@
 | 1 | sigstore/cosign-installer@9becc617647dfa20ae7b1151972e9b3a2c338a2b # sha not associated to tag |
 | 1 | samspills/assign-pr-to-author@b313feb250ff414d3aff26525b986f080ee7bd7a # v1.0.2 |
 | 1 | ruby/setup-ruby@v1 |
-| 1 | peaceiris/actions-gh-pages@3 |
 | 1 | ossf/scorecard-action@e38b1902ae4f44df626f11ba0734b14fb91f8f86 # v2.1.2 |
 | 1 | ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a # v2.4.3 |
 | 1 | ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736 # v2.3.1 |
@@ -193,7 +192,6 @@
 | 1 | devops-infra/action-pull-request@v0.5.3 |
 | 1 | devops-infra/action-commit-push@v0.9.2 |
 | 1 | cschleiden/replace-tokens@v1 |
-| 1 | crazy-max/ghaction-chocolatey@1 |
 | 1 | bridgecrewio/checkov-action@master |
 | 1 | benc-uk/workflow-dispatch@v1 |
 | 1 | azure/login@6b2456866fc08b011acb422a92a4aa20e2c4de32 # v2.1.0 |
@@ -231,9 +229,9 @@
 | 1 | actions/setup-go@v1 |
 | 1 | actions/setup-dotnet@v4 |
 | 1 | actions/setup-dotnet@v3 |
+| 1 | actions/setup-dotnet@v1 |
 | 1 | actions/setup-dotnet@4d6c8fcf3c8f7a60068d26b594648e99df24cee3 # v4.0.0 |
 | 1 | actions/setup-dotnet@4d4a70f4a5b2a5a5329f13be4ac933f2c9206ac0 # v3.0.2 |
-| 1 | actions/setup-dotnet@1 |
 | 1 | actions/labeler@5c7539237e04b714afd8ad9b4aed733815b9fab4 # v4.0.2 |
 | 1 | actions/github-script@v8 |
 | 1 | actions/first-interaction@v1.1.1 |
@@ -252,7 +250,6 @@
 | 1 | actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0 |
 | 1 | actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5 # sha not associated to tag |
 | 1 | actions/checkout@24cb9080177205b6e8c946b17badbe402adc938f # v3.4.0 |
-| 1 | actions/checkout@2 |
 | 1 | actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4 |
 | 1 | actions/cache@v5 |
 | 1 | actions/cache@v3.3.1 |
@@ -260,6 +257,7 @@
 | 1 | actions/cache@v3.0.2 |
 | 1 | actions/attest-sbom@v2 |
 | 1 | actions/attest-build-provenance@v2 |
+| 1 | actions/attest-build-provenance@v1 |
 | 1 | SonarSource/sonarqube-scan-action@master |
 | 1 | LouisBrunner/checks-action@v1.6.2 |
 | 1 | LouisBrunner/checks-action@v1.3.1 |

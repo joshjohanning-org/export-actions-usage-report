@@ -6,16 +6,16 @@
 
 | Count | Action |
 | --- | --- |
-| 127 | actions/checkout |
-| 28 | actions/upload-artifact |
-| 19 | actions/create-github-app-token |
+| 128 | actions/checkout |
+| 29 | actions/upload-artifact |
+| 20 | actions/create-github-app-token |
+| 17 | actions/github-script |
 | 16 | github/codeql-action/init |
 | 16 | github/codeql-action/analyze |
-| 16 | actions/github-script |
 | 15 | azure/login |
+| 13 | actions/download-artifact |
 | 12 | actions/setup-node |
 | 12 | actions/setup-java |
-| 12 | actions/download-artifact |
 | 11 | github/codeql-action/autobuild |
 | 10 | github/codeql-action/upload-sarif |
 | 7 | stefanbuck/github-issue-parser |
@@ -65,6 +65,7 @@
 | 2 | anchore/scan-action |
 | 2 | actions/setup-python |
 | 2 | actions/setup-go |
+| 2 | actions/attest-build-provenance |
 | 2 | Mattraks/delete-workflow-runs |
 | 2 | LouisBrunner/checks-action |
 | 1 | zgosalvez/github-actions-ensure-sha-pinned-actions |
@@ -78,7 +79,6 @@
 | 1 | sigstore/cosign-installer |
 | 1 | samspills/assign-pr-to-author |
 | 1 | ruby/setup-ruby |
-| 1 | peaceiris/actions-gh-pages |
 | 1 | mxschmitt/action-tmate |
 | 1 | joshjohanning/twistlock-results-json-to-markdown-action |
 | 1 | joshjohanning/trigger-workflow-and-wait-composite |
@@ -120,7 +120,6 @@
 | 1 | devops-infra/action-pull-request |
 | 1 | devops-infra/action-commit-push |
 | 1 | cschleiden/replace-tokens |
-| 1 | crazy-max/ghaction-chocolatey |
 | 1 | bridgecrewio/checkov-action |
 | 1 | benc-uk/workflow-dispatch |
 | 1 | azure/k8s-create-secret |
@@ -137,7 +136,6 @@
 | 1 | actions/create-release |
 | 1 | actions/configure-pages |
 | 1 | actions/attest-sbom |
-| 1 | actions/attest-build-provenance |
 | 1 | SonarSource/sonarqube-scan-action |
 | 1 | BSFishy/pip-action |
 | 1 | Azure/static-web-apps-deploy |
