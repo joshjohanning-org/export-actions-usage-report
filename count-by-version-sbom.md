@@ -12,19 +12,19 @@
 | 11 | actions/upload-artifact@v3 |
 | 10 | actions/create-github-app-token@v2 |
 | 10 | actions/create-github-app-token@v1 |
-| 9 | actions/upload-artifact@v4 |
 | 9 | actions/github-script@v7 |
 | 9 | actions/github-script@v6 |
-| 9 | actions/checkout@v5 |
 | 8 | azure/login@v1 |
+| 8 | actions/upload-artifact@v4 |
+| 8 | actions/checkout@v5 |
 | 7 | actions/download-artifact@v3 |
 | 6 | azure/login@v2 |
 | 6 | actions/setup-node@v3 |
 | 6 | actions/setup-java@v3 |
+| 6 | actions/checkout@v6 |
 | 5 | stefanbuck/github-issue-parser@v3 |
 | 5 | github/codeql-action/init@v1 |
 | 5 | github/codeql-action/analyze@v1 |
-| 5 | actions/checkout@v6 |
 | 4 | github/codeql-action/init@v2 |
 | 4 | github/codeql-action/autobuild@v2 |
 | 4 | github/codeql-action/autobuild@v1 |
@@ -123,7 +123,7 @@
 | 1 | joshjohanning/azdo_commit_message_validator@v3 |
 | 1 | joshjohanning/approveops@v3.0.4 |
 | 1 | joshjohanning/approveops@caad905b2ba78301a0db7f484ef6fe3c770e6985 # v2.0.3 |
-| 1 | joshjohanning/approveops@a3ba1287a094ec26985c5c35191f5ecf4b591eb1 # v3.0.2 |
+| 1 | joshjohanning/approveops@0916e102044d19189f50c3f1f9dfbcdd97fa8ddd # v3.0.7 |
 | 1 | joshjohanning/actions-ref-linter@v0.0.1 |
 | 1 | joshjohanning/actions-ref-linter@main |
 | 1 | joshjohanning/actions-ref-linter@9957f7df2cb329c99b9d64cb37780f7f6e44859c # sha not associated to tag |
@@ -142,8 +142,8 @@
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml@test |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml@main |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/docker-build.yml@d255a01a1d478e0deb7a7a04291896fa4978fe4e # sha not associated to tag |
-| 1 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml@v1.0.9 |
 | 1 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml@v1.0.5 |
+| 1 | joshjohanning-org/reusable-workflows/.github/workflows/deploy-sample.yml@v1.0.15 |
 | 1 | joshjohanning-org/demo-shared-library-from-app@main |
 | 1 | joshjohanning-org/contexts-reusable-workflows-test/.github/workflows/contexts.yml@main |
 | 1 | joshjohanning-org/composite-action@v1.0.0 |
@@ -207,6 +207,7 @@
 | 1 | actionsdesk/semver@v0.6.0-rc.10 |
 | 1 | actions/upload-release-asset@v1 |
 | 1 | actions/upload-pages-artifact@v3 |
+| 1 | actions/upload-artifact@v5 |
 | 1 | actions/upload-artifact@v3.0.0 |
 | 1 | actions/upload-artifact@v2.2.0 |
 | 1 | actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3 |
