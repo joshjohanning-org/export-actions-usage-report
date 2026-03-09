@@ -7,7 +7,7 @@
 | Count | Action |
 | --- | --- |
 | 55 | actions/checkout@v3 |
-| 53 | actions/checkout@v4 |
+| 52 | actions/checkout@v4 |
 | 18 | actions/checkout@v2 |
 | 11 | actions/upload-artifact@v3 |
 | 10 | actions/create-github-app-token@v2 |
@@ -16,12 +16,12 @@
 | 9 | actions/github-script@v6 |
 | 8 | azure/login@v1 |
 | 8 | actions/upload-artifact@v4 |
-| 8 | actions/checkout@v5 |
 | 7 | actions/download-artifact@v3 |
+| 7 | actions/checkout@v6 |
+| 7 | actions/checkout@v5 |
 | 6 | azure/login@v2 |
 | 6 | actions/setup-node@v3 |
 | 6 | actions/setup-java@v3 |
-| 6 | actions/checkout@v6 |
 | 5 | stefanbuck/github-issue-parser@v3 |
 | 5 | github/codeql-action/init@v1 |
 | 5 | github/codeql-action/analyze@v1 |
@@ -165,6 +165,7 @@
 | 1 | gradle/actions/setup-gradle@v3 |
 | 1 | goreleaser/goreleaser-action@v3 |
 | 1 | github/super-linter@v5 |
+| 1 | github/gh-aw/actions/setup@b2d8af7543ec40f72bb3b8fea5148c2d3ee401c7 # sha not associated to tag |
 | 1 | github/codeql-action/upload-sarif@v4 |
 | 1 | github/codeql-action/upload-sarif@v2 |
 | 1 | github/codeql-action/upload-sarif@cc7986c02bac29104a72998e67239bb5ee2ee110 # sha not associated to tag |
@@ -210,6 +211,7 @@
 | 1 | actions/upload-artifact@v5 |
 | 1 | actions/upload-artifact@v3.0.0 |
 | 1 | actions/upload-artifact@v2.2.0 |
+| 1 | actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0 |
 | 1 | actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3 |
 | 1 | actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8 # v3.1.0 |
 | 1 | actions/stale@v8 |
@@ -235,9 +237,11 @@
 | 1 | actions/setup-dotnet@4d4a70f4a5b2a5a5329f13be4ac933f2c9206ac0 # v3.0.2 |
 | 1 | actions/labeler@5c7539237e04b714afd8ad9b4aed733815b9fab4 # v4.0.2 |
 | 1 | actions/github-script@v8 |
+| 1 | actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0 |
 | 1 | actions/first-interaction@v1.1.1 |
 | 1 | actions/download-artifact@v7 |
 | 1 | actions/download-artifact@v5 |
+| 1 | actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3 # v8.0.0 |
 | 1 | actions/deploy-pages@v4 |
 | 1 | actions/create-release@v1 |
 | 1 | actions/configure-pages@v4 |
@@ -248,6 +252,7 @@
 | 1 | actions/checkout@my-other-fake-branch |
 | 1 | actions/checkout@my-fake-branch |
 | 1 | actions/checkout@f71ab79f16dc8b6696053fa03f046952569bc776 # sha not associated to tag |
+| 1 | actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2 |
 | 1 | actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0 |
 | 1 | actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5 # sha not associated to tag |
 | 1 | actions/checkout@24cb9080177205b6e8c946b17badbe402adc938f # v3.4.0 |
