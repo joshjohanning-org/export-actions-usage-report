@@ -7,7 +7,7 @@
 | Count | Action |
 | --- | --- |
 | 55 | actions/checkout@v3 |
-| 52 | actions/checkout@v4 |
+| 53 | actions/checkout@v4 |
 | 18 | actions/checkout@v2 |
 | 11 | actions/upload-artifact@v3 |
 | 10 | actions/create-github-app-token@v2 |
@@ -16,8 +16,8 @@
 | 9 | actions/github-script@v6 |
 | 8 | azure/login@v1 |
 | 8 | actions/upload-artifact@v4 |
+| 8 | actions/checkout@v6 |
 | 7 | actions/download-artifact@v3 |
-| 7 | actions/checkout@v6 |
 | 7 | actions/checkout@v5 |
 | 6 | azure/login@v2 |
 | 6 | actions/setup-node@v3 |
@@ -165,7 +165,8 @@
 | 1 | gradle/actions/setup-gradle@v3 |
 | 1 | goreleaser/goreleaser-action@v3 |
 | 1 | github/super-linter@v5 |
-| 1 | github/gh-aw/actions/setup@b2d8af7543ec40f72bb3b8fea5148c2d3ee401c7 # sha not associated to tag |
+| 1 | github/gh-aw/actions/setup@fa061e89469ef007881d22d3af5a8c9e62363a0d # sha not associated to tag |
+| 1 | github/gh-aw/actions/setup-cli@fa061e89469ef007881d22d3af5a8c9e62363a0d # sha not associated to tag |
 | 1 | github/codeql-action/upload-sarif@v4 |
 | 1 | github/codeql-action/upload-sarif@v2 |
 | 1 | github/codeql-action/upload-sarif@cc7986c02bac29104a72998e67239bb5ee2ee110 # sha not associated to tag |
@@ -241,7 +242,7 @@
 | 1 | actions/first-interaction@v1.1.1 |
 | 1 | actions/download-artifact@v7 |
 | 1 | actions/download-artifact@v5 |
-| 1 | actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3 # v8.0.0 |
+| 1 | actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1 |
 | 1 | actions/deploy-pages@v4 |
 | 1 | actions/create-release@v1 |
 | 1 | actions/configure-pages@v4 |
