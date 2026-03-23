@@ -10,10 +10,10 @@
 | 53 | actions/checkout@v4 |
 | 18 | actions/checkout@v2 |
 | 11 | actions/upload-artifact@v3 |
-| 10 | actions/create-github-app-token@v2 |
 | 10 | actions/create-github-app-token@v1 |
 | 9 | actions/github-script@v7 |
 | 9 | actions/github-script@v6 |
+| 9 | actions/create-github-app-token@v2 |
 | 8 | azure/login@v1 |
 | 8 | actions/upload-artifact@v4 |
 | 8 | actions/checkout@v6 |
@@ -245,6 +245,7 @@
 | 1 | actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1 |
 | 1 | actions/deploy-pages@v4 |
 | 1 | actions/create-release@v1 |
+| 1 | actions/create-github-app-token@v3 |
 | 1 | actions/configure-pages@v4 |
 | 1 | actions/checkout@v3.5.2 |
 | 1 | actions/checkout@v3.3.0 |
