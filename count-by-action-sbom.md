@@ -65,7 +65,6 @@
 | 2 | anchore/scan-action |
 | 2 | actions/setup-python |
 | 2 | actions/setup-go |
-| 2 | actions/attest-build-provenance |
 | 2 | Mattraks/delete-workflow-runs |
 | 2 | LouisBrunner/checks-action |
 | 1 | zgosalvez/github-actions-ensure-sha-pinned-actions |
@@ -137,7 +136,8 @@
 | 1 | actions/deploy-pages |
 | 1 | actions/create-release |
 | 1 | actions/configure-pages |
-| 1 | actions/attest-sbom |
+| 1 | actions/attest-build-provenance |
+| 1 | actions/attest |
 | 1 | SonarSource/sonarqube-scan-action |
 | 1 | BSFishy/pip-action |
 | 1 | Azure/static-web-apps-deploy |

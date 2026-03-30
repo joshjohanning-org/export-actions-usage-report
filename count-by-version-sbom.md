@@ -14,14 +14,14 @@
 | 9 | actions/github-script@v7 |
 | 9 | actions/github-script@v6 |
 | 9 | actions/create-github-app-token@v2 |
+| 9 | actions/checkout@v6 |
 | 8 | azure/login@v1 |
-| 8 | actions/upload-artifact@v4 |
-| 8 | actions/checkout@v6 |
+| 7 | actions/upload-artifact@v4 |
 | 7 | actions/download-artifact@v3 |
-| 7 | actions/checkout@v5 |
 | 6 | azure/login@v2 |
 | 6 | actions/setup-node@v3 |
 | 6 | actions/setup-java@v3 |
+| 6 | actions/checkout@v5 |
 | 5 | stefanbuck/github-issue-parser@v3 |
 | 5 | github/codeql-action/init@v1 |
 | 5 | github/codeql-action/analyze@v1 |
@@ -30,7 +30,6 @@
 | 4 | github/codeql-action/autobuild@v1 |
 | 4 | github/codeql-action/analyze@v2 |
 | 4 | actions/setup-java@v2 |
-| 4 | actions/download-artifact@v4 |
 | 4 | actions/dependency-review-action@v4 |
 | 3 | marocchino/sticky-pull-request-comment@v2 |
 | 3 | github/codeql-action/upload-sarif@v1 |
@@ -39,6 +38,7 @@
 | 3 | github/actions-oidc-debugger@main |
 | 3 | docker/login-action@v1 |
 | 3 | actions/upload-artifact@v2 |
+| 3 | actions/download-artifact@v4 |
 | 3 | actions/dependency-review-action@v3 |
 | 3 | actions/cache@v3 |
 | 2 | whelk-io/maven-settings-xml-action@20.*.* |
@@ -209,6 +209,7 @@
 | 1 | actionsdesk/semver@v0.6.0-rc.10 |
 | 1 | actions/upload-release-asset@v1 |
 | 1 | actions/upload-pages-artifact@v3 |
+| 1 | actions/upload-artifact@v7 |
 | 1 | actions/upload-artifact@v5 |
 | 1 | actions/upload-artifact@v3.0.0 |
 | 1 | actions/upload-artifact@v2.2.0 |
@@ -231,7 +232,7 @@
 | 1 | actions/setup-go@v5 |
 | 1 | actions/setup-go@v4 |
 | 1 | actions/setup-go@v1 |
-| 1 | actions/setup-dotnet@v4 |
+| 1 | actions/setup-dotnet@v5 |
 | 1 | actions/setup-dotnet@v3 |
 | 1 | actions/setup-dotnet@v1 |
 | 1 | actions/setup-dotnet@4d6c8fcf3c8f7a60068d26b594648e99df24cee3 # v4.0.0 |
@@ -240,6 +241,7 @@
 | 1 | actions/github-script@v8 |
 | 1 | actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0 |
 | 1 | actions/first-interaction@v1.1.1 |
+| 1 | actions/download-artifact@v8 |
 | 1 | actions/download-artifact@v7 |
 | 1 | actions/download-artifact@v5 |
 | 1 | actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1 |
@@ -263,8 +265,7 @@
 | 1 | actions/cache@v3.3.1 |
 | 1 | actions/cache@v3.2.3 |
 | 1 | actions/cache@v3.0.2 |
-| 1 | actions/attest-sbom@v2 |
-| 1 | actions/attest-build-provenance@v2 |
+| 1 | actions/attest@v4 |
 | 1 | actions/attest-build-provenance@v1 |
 | 1 | SonarSource/sonarqube-scan-action@master |
 | 1 | LouisBrunner/checks-action@v1.6.2 |
