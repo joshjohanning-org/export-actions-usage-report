@@ -113,6 +113,7 @@
 | 1 | joshjohanning/lead-time-for-changes@main |
 | 1 | joshjohanning/generate-sbom-action@joshjohanning%2Fadd-org-to-og |
 | 1 | joshjohanning/generate-org-repos-sbom-action@v1.0.0 |
+| 1 | joshjohanning/ensure-immutable-actions@v2.1.0 |
 | 1 | joshjohanning/ensure-immutable-actions@v1.0.4 |
 | 1 | joshjohanning/enforce-github-pat-expiration@v1.0.1 |
 | 1 | joshjohanning/enforce-github-pat-expiration@v1 |
